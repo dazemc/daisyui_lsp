@@ -13,7 +13,7 @@ void main() async {
     final item = component.toCompletionItem();
     buffer.writeln('CompletionItem(');
     buffer.writeln('    label: "${_string(item.label)}",');
-    buffer.writeln('    kind: CompletionItemKind.Text,');
+    buffer.writeln('    kind: CompletionItemKind(${item.kind}),');
     buffer.writeln('    detail: "${_string(item.detail)}",');
     buffer.writeln('    insertText: "${_string(item.insertText)}",');
     buffer.writeln('    insertTextFormat: InsertTextFormat.PlainText,');

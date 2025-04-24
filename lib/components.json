@@ -1,2058 +1,2572 @@
 [
     {
         "label": "stats",
-        "detail": "Container of multiple stat items"
+        "detail": "Container of multiple stat items",
+        "category": "component"
     },
     {
         "label": "stat",
-        "detail": "A block to display stat data about a topic"
+        "detail": "A block to display stat data about a topic",
+        "category": "part"
     },
     {
         "label": "stat-title",
-        "detail": "Title part"
+        "detail": "Title part",
+        "category": "part"
     },
     {
         "label": "stat-value",
-        "detail": "Value part"
+        "detail": "Value part",
+        "category": "part"
     },
     {
         "label": "stat-desc",
-        "detail": "Description part"
+        "detail": "Description part",
+        "category": "part"
     },
     {
         "label": "stat-figure",
-        "detail": "Figure part for icon, etc"
+        "detail": "Figure part for icon, etc",
+        "category": "part"
     },
     {
         "label": "stat-actions",
-        "detail": "Actions part for button, etc"
+        "detail": "Actions part for button, etc",
+        "category": "part"
     },
     {
         "label": "stats-horizontal",
-        "detail": "Makes stats horizontal (default)"
+        "detail": "Makes stats horizontal (default)",
+        "category": "direction"
     },
     {
         "label": "stats-vertical",
-        "detail": "Makes stats vertical"
+        "detail": "Makes stats vertical",
+        "category": "direction"
     },
     {
         "label": "select",
-        "detail": "For <select> element"
+        "detail": "For <select> element",
+        "category": "component"
     },
     {
         "label": "select-ghost",
-        "detail": "ghost style"
+        "detail": "ghost style",
+        "category": "style"
     },
     {
         "label": "select-neutral",
-        "detail": "neutral color"
+        "detail": "neutral color",
+        "category": "color"
     },
     {
         "label": "select-primary",
-        "detail": "primary color"
+        "detail": "primary color",
+        "category": "color"
     },
     {
         "label": "select-secondary",
-        "detail": "secondary color"
+        "detail": "secondary color",
+        "category": "color"
     },
     {
         "label": "select-accent",
-        "detail": "accent color"
+        "detail": "accent color",
+        "category": "color"
     },
     {
         "label": "select-info",
-        "detail": "info color"
+        "detail": "info color",
+        "category": "color"
     },
     {
         "label": "select-success",
-        "detail": "success color"
+        "detail": "success color",
+        "category": "color"
     },
     {
         "label": "select-warning",
-        "detail": "warning color"
+        "detail": "warning color",
+        "category": "color"
     },
     {
         "label": "select-error",
-        "detail": "error color"
+        "detail": "error color",
+        "category": "color"
     },
     {
         "label": "select-xs",
-        "detail": "Extra small size"
+        "detail": "Extra small size",
+        "category": "size"
     },
     {
         "label": "select-sm",
-        "detail": "Small size"
+        "detail": "Small size",
+        "category": "size"
     },
     {
         "label": "select-md",
-        "detail": "Medium size"
+        "detail": "Medium size",
+        "category": "size"
     },
     {
         "label": "select-lg",
-        "detail": "Large size"
+        "detail": "Large size",
+        "category": "size"
     },
     {
         "label": "select-xl",
-        "detail": "Extra large size"
+        "detail": "Extra large size",
+        "category": "size"
     },
     {
         "label": "drawer",
-        "detail": "The wrapper for sidebar and content"
+        "detail": "The wrapper for sidebar and content",
+        "category": "component"
     },
     {
         "label": "drawer-toggle",
-        "detail": "The hidden checkbox that controls the state of drawer"
+        "detail": "The hidden checkbox that controls the state of drawer",
+        "category": "part"
     },
     {
         "label": "drawer-content",
-        "detail": "Content part"
+        "detail": "Content part",
+        "category": "part"
     },
     {
         "label": "drawer-side",
-        "detail": "Sidebar part"
+        "detail": "Sidebar part",
+        "category": "part"
     },
     {
         "label": "drawer-overlay",
-        "detail": "Label that covers the page when drawer is open"
+        "detail": "Label that covers the page when drawer is open",
+        "category": "part"
     },
     {
         "label": "drawer-end",
-        "detail": "puts drawer to the other side"
+        "detail": "puts drawer to the other side",
+        "category": "placement"
     },
     {
         "label": "drawer-open",
-        "detail": "Forces the drawer to be open"
+        "detail": "Forces the drawer to be open",
+        "category": "modifier"
     },
     {
         "label": "progress",
-        "detail": "For <progress> tag"
+        "detail": "For <progress> tag",
+        "category": "component"
     },
     {
         "label": "progress-neutral",
-        "detail": "neutral color"
+        "detail": "neutral color",
+        "category": "color"
     },
     {
         "label": "progress-primary",
-        "detail": "primary color"
+        "detail": "primary color",
+        "category": "color"
     },
     {
         "label": "progress-secondary",
-        "detail": "secondary color"
+        "detail": "secondary color",
+        "category": "color"
     },
     {
         "label": "progress-accent",
-        "detail": "accent color"
+        "detail": "accent color",
+        "category": "color"
     },
     {
         "label": "progress-info",
-        "detail": "info color"
+        "detail": "info color",
+        "category": "color"
     },
     {
         "label": "progress-success",
-        "detail": "success color"
+        "detail": "success color",
+        "category": "color"
     },
     {
         "label": "progress-warning",
-        "detail": "warning color"
+        "detail": "warning color",
+        "category": "color"
     },
     {
         "label": "progress-error",
-        "detail": "error color"
+        "detail": "error color",
+        "category": "color"
     },
     {
         "label": "fieldset",
-        "detail": "for the fieldset container"
+        "detail": "for the fieldset container",
+        "category": "component"
     },
     {
         "label": "label",
-        "detail": "label for inputs"
+        "detail": "label for inputs",
+        "category": "component"
     },
     {
         "label": "fieldset-legend",
-        "detail": "for the title of the fieldset"
+        "detail": "for the title of the fieldset",
+        "category": "part"
     },
     {
         "label": "alert",
-        "detail": "Container element"
+        "detail": "Container element",
+        "category": "component"
     },
     {
         "label": "alert-outline",
-        "detail": "outline style"
+        "detail": "outline style",
+        "category": "style"
     },
     {
         "label": "alert-dash",
-        "detail": "dash outline style"
+        "detail": "dash outline style",
+        "category": "style"
     },
     {
         "label": "alert-soft",
-        "detail": "soft style"
+        "detail": "soft style",
+        "category": "style"
     },
     {
         "label": "alert-info",
-        "detail": "info color"
+        "detail": "info color",
+        "category": "color"
     },
     {
         "label": "alert-success",
-        "detail": "success color"
+        "detail": "success color",
+        "category": "color"
     },
     {
         "label": "alert-warning",
-        "detail": "warning color"
+        "detail": "warning color",
+        "category": "color"
     },
     {
         "label": "alert-error",
-        "detail": "error color"
+        "detail": "error color",
+        "category": "color"
     },
     {
         "label": "alert-vertical",
-        "detail": "Vertical layout, good for mobile"
+        "detail": "Vertical layout, good for mobile",
+        "category": "direction"
     },
     {
         "label": "alert-horizontal",
-        "detail": "Horizontal layout, good for desktop"
+        "detail": "Horizontal layout, good for desktop",
+        "category": "direction"
     },
     {
         "label": "divider",
-        "detail": "A divider line between two elements"
+        "detail": "A divider line between two elements",
+        "category": "component"
     },
     {
         "label": "divider-neutral",
-        "detail": "neutral color"
+        "detail": "neutral color",
+        "category": "color"
     },
     {
         "label": "divider-primary",
-        "detail": "primary color"
+        "detail": "primary color",
+        "category": "color"
     },
     {
         "label": "divider-secondary",
-        "detail": "secondary color"
+        "detail": "secondary color",
+        "category": "color"
     },
     {
         "label": "divider-accent",
-        "detail": "accent color"
+        "detail": "accent color",
+        "category": "color"
     },
     {
         "label": "divider-success",
-        "detail": "success color"
+        "detail": "success color",
+        "category": "color"
     },
     {
         "label": "divider-warning",
-        "detail": "warning color"
+        "detail": "warning color",
+        "category": "color"
     },
     {
         "label": "divider-info",
-        "detail": "info color"
+        "detail": "info color",
+        "category": "color"
     },
     {
         "label": "divider-error",
-        "detail": "error color"
+        "detail": "error color",
+        "category": "color"
     },
     {
         "label": "divider-vertical",
-        "detail": "Divide vertical elements (on top of each other)"
+        "detail": "Divide vertical elements (on top of each other)",
+        "category": "direction"
     },
     {
         "label": "divider-horizontal",
-        "detail": "Divide horizontal elements (next to each other)"
+        "detail": "Divide horizontal elements (next to each other)",
+        "category": "direction"
     },
     {
         "label": "divider-start",
-        "detail": "Pushes the divider text to the start"
+        "detail": "Pushes the divider text to the start",
+        "category": "placement"
     },
     {
         "label": "divider-end",
-        "detail": "Pushes the divider text to the end"
+        "detail": "Pushes the divider text to the end",
+        "category": "placement"
     },
     {
         "label": "hero",
-        "detail": "Hero container"
+        "detail": "Hero container",
+        "category": "component"
     },
     {
         "label": "hero-content",
-        "detail": "content part"
+        "detail": "content part",
+        "category": "part"
     },
     {
         "label": "hero-overlay",
-        "detail": "Overlay that covers the background image"
+        "detail": "Overlay that covers the background image",
+        "category": "part"
     },
     {
         "label": "link",
-        "detail": "Adds underline"
+        "detail": "Adds underline",
+        "category": "component"
     },
     {
         "label": "link-hover",
-        "detail": "Only shows underline on hover"
+        "detail": "Only shows underline on hover",
+        "category": "style"
     },
     {
         "label": "link-neutral",
-        "detail": "neutral color"
+        "detail": "neutral color",
+        "category": "color"
     },
     {
         "label": "link-primary",
-        "detail": "primary color"
+        "detail": "primary color",
+        "category": "color"
     },
     {
         "label": "link-secondary",
-        "detail": "secondary color"
+        "detail": "secondary color",
+        "category": "color"
     },
     {
         "label": "link-accent",
-        "detail": "accent color"
+        "detail": "accent color",
+        "category": "color"
     },
     {
         "label": "link-success",
-        "detail": "success color"
+        "detail": "success color",
+        "category": "color"
     },
     {
         "label": "link-info",
-        "detail": "info color"
+        "detail": "info color",
+        "category": "color"
     },
     {
         "label": "link-warning",
-        "detail": "warning color"
+        "detail": "warning color",
+        "category": "color"
     },
     {
         "label": "link-error",
-        "detail": "error color"
+        "detail": "error color",
+        "category": "color"
     },
     {
         "label": "kbd",
-        "detail": "Do show a keyboard key or a shortcut key"
+        "detail": "Do show a keyboard key or a shortcut key",
+        "category": "component"
     },
     {
         "label": "kbd-xs",
-        "detail": "Extra small size"
+        "detail": "Extra small size",
+        "category": "size"
     },
     {
         "label": "kbd-sm",
-        "detail": "Small size"
+        "detail": "Small size",
+        "category": "size"
     },
     {
         "label": "kbd-md",
-        "detail": "Medium size"
+        "detail": "Medium size",
+        "category": "size"
     },
     {
         "label": "kbd-lg",
-        "detail": "Large size"
+        "detail": "Large size",
+        "category": "size"
     },
     {
         "label": "kbd-xl",
-        "detail": "Extra large size"
+        "detail": "Extra large size",
+        "category": "size"
     },
     {
         "label": "mockup-code",
-        "detail": "Code terminal mockup"
+        "detail": "Code terminal mockup",
+        "category": "component"
     },
     {
         "label": "loading",
-        "detail": "Loading element"
+        "detail": "Loading element",
+        "category": "component"
     },
     {
         "label": "loading-spinner",
-        "detail": "spinner animation"
+        "detail": "spinner animation",
+        "category": "style"
     },
     {
         "label": "loading-dots",
-        "detail": "dots animation"
+        "detail": "dots animation",
+        "category": "style"
     },
     {
         "label": "loading-ring",
-        "detail": "ring animation"
+        "detail": "ring animation",
+        "category": "style"
     },
     {
         "label": "loading-ball",
-        "detail": "ball animation"
+        "detail": "ball animation",
+        "category": "style"
     },
     {
         "label": "loading-bars",
-        "detail": "bars animation"
+        "detail": "bars animation",
+        "category": "style"
     },
     {
         "label": "loading-infinity",
-        "detail": "infinity animation"
+        "detail": "infinity animation",
+        "category": "style"
     },
     {
         "label": "loading-xs",
-        "detail": "Extra small size"
+        "detail": "Extra small size",
+        "category": "size"
     },
     {
         "label": "loading-sm",
-        "detail": "Small size"
+        "detail": "Small size",
+        "category": "size"
     },
     {
         "label": "loading-md",
-        "detail": "Medium size"
+        "detail": "Medium size",
+        "category": "size"
     },
     {
         "label": "loading-lg",
-        "detail": "Large size"
+        "detail": "Large size",
+        "category": "size"
     },
     {
         "label": "loading-xl",
-        "detail": "Extra large size"
+        "detail": "Extra large size",
+        "category": "size"
     },
     {
         "label": "skeleton",
-        "detail": "A placeholder div with loading animation"
+        "detail": "A placeholder div with loading animation",
+        "category": "component"
     },
     {
         "label": "swap",
-        "detail": "Swap container"
+        "detail": "Swap container",
+        "category": "component"
     },
     {
         "label": "swap-on",
-        "detail": "The child element that should be visible when checkbox is checked or when swap is active"
+        "detail": "The child element that should be visible when checkbox is checked or when swap is active",
+        "category": "part"
     },
     {
         "label": "swap-off",
-        "detail": "The child element that should be visible when checkbox is not checked or when swap is not active"
+        "detail": "The child element that should be visible when checkbox is not checked or when swap is not active",
+        "category": "part"
     },
     {
         "label": "swap-indeterminate",
-        "detail": "The child element that should be visible when checkbox is indeterminate"
+        "detail": "The child element that should be visible when checkbox is indeterminate",
+        "category": "part"
     },
     {
         "label": "swap-active",
-        "detail": "Activates the swap (no need for checkbox)"
+        "detail": "Activates the swap (no need for checkbox)",
+        "category": "modifier"
     },
     {
         "label": "swap-rotate",
-        "detail": "Adds rotate effect to swap"
+        "detail": "Adds rotate effect to swap",
+        "category": "style"
     },
     {
         "label": "swap-flip",
-        "detail": "Adds flip effect to swap"
+        "detail": "Adds flip effect to swap",
+        "category": "style"
     },
     {
         "label": "badge",
-        "detail": "Container element"
+        "detail": "Container element",
+        "category": "component"
     },
     {
         "label": "badge-outline",
-        "detail": "outline style"
+        "detail": "outline style",
+        "category": "style"
     },
     {
         "label": "badge-dash",
-        "detail": "dash outline style"
+        "detail": "dash outline style",
+        "category": "style"
     },
     {
         "label": "badge-soft",
-        "detail": "soft style"
+        "detail": "soft style",
+        "category": "style"
     },
     {
         "label": "badge-ghost",
-        "detail": "ghost style"
+        "detail": "ghost style",
+        "category": "style"
     },
     {
         "label": "badge-neutral",
-        "detail": "neutral color"
+        "detail": "neutral color",
+        "category": "color"
     },
     {
         "label": "badge-primary",
-        "detail": "primary color"
+        "detail": "primary color",
+        "category": "color"
     },
     {
         "label": "badge-secondary",
-        "detail": "secondary color"
+        "detail": "secondary color",
+        "category": "color"
     },
     {
         "label": "badge-accent",
-        "detail": "accent color"
+        "detail": "accent color",
+        "category": "color"
     },
     {
         "label": "badge-info",
-        "detail": "info color"
+        "detail": "info color",
+        "category": "color"
     },
     {
         "label": "badge-success",
-        "detail": "success color"
+        "detail": "success color",
+        "category": "color"
     },
     {
         "label": "badge-warning",
-        "detail": "warning color"
+        "detail": "warning color",
+        "category": "color"
     },
     {
         "label": "badge-error",
-        "detail": "error color"
+        "detail": "error color",
+        "category": "color"
     },
     {
         "label": "badge-xs",
-        "detail": "extra small size"
+        "detail": "extra small size",
+        "category": "size"
     },
     {
         "label": "badge-sm",
-        "detail": "small size"
+        "detail": "small size",
+        "category": "size"
     },
     {
         "label": "badge-md",
-        "detail": "medium size (default)"
+        "detail": "medium size (default)",
+        "category": "size"
     },
     {
         "label": "badge-lg",
-        "detail": "large size"
+        "detail": "large size",
+        "category": "size"
     },
     {
         "label": "badge-xl",
-        "detail": "extra large size"
+        "detail": "extra large size",
+        "category": "size"
     },
     {
         "label": "radio",
-        "detail": "For radio input"
+        "detail": "For radio input",
+        "category": "component"
     },
     {
         "label": "radio-neutral",
-        "detail": "neutral color"
+        "detail": "neutral color",
+        "category": "color"
     },
     {
         "label": "radio-primary",
-        "detail": "primary color"
+        "detail": "primary color",
+        "category": "color"
     },
     {
         "label": "radio-secondary",
-        "detail": "secondary color"
+        "detail": "secondary color",
+        "category": "color"
     },
     {
         "label": "radio-accent",
-        "detail": "accent color"
+        "detail": "accent color",
+        "category": "color"
     },
     {
         "label": "radio-success",
-        "detail": "success color"
+        "detail": "success color",
+        "category": "color"
     },
     {
         "label": "radio-warning",
-        "detail": "warning color"
+        "detail": "warning color",
+        "category": "color"
     },
     {
         "label": "radio-info",
-        "detail": "info color"
+        "detail": "info color",
+        "category": "color"
     },
     {
         "label": "radio-error",
-        "detail": "error color"
+        "detail": "error color",
+        "category": "color"
     },
     {
         "label": "radio-xs",
-        "detail": "Extra small size"
+        "detail": "Extra small size",
+        "category": "size"
     },
     {
         "label": "radio-sm",
-        "detail": "Small size"
+        "detail": "Small size",
+        "category": "size"
     },
     {
         "label": "radio-md",
-        "detail": "Medium size"
+        "detail": "Medium size",
+        "category": "size"
     },
     {
         "label": "radio-lg",
-        "detail": "Large size"
+        "detail": "Large size",
+        "category": "size"
     },
     {
         "label": "radio-xl",
-        "detail": "Extra large size"
+        "detail": "Extra large size",
+        "category": "size"
     },
     {
         "label": "navbar",
-        "detail": "Navigation bar"
+        "detail": "Navigation bar",
+        "category": "component"
     },
     {
         "label": "navbar-start",
-        "detail": "For the div inside navbar, to fill 50% of width"
+        "detail": "For the div inside navbar, to fill 50% of width",
+        "category": "part"
     },
     {
         "label": "navbar-center",
-        "detail": "For the div inside navbar, to be at center horizontally"
+        "detail": "For the div inside navbar, to be at center horizontally",
+        "category": "part"
     },
     {
         "label": "navbar-end",
-        "detail": "For the div inside navbar, to fill second 50% of width"
+        "detail": "For the div inside navbar, to fill second 50% of width",
+        "category": "part"
     },
     {
         "label": "collapse",
-        "detail": "Collapse"
+        "detail": "Collapse",
+        "category": "component"
     },
     {
         "label": "collapse-title",
-        "detail": "Title part"
+        "detail": "Title part",
+        "category": "part"
     },
     {
         "label": "collapse-content",
-        "detail": "Content part"
+        "detail": "Content part",
+        "category": "part"
     },
     {
         "label": "collapse-arrow",
-        "detail": "Adds arrow icon"
+        "detail": "Adds arrow icon",
+        "category": "modifier"
     },
     {
         "label": "collapse-plus",
-        "detail": "Adds plus/minus icon"
+        "detail": "Adds plus/minus icon",
+        "category": "modifier"
     },
     {
         "label": "collapse-open",
-        "detail": "Force open"
+        "detail": "Force open",
+        "category": "modifier"
     },
     {
         "label": "collapse-close",
-        "detail": "Force close"
+        "detail": "Force close",
+        "category": "modifier"
     },
     {
         "label": "textarea",
-        "detail": "For <textarea> element"
+        "detail": "For <textarea> element",
+        "category": "component"
     },
     {
         "label": "textarea-ghost",
-        "detail": "ghost style"
+        "detail": "ghost style",
+        "category": "style"
     },
     {
         "label": "textarea-neutral",
-        "detail": "neutral color"
+        "detail": "neutral color",
+        "category": "color"
     },
     {
         "label": "textarea-primary",
-        "detail": "primary color"
+        "detail": "primary color",
+        "category": "color"
     },
     {
         "label": "textarea-secondary",
-        "detail": "secondary color"
+        "detail": "secondary color",
+        "category": "color"
     },
     {
         "label": "textarea-accent",
-        "detail": "accent color"
+        "detail": "accent color",
+        "category": "color"
     },
     {
         "label": "textarea-info",
-        "detail": "info color"
+        "detail": "info color",
+        "category": "color"
     },
     {
         "label": "textarea-success",
-        "detail": "success color"
+        "detail": "success color",
+        "category": "color"
     },
     {
         "label": "textarea-warning",
-        "detail": "warning color"
+        "detail": "warning color",
+        "category": "color"
     },
     {
         "label": "textarea-error",
-        "detail": "error color"
+        "detail": "error color",
+        "category": "color"
     },
     {
         "label": "textarea-xs",
-        "detail": "Extra small size"
+        "detail": "Extra small size",
+        "category": "size"
     },
     {
         "label": "textarea-sm",
-        "detail": "Small size"
+        "detail": "Small size",
+        "category": "size"
     },
     {
         "label": "textarea-md",
-        "detail": "Medium size"
+        "detail": "Medium size",
+        "category": "size"
     },
     {
         "label": "textarea-lg",
-        "detail": "Large size"
+        "detail": "Large size",
+        "category": "size"
     },
     {
         "label": "textarea-xl",
-        "detail": "Extra large size"
+        "detail": "Extra large size",
+        "category": "size"
     },
     {
         "label": "btn",
-        "detail": "Button"
+        "detail": "Button",
+        "category": "component"
     },
     {
         "label": "btn-neutral",
-        "detail": "neutral color"
+        "detail": "neutral color",
+        "category": "color"
     },
     {
         "label": "btn-primary",
-        "detail": "primary color"
+        "detail": "primary color",
+        "category": "color"
     },
     {
         "label": "btn-secondary",
-        "detail": "secondary color"
+        "detail": "secondary color",
+        "category": "color"
     },
     {
         "label": "btn-accent",
-        "detail": "accent color"
+        "detail": "accent color",
+        "category": "color"
     },
     {
         "label": "btn-info",
-        "detail": "info color"
+        "detail": "info color",
+        "category": "color"
     },
     {
         "label": "btn-success",
-        "detail": "success color"
+        "detail": "success color",
+        "category": "color"
     },
     {
         "label": "btn-warning",
-        "detail": "warning color"
+        "detail": "warning color",
+        "category": "color"
     },
     {
         "label": "btn-error",
-        "detail": "error color"
+        "detail": "error color",
+        "category": "color"
     },
     {
         "label": "btn-outline",
-        "detail": "outline style"
+        "detail": "outline style",
+        "category": "style"
     },
     {
         "label": "btn-dash",
-        "detail": "dash style"
+        "detail": "dash style",
+        "category": "style"
     },
     {
         "label": "btn-soft",
-        "detail": "soft style"
+        "detail": "soft style",
+        "category": "style"
     },
     {
         "label": "btn-ghost",
-        "detail": "ghost style"
+        "detail": "ghost style",
+        "category": "style"
     },
     {
         "label": "btn-link",
-        "detail": "looks like a link"
+        "detail": "looks like a link",
+        "category": "style"
     },
     {
         "label": "btn-active",
-        "detail": "looks active"
+        "detail": "looks active",
+        "category": "behavior"
     },
     {
         "label": "btn-disabled",
-        "detail": "looks disabled"
+        "detail": "looks disabled",
+        "category": "behavior"
     },
     {
         "label": "btn-xs",
-        "detail": "Extra small size"
+        "detail": "Extra small size",
+        "category": "size"
     },
     {
         "label": "btn-sm",
-        "detail": "Small size"
+        "detail": "Small size",
+        "category": "size"
     },
     {
         "label": "btn-md",
-        "detail": "Medium size (default)"
+        "detail": "Medium size (default)",
+        "category": "size"
     },
     {
         "label": "btn-lg",
-        "detail": "Large size"
+        "detail": "Large size",
+        "category": "size"
     },
     {
         "label": "btn-xl",
-        "detail": "Extra large size"
+        "detail": "Extra large size",
+        "category": "size"
     },
     {
         "label": "btn-wide",
-        "detail": "more horizontal padding"
+        "detail": "more horizontal padding",
+        "category": "modifier"
     },
     {
         "label": "btn-block",
-        "detail": "Full width"
+        "detail": "Full width",
+        "category": "modifier"
     },
     {
         "label": "btn-square",
-        "detail": "1:1 ratio"
+        "detail": "1:1 ratio",
+        "category": "modifier"
     },
     {
         "label": "btn-circle",
-        "detail": "1:1 ratio with rounded corners"
+        "detail": "1:1 ratio with rounded corners",
+        "category": "modifier"
     },
     {
         "label": "chat",
-        "detail": "Container for one line of conversation and its data"
+        "detail": "Container for one line of conversation and its data",
+        "category": "component"
     },
     {
         "label": "chat-image",
-        "detail": "Author image"
+        "detail": "Author image",
+        "category": "part"
     },
     {
         "label": "chat-header",
-        "detail": "Text above the chat bubble"
+        "detail": "Text above the chat bubble",
+        "category": "part"
     },
     {
         "label": "chat-footer",
-        "detail": "Text below the chat bubble"
+        "detail": "Text below the chat bubble",
+        "category": "part"
     },
     {
         "label": "chat-bubble",
-        "detail": "Chat bubble"
+        "detail": "Chat bubble",
+        "category": "part"
     },
     {
         "label": "chat-start",
-        "detail": "Aligns chat to start horizontally (required)"
+        "detail": "Aligns chat to start horizontally (required)",
+        "category": "placement"
     },
     {
         "label": "chat-end",
-        "detail": "Aligns chat to end horizontally (required)"
+        "detail": "Aligns chat to end horizontally (required)",
+        "category": "placement"
     },
     {
         "label": "chat-bubble-neutral",
-        "detail": "neutral color for chat-bubble"
+        "detail": "neutral color for chat-bubble",
+        "category": "color"
     },
     {
         "label": "chat-bubble-primary",
-        "detail": "primary color for chat-bubble"
+        "detail": "primary color for chat-bubble",
+        "category": "color"
     },
     {
         "label": "chat-bubble-secondary",
-        "detail": "secondary color for chat-bubble"
+        "detail": "secondary color for chat-bubble",
+        "category": "color"
     },
     {
         "label": "chat-bubble-accent",
-        "detail": "accent color for chat-bubble"
+        "detail": "accent color for chat-bubble",
+        "category": "color"
     },
     {
         "label": "chat-bubble-info",
-        "detail": "info color for chat-bubble"
+        "detail": "info color for chat-bubble",
+        "category": "color"
     },
     {
         "label": "chat-bubble-success",
-        "detail": "success color for chat-bubble"
+        "detail": "success color for chat-bubble",
+        "category": "color"
     },
     {
         "label": "chat-bubble-warning",
-        "detail": "warning color for chat-bubble"
+        "detail": "warning color for chat-bubble",
+        "category": "color"
     },
     {
         "label": "chat-bubble-error",
-        "detail": "error color for chat-bubble"
+        "detail": "error color for chat-bubble",
+        "category": "color"
     },
     {
         "label": "tabs",
-        "detail": "Container of multiple tab items"
+        "detail": "Container of multiple tab items",
+        "category": "component"
     },
     {
         "label": "tab",
-        "detail": "A single tab button (can be button, link, div, radio input, etc)"
+        "detail": "A single tab button (can be button, link, div, radio input, etc)",
+        "category": "part"
     },
     {
         "label": "tab-content",
-        "detail": "Tab content that comes immediately after a tab"
+        "detail": "Tab content that comes immediately after a tab",
+        "category": "part"
     },
     {
         "label": "tabs-box",
-        "detail": "box style"
+        "detail": "box style",
+        "category": "style"
     },
     {
         "label": "tabs-border",
-        "detail": "bottom border style"
+        "detail": "bottom border style",
+        "category": "style"
     },
     {
         "label": "tabs-lift",
-        "detail": "lift style"
+        "detail": "lift style",
+        "category": "style"
     },
     {
         "label": "tab-active",
-        "detail": "Makes a single tab look active"
+        "detail": "Makes a single tab look active",
+        "category": "modifier"
     },
     {
         "label": "tab-disabled",
-        "detail": "Makes a single tab look disabled"
+        "detail": "Makes a single tab look disabled",
+        "category": "modifier"
     },
     {
         "label": "tabs-top",
-        "detail": "Puts tab buttons on top of the tab-content (default)"
+        "detail": "Puts tab buttons on top of the tab-content (default)",
+        "category": "placement"
     },
     {
         "label": "tabs-bottom",
-        "detail": "Puts tabs on under the tab-content"
+        "detail": "Puts tabs on under the tab-content",
+        "category": "placement"
     },
     {
         "label": "tabs-xs",
-        "detail": "Extra small size"
+        "detail": "Extra small size",
+        "category": "size"
     },
     {
         "label": "tabs-sm",
-        "detail": "Small size"
+        "detail": "Small size",
+        "category": "size"
     },
     {
         "label": "tabs-md",
-        "detail": "Medium size"
+        "detail": "Medium size",
+        "category": "size"
     },
     {
         "label": "tabs-lg",
-        "detail": "Large size"
+        "detail": "Large size",
+        "category": "size"
     },
     {
         "label": "tabs-xl",
-        "detail": "Extra large size"
+        "detail": "Extra large size",
+        "category": "size"
     },
     {
         "label": "stack",
-        "detail": "Puts the children elements on top of each other"
+        "detail": "Puts the children elements on top of each other",
+        "category": "component"
     },
     {
         "label": "stack-top",
-        "detail": "Aligns the children elements to the top"
+        "detail": "Aligns the children elements to the top",
+        "category": "modifier"
     },
     {
         "label": "stack-bottom",
-        "detail": "Aligns the children elements to the bottom"
+        "detail": "Aligns the children elements to the bottom",
+        "category": "modifier"
     },
     {
         "label": "stack-start",
-        "detail": "Aligns the children elements to the start (horizontally)"
+        "detail": "Aligns the children elements to the start (horizontally)",
+        "category": "modifier"
     },
     {
         "label": "stack-end",
-        "detail": "Aligns the children elements to the end (horizontally)"
+        "detail": "Aligns the children elements to the end (horizontally)",
+        "category": "modifier"
     },
     {
         "label": "join",
-        "detail": "For grouping multiple items"
+        "detail": "For grouping multiple items",
+        "category": "component"
     },
     {
         "label": "join-item",
-        "detail": "Item inside join. Can be a button, input, etc."
+        "detail": "Item inside join. Can be a button, input, etc.",
+        "category": "component"
     },
     {
         "label": "join-vertical",
-        "detail": "Show items vertically"
+        "detail": "Show items vertically",
+        "category": "direction"
     },
     {
         "label": "join-horizontal",
-        "detail": "Show items horizontally"
+        "detail": "Show items horizontally",
+        "category": "direction"
     },
     {
         "label": "range",
-        "detail": "For <input type=\"range\"> tag"
+        "detail": "For <input type=\"range\"> tag",
+        "category": "component"
     },
     {
         "label": "range-neutral",
-        "detail": "neutral color"
+        "detail": "neutral color",
+        "category": "color"
     },
     {
         "label": "range-primary",
-        "detail": "primary color"
+        "detail": "primary color",
+        "category": "color"
     },
     {
         "label": "range-secondary",
-        "detail": "secondary color"
+        "detail": "secondary color",
+        "category": "color"
     },
     {
         "label": "range-accent",
-        "detail": "accent color"
+        "detail": "accent color",
+        "category": "color"
     },
     {
         "label": "range-success",
-        "detail": "success color"
+        "detail": "success color",
+        "category": "color"
     },
     {
         "label": "range-warning",
-        "detail": "warning color"
+        "detail": "warning color",
+        "category": "color"
     },
     {
         "label": "range-info",
-        "detail": "info color"
+        "detail": "info color",
+        "category": "color"
     },
     {
         "label": "range-error",
-        "detail": "error color"
+        "detail": "error color",
+        "category": "color"
     },
     {
         "label": "range-xs",
-        "detail": "Extra small size"
+        "detail": "Extra small size",
+        "category": "size"
     },
     {
         "label": "range-sm",
-        "detail": "Small size"
+        "detail": "Small size",
+        "category": "size"
     },
     {
         "label": "range-md",
-        "detail": "Medium size"
+        "detail": "Medium size",
+        "category": "size"
     },
     {
         "label": "range-lg",
-        "detail": "Large size"
+        "detail": "Large size",
+        "category": "size"
     },
     {
         "label": "range-xl",
-        "detail": "Extra large size"
+        "detail": "Extra large size",
+        "category": "size"
     },
     {
         "label": "checkbox",
-        "detail": "Checkbox"
+        "detail": "Checkbox",
+        "category": "component"
     },
     {
         "label": "checkbox-primary",
-        "detail": "primary color"
+        "detail": "primary color",
+        "category": "color"
     },
     {
         "label": "checkbox-secondary",
-        "detail": "secondary color"
+        "detail": "secondary color",
+        "category": "color"
     },
     {
         "label": "checkbox-accent",
-        "detail": "accent color"
+        "detail": "accent color",
+        "category": "color"
     },
     {
         "label": "checkbox-neutral",
-        "detail": "neutral color"
+        "detail": "neutral color",
+        "category": "color"
     },
     {
         "label": "checkbox-success",
-        "detail": "success color"
+        "detail": "success color",
+        "category": "color"
     },
     {
         "label": "checkbox-warning",
-        "detail": "warning color"
+        "detail": "warning color",
+        "category": "color"
     },
     {
         "label": "checkbox-info",
-        "detail": "info color"
+        "detail": "info color",
+        "category": "color"
     },
     {
         "label": "checkbox-error",
-        "detail": "error color"
+        "detail": "error color",
+        "category": "color"
     },
     {
         "label": "checkbox-xs",
-        "detail": "Extra small size"
+        "detail": "Extra small size",
+        "category": "size"
     },
     {
         "label": "checkbox-sm",
-        "detail": "Small size"
+        "detail": "Small size",
+        "category": "size"
     },
     {
         "label": "checkbox-md",
-        "detail": "Medium size"
+        "detail": "Medium size",
+        "category": "size"
     },
     {
         "label": "checkbox-lg",
-        "detail": "Large size"
+        "detail": "Large size",
+        "category": "size"
     },
     {
         "label": "checkbox-xl",
-        "detail": "Extra large size"
+        "detail": "Extra large size",
+        "category": "size"
     },
     {
         "label": "radial-progress",
-        "detail": "Shows a radial progress"
+        "detail": "Shows a radial progress",
+        "category": "component"
     },
     {
         "label": "toast",
-        "detail": "Container element that sticks to the corner of page"
+        "detail": "Container element that sticks to the corner of page",
+        "category": "component"
     },
     {
         "label": "toast-start",
-        "detail": "align horizontally to the left"
+        "detail": "align horizontally to the left",
+        "category": "placement"
     },
     {
         "label": "toast-center",
-        "detail": "align horizontally to the center"
+        "detail": "align horizontally to the center",
+        "category": "placement"
     },
     {
         "label": "toast-end",
-        "detail": "align horizontally to the right"
+        "detail": "align horizontally to the right",
+        "category": "placement"
     },
     {
         "label": "toast-top",
-        "detail": "align vertically to top"
+        "detail": "align vertically to top",
+        "category": "placement"
     },
     {
         "label": "toast-middle",
-        "detail": "align vertically to middle"
+        "detail": "align vertically to middle",
+        "category": "placement"
     },
     {
         "label": "toast-bottom",
-        "detail": "align vertically to bottom"
+        "detail": "align vertically to bottom",
+        "category": "placement"
     },
     {
         "label": "steps",
-        "detail": "Container of multiple step nodes"
+        "detail": "Container of multiple step nodes",
+        "category": "component"
     },
     {
         "label": "step",
-        "detail": "A single step node"
+        "detail": "A single step node",
+        "category": "part"
     },
     {
         "label": "step-icon",
-        "detail": "For custom icon inside step"
+        "detail": "For custom icon inside step",
+        "category": "part"
     },
     {
         "label": "step-neutral",
-        "detail": "neutral color"
+        "detail": "neutral color",
+        "category": "color"
     },
     {
         "label": "step-primary",
-        "detail": "primary color"
+        "detail": "primary color",
+        "category": "color"
     },
     {
         "label": "step-secondary",
-        "detail": "secondary color"
+        "detail": "secondary color",
+        "category": "color"
     },
     {
         "label": "step-accent",
-        "detail": "accent color"
+        "detail": "accent color",
+        "category": "color"
     },
     {
         "label": "step-info",
-        "detail": "info color"
+        "detail": "info color",
+        "category": "color"
     },
     {
         "label": "step-success",
-        "detail": "success color"
+        "detail": "success color",
+        "category": "color"
     },
     {
         "label": "step-warning",
-        "detail": "warning color"
+        "detail": "warning color",
+        "category": "color"
     },
     {
         "label": "step-error",
-        "detail": "error color"
+        "detail": "error color",
+        "category": "color"
     },
     {
         "label": "steps-vertical",
-        "detail": "Makes steps vertical (default)"
+        "detail": "Makes steps vertical (default)",
+        "category": "direction"
     },
     {
         "label": "steps-horizontal",
-        "detail": "Makes steps horizontal"
+        "detail": "Makes steps horizontal",
+        "category": "direction"
     },
     {
         "label": "cally",
-        "detail": "for Cally web component"
+        "detail": "for Cally web component",
+        "category": "component"
     },
     {
         "label": "pika-single",
-        "detail": "for the input field that opens Pikaday calendar"
+        "detail": "for the input field that opens Pikaday calendar",
+        "category": "component"
     },
     {
         "label": "react-day-picker",
-        "detail": "for the DayPicker component"
+        "detail": "for the DayPicker component",
+        "category": "component"
     },
     {
         "label": "toggle",
-        "detail": "For <input type=\"checkbox\">"
+        "detail": "For <input type=\"checkbox\">",
+        "category": "component"
     },
     {
         "label": "toggle-primary",
-        "detail": "primary color"
+        "detail": "primary color",
+        "category": "color"
     },
     {
         "label": "toggle-secondary",
-        "detail": "secondary color"
+        "detail": "secondary color",
+        "category": "color"
     },
     {
         "label": "toggle-accent",
-        "detail": "accent color"
+        "detail": "accent color",
+        "category": "color"
     },
     {
         "label": "toggle-neutral",
-        "detail": "neutral color"
+        "detail": "neutral color",
+        "category": "color"
     },
     {
         "label": "toggle-success",
-        "detail": "success color"
+        "detail": "success color",
+        "category": "color"
     },
     {
         "label": "toggle-warning",
-        "detail": "warning color"
+        "detail": "warning color",
+        "category": "color"
     },
     {
         "label": "toggle-info",
-        "detail": "info color"
+        "detail": "info color",
+        "category": "color"
     },
     {
         "label": "toggle-error",
-        "detail": "error color"
+        "detail": "error color",
+        "category": "color"
     },
     {
         "label": "toggle-xs",
-        "detail": "Extra small size"
+        "detail": "Extra small size",
+        "category": "size"
     },
     {
         "label": "toggle-sm",
-        "detail": "Small size"
+        "detail": "Small size",
+        "category": "size"
     },
     {
         "label": "toggle-md",
-        "detail": "Medium size"
+        "detail": "Medium size",
+        "category": "size"
     },
     {
         "label": "toggle-lg",
-        "detail": "Large size"
+        "detail": "Large size",
+        "category": "size"
     },
     {
         "label": "toggle-xl",
-        "detail": "Extra large size"
+        "detail": "Extra large size",
+        "category": "size"
     },
     {
         "label": "join",
-        "detail": "For grouping multiple items"
+        "detail": "For grouping multiple items",
+        "category": "component"
     },
     {
         "label": "join-item",
-        "detail": "Item inside join. Can be a button, input, etc."
+        "detail": "Item inside join. Can be a button, input, etc.",
+        "category": "part"
     },
     {
         "label": "join-vertical",
-        "detail": "Show items vertically"
+        "detail": "Show items vertically",
+        "category": "direction"
     },
     {
         "label": "join-horizontal",
-        "detail": "Show items horizontally"
+        "detail": "Show items horizontally",
+        "category": "direction"
     },
     {
         "label": "mockup-phone",
-        "detail": "Phone mockup"
+        "detail": "Phone mockup",
+        "category": "component"
     },
     {
         "label": "mockup-phone-camera",
-        "detail": "Camera part"
+        "detail": "Camera part",
+        "category": "part"
     },
     {
         "label": "mockup-phone-display",
-        "detail": "Display part"
+        "detail": "Display part",
+        "category": "part"
     },
     {
         "label": "mockup-window",
-        "detail": "OS window mockup"
+        "detail": "OS window mockup",
+        "category": "component"
     },
     {
         "label": "carousel",
-        "detail": "Carousel container"
+        "detail": "Carousel container",
+        "category": "component"
     },
     {
         "label": "carousel-item",
-        "detail": "Carousel item"
+        "detail": "Carousel item",
+        "category": "part"
     },
     {
         "label": "carousel-start",
-        "detail": "Snap elements to start"
+        "detail": "Snap elements to start",
+        "category": "modifier"
     },
     {
         "label": "carousel-center",
-        "detail": "Snap elements to center"
+        "detail": "Snap elements to center",
+        "category": "modifier"
     },
     {
         "label": "carousel-end",
-        "detail": "Snap elements to end"
+        "detail": "Snap elements to end",
+        "category": "modifier"
     },
     {
         "label": "carousel-horizontal",
-        "detail": "Horizontal layout (default)"
+        "detail": "Horizontal layout (default)",
+        "category": "direction"
     },
     {
         "label": "carousel-vertical",
-        "detail": "Vertical layout"
+        "detail": "Vertical layout",
+        "category": "direction"
     },
     {
         "label": "list",
-        "detail": "A vertical flex layout to include list rows"
+        "detail": "A vertical flex layout to include list rows",
+        "category": "component"
     },
     {
         "label": "list-row",
-        "detail": "The item inside list. A horizontal grid layout to include data"
+        "detail": "The item inside list. A horizontal grid layout to include data",
+        "category": "component"
     },
     {
         "label": "list-col-wrap",
-        "detail": "For one of direct children of list-row to push it to the next line"
+        "detail": "For one of direct children of list-row to push it to the next line",
+        "category": "modifier"
     },
     {
         "label": "list-col-grow",
-        "detail": "For one of direct children of list-row to make it fill the remaining space"
+        "detail": "For one of direct children of list-row to make it fill the remaining space",
+        "category": "modifier"
     },
     {
         "label": "tooltip",
-        "detail": "Container element"
+        "detail": "Container element",
+        "category": "component"
     },
     {
         "label": "tooltip-content",
-        "detail": "Optional. Setting a div as the content of the tooltip instead of the `data-tip` text"
+        "detail": "Optional. Setting a div as the content of the tooltip instead of the `data-tip` text",
+        "category": "part"
     },
     {
         "label": "tooltip-top",
-        "detail": "Put tooltip on top"
+        "detail": "Put tooltip on top",
+        "category": "placement"
     },
     {
         "label": "tooltip-bottom",
-        "detail": "Put tooltip on bottom"
+        "detail": "Put tooltip on bottom",
+        "category": "placement"
     },
     {
         "label": "tooltip-left",
-        "detail": "Put tooltip on left"
+        "detail": "Put tooltip on left",
+        "category": "placement"
     },
     {
         "label": "tooltip-right",
-        "detail": "Put tooltip on right"
+        "detail": "Put tooltip on right",
+        "category": "placement"
     },
     {
         "label": "tooltip-open",
-        "detail": "Force open tooltip"
+        "detail": "Force open tooltip",
+        "category": "modifier"
     },
     {
         "label": "tooltip-neutral",
-        "detail": "neutral color"
+        "detail": "neutral color",
+        "category": "color"
     },
     {
         "label": "tooltip-primary",
-        "detail": "primary color"
+        "detail": "primary color",
+        "category": "color"
     },
     {
         "label": "tooltip-secondary",
-        "detail": "secondary color"
+        "detail": "secondary color",
+        "category": "color"
     },
     {
         "label": "tooltip-accent",
-        "detail": "accent color"
+        "detail": "accent color",
+        "category": "color"
     },
     {
         "label": "tooltip-info",
-        "detail": "info color"
+        "detail": "info color",
+        "category": "color"
     },
     {
         "label": "tooltip-success",
-        "detail": "success color"
+        "detail": "success color",
+        "category": "color"
     },
     {
         "label": "tooltip-warning",
-        "detail": "warning color"
+        "detail": "warning color",
+        "category": "color"
     },
     {
         "label": "tooltip-error",
-        "detail": "error color"
+        "detail": "error color",
+        "category": "color"
     },
     {
         "label": "dock",
-        "detail": "Dock"
+        "detail": "Dock",
+        "category": "component"
     },
     {
         "label": "dock-label",
-        "detail": "Text label for Dock Item"
+        "detail": "Text label for Dock Item",
+        "category": "part"
     },
     {
         "label": "dock-active",
-        "detail": "Makes the Dock Item look active"
+        "detail": "Makes the Dock Item look active",
+        "category": "modifier"
     },
     {
         "label": "dock-xs",
-        "detail": "Extra Small Dock"
+        "detail": "Extra Small Dock",
+        "category": "size"
     },
     {
         "label": "dock-sm",
-        "detail": "Small Dock"
+        "detail": "Small Dock",
+        "category": "size"
     },
     {
         "label": "dock-md",
-        "detail": "Medium Dock"
+        "detail": "Medium Dock",
+        "category": "size"
     },
     {
         "label": "dock-lg",
-        "detail": "Large Dock"
+        "detail": "Large Dock",
+        "category": "size"
     },
     {
         "label": "dock-xl",
-        "detail": "Extra Large Dock"
+        "detail": "Extra Large Dock",
+        "category": "size"
     },
     {
         "label": "modal",
-        "detail": "Modal"
+        "detail": "Modal",
+        "category": "component"
     },
     {
         "label": "modal-box",
-        "detail": "The content part"
+        "detail": "The content part",
+        "category": "part"
     },
     {
         "label": "modal-action",
-        "detail": "Actions part (buttons, etc.)"
+        "detail": "Actions part (buttons, etc.)",
+        "category": "part"
     },
     {
         "label": "modal-backdrop",
-        "detail": "Label that covers the page when modal is open so we can close the modal by clicking outside"
+        "detail": "Label that covers the page when modal is open so we can close the modal by clicking outside",
+        "category": "part"
     },
     {
         "label": "modal-toggle",
-        "detail": "Hidden checkbox that controls the state of modal"
+        "detail": "Hidden checkbox that controls the state of modal",
+        "category": "part"
     },
     {
         "label": "modal-open",
-        "detail": "Keeps the modal open (you can add this class using JS)"
+        "detail": "Keeps the modal open (you can add this class using JS)",
+        "category": "modifier"
     },
     {
         "label": "modal-top",
-        "detail": "Moves the modal to top"
+        "detail": "Moves the modal to top",
+        "category": "placement"
     },
     {
         "label": "modal-middle",
-        "detail": "Moves the modal to middle"
+        "detail": "Moves the modal to middle",
+        "category": "placement"
     },
     {
         "label": "modal-bottom",
-        "detail": "Moves the modal to bottom"
+        "detail": "Moves the modal to bottom",
+        "category": "placement"
     },
     {
         "label": "modal-start",
-        "detail": "Moves the modal to start horizontally"
+        "detail": "Moves the modal to start horizontally",
+        "category": "placement"
     },
     {
         "label": "modal-end",
-        "detail": "Moves the modal to end horizontally"
+        "detail": "Moves the modal to end horizontally",
+        "category": "placement"
     },
     {
         "label": "menu",
-        "detail": "For <ul> tag"
+        "detail": "For <ul> tag",
+        "category": "component"
     },
     {
         "label": "menu-title",
-        "detail": "styles a <li> as title"
+        "detail": "styles a <li> as title",
+        "category": "part"
     },
     {
         "label": "menu-dropdown",
-        "detail": "For the collapsible <ul> if you want to show it using JS"
+        "detail": "For the collapsible <ul> if you want to show it using JS",
+        "category": "part"
     },
     {
         "label": "menu-dropdown-toggle",
-        "detail": "For the toggle to show/hide the menu-dropdown using JS"
+        "detail": "For the toggle to show/hide the menu-dropdown using JS",
+        "category": "part"
     },
     {
         "label": "menu-disabled",
-        "detail": "For disabling a <li>"
+        "detail": "For disabling a <li>",
+        "category": "modifier"
     },
     {
         "label": "menu-active",
-        "detail": "For the element inside <li> to look active"
+        "detail": "For the element inside <li> to look active",
+        "category": "modifier"
     },
     {
         "label": "menu-focus",
-        "detail": "For the element inside <li> to look focused"
+        "detail": "For the element inside <li> to look focused",
+        "category": "modifier"
     },
     {
         "label": "menu-dropdown-show",
-        "detail": "Shows the menu-dropdown-toggle and menu-dropdown collapsible submenu using JS"
+        "detail": "Shows the menu-dropdown-toggle and menu-dropdown collapsible submenu using JS",
+        "category": "modifier"
     },
     {
         "label": "menu-xs",
-        "detail": "Extra small size"
+        "detail": "Extra small size",
+        "category": "size"
     },
     {
         "label": "menu-sm",
-        "detail": "Small size"
+        "detail": "Small size",
+        "category": "size"
     },
     {
         "label": "menu-md",
-        "detail": "Medium size"
+        "detail": "Medium size",
+        "category": "size"
     },
     {
         "label": "menu-lg",
-        "detail": "Large size"
+        "detail": "Large size",
+        "category": "size"
     },
     {
         "label": "menu-xl",
-        "detail": "Extra large size"
+        "detail": "Extra large size",
+        "category": "size"
     },
     {
         "label": "menu-vertical",
-        "detail": "Vertical menu (default)"
+        "detail": "Vertical menu (default)",
+        "category": "direction"
     },
     {
         "label": "menu-horizontal",
-        "detail": "Horizontal menu"
+        "detail": "Horizontal menu",
+        "category": "direction"
     },
     {
         "label": "table",
-        "detail": "For <table> tag"
+        "detail": "For <table> tag",
+        "category": "component"
     },
     {
         "label": "table-zebra",
-        "detail": "For <table> to show zebra stripe rows"
+        "detail": "For <table> to show zebra stripe rows",
+        "category": "modifier"
     },
     {
         "label": "table-pin-rows",
-        "detail": "For <table> to make all the rows inside <thead> and <tfoot> sticky"
+        "detail": "For <table> to make all the rows inside <thead> and <tfoot> sticky",
+        "category": "modifier"
     },
     {
         "label": "table-pin-cols",
-        "detail": "For <table> to make all the <th> columns sticky"
+        "detail": "For <table> to make all the <th> columns sticky",
+        "category": "modifier"
     },
     {
         "label": "table-xs",
-        "detail": "Extra small size"
+        "detail": "Extra small size",
+        "category": "size"
     },
     {
         "label": "table-sm",
-        "detail": "Small size"
+        "detail": "Small size",
+        "category": "size"
     },
     {
         "label": "table-md",
-        "detail": "Medium size"
+        "detail": "Medium size",
+        "category": "size"
     },
     {
         "label": "table-lg",
-        "detail": "Large size"
+        "detail": "Large size",
+        "category": "size"
     },
     {
         "label": "table-xl",
-        "detail": "Extra large size"
+        "detail": "Extra large size",
+        "category": "size"
     },
     {
         "label": "validator",
-        "detail": "For input, select, textarea"
+        "detail": "For input, select, textarea",
+        "category": "component"
     },
     {
         "label": "validator-hint",
-        "detail": "for the hint text that appears after the input if it's invalid"
+        "detail": "for the hint text that appears after the input if it's invalid",
+        "category": "part"
     },
     {
         "label": "card",
-        "detail": "Card"
+        "detail": "Card",
+        "category": "component"
     },
     {
         "label": "card-title",
-        "detail": "Title part"
+        "detail": "Title part",
+        "category": "part"
     },
     {
         "label": "card-body",
-        "detail": "Body part (content)"
+        "detail": "Body part (content)",
+        "category": "part"
     },
     {
         "label": "card-actions",
-        "detail": "Actions part (buttons, etc.)"
+        "detail": "Actions part (buttons, etc.)",
+        "category": "part"
     },
     {
         "label": "card-border",
-        "detail": "Adds border to <card>"
+        "detail": "Adds border to <card>",
+        "category": "style"
     },
     {
         "label": "card-dash",
-        "detail": "dash style"
+        "detail": "dash style",
+        "category": "style"
     },
     {
         "label": "card-side",
-        "detail": "The image in <figure> will be on to the side"
+        "detail": "The image in <figure> will be on to the side",
+        "category": "modifier"
     },
     {
         "label": "image-full",
-        "detail": "The image in <figure> element will be the background"
+        "detail": "The image in <figure> element will be the background",
+        "category": "modifier"
     },
     {
         "label": "card-xs",
-        "detail": "Extra small size"
+        "detail": "Extra small size",
+        "category": "size"
     },
     {
         "label": "card-sm",
-        "detail": "Small size"
+        "detail": "Small size",
+        "category": "size"
     },
     {
         "label": "card-md",
-        "detail": "Medium size (default)"
+        "detail": "Medium size (default)",
+        "category": "size"
     },
     {
         "label": "card-lg",
-        "detail": "Large size"
+        "detail": "Large size",
+        "category": "size"
     },
     {
         "label": "card-xl",
-        "detail": "Extra large size"
+        "detail": "Extra large size",
+        "category": "size"
     },
     {
         "label": "breadcrumbs",
-        "detail": "Wrapper around a <ul>"
+        "detail": "Wrapper around a <ul>",
+        "category": "component"
     },
     {
         "label": "countdown",
-        "detail": "Countdown wrapper"
+        "detail": "Countdown wrapper",
+        "category": "component"
     },
     {
         "label": "label",
-        "detail": "For styling the text next to an input field (or select)"
+        "detail": "For styling the text next to an input field (or select)",
+        "category": "component"
     },
     {
         "label": "floating-label",
-        "detail": "For the parent of an input field (or select) and a span that floats above the input field when the field is focused"
+        "detail": "For the parent of an input field (or select) and a span that floats above the input field when the field is focused",
+        "category": "component"
     },
     {
         "label": "rating",
-        "detail": "For a div containing radio inputs"
+        "detail": "For a div containing radio inputs",
+        "category": "component"
     },
     {
         "label": "rating-half",
-        "detail": "To shows half of the shapes. Useful for half star ratings"
+        "detail": "To shows half of the shapes. Useful for half star ratings",
+        "category": "modifier"
     },
     {
         "label": "rating-hidden",
-        "detail": "For the first radio to make it hidden so user can clear the rating"
+        "detail": "For the first radio to make it hidden so user can clear the rating",
+        "category": "modifier"
     },
     {
         "label": "rating-xs",
-        "detail": "Extra small size"
+        "detail": "Extra small size",
+        "category": "size"
     },
     {
         "label": "rating-sm",
-        "detail": "Small size"
+        "detail": "Small size",
+        "category": "size"
     },
     {
         "label": "rating-md",
-        "detail": "Medium size"
+        "detail": "Medium size",
+        "category": "size"
     },
     {
         "label": "rating-lg",
-        "detail": "Large size"
+        "detail": "Large size",
+        "category": "size"
     },
     {
         "label": "rating-xl",
-        "detail": "Extra large size"
+        "detail": "Extra large size",
+        "category": "size"
     },
     {
         "label": "collapse",
-        "detail": "Collapse"
+        "detail": "Collapse",
+        "category": "component"
     },
     {
         "label": "collapse-title",
-        "detail": "Title part"
+        "detail": "Title part",
+        "category": "part"
     },
     {
         "label": "collapse-content",
-        "detail": "Content part"
+        "detail": "Content part",
+        "category": "part"
     },
     {
         "label": "collapse-arrow",
-        "detail": "Adds arrow icon"
+        "detail": "Adds arrow icon",
+        "category": "modifier"
     },
     {
         "label": "collapse-plus",
-        "detail": "Adds plus/minus icon"
+        "detail": "Adds plus/minus icon",
+        "category": "modifier"
     },
     {
         "label": "collapse-open",
-        "detail": "Force open"
+        "detail": "Force open",
+        "category": "modifier"
     },
     {
         "label": "collapse-close",
-        "detail": "Force close"
+        "detail": "Force close",
+        "category": "modifier"
     },
     {
         "label": "avatar",
-        "detail": "Avatar"
+        "detail": "Avatar",
+        "category": "component"
     },
     {
         "label": "avatar-group",
-        "detail": "Container for multiple avatars"
+        "detail": "Container for multiple avatars",
+        "category": "component"
     },
     {
         "label": "avatar-online",
-        "detail": "shows a green dot as online indicator"
+        "detail": "shows a green dot as online indicator",
+        "category": "modifier"
     },
     {
         "label": "avatar-offline",
-        "detail": "shows a gray dot as offline indicator"
+        "detail": "shows a gray dot as offline indicator",
+        "category": "modifier"
     },
     {
         "label": "avatar-placeholder",
-        "detail": "To show letters as avatar placeholder"
+        "detail": "To show letters as avatar placeholder",
+        "category": "modifier"
     },
     {
         "label": "mask",
-        "detail": "Masks the content with shape"
+        "detail": "Masks the content with shape",
+        "category": "component"
     },
     {
         "label": "mask-squircle",
-        "detail": "squircle"
+        "detail": "squircle",
+        "category": "style"
     },
     {
         "label": "mask-heart",
-        "detail": "heart"
+        "detail": "heart",
+        "category": "style"
     },
     {
         "label": "mask-hexagon",
-        "detail": "hexagon vertical"
+        "detail": "hexagon vertical",
+        "category": "style"
     },
     {
         "label": "mask-hexagon-2",
-        "detail": "hexagon horizontal"
+        "detail": "hexagon horizontal",
+        "category": "style"
     },
     {
         "label": "mask-decagon",
-        "detail": "decagon"
+        "detail": "decagon",
+        "category": "style"
     },
     {
         "label": "mask-pentagon",
-        "detail": "pentagon"
+        "detail": "pentagon",
+        "category": "style"
     },
     {
         "label": "mask-diamond",
-        "detail": "diamond"
+        "detail": "diamond",
+        "category": "style"
     },
     {
         "label": "mask-square",
-        "detail": "square"
+        "detail": "square",
+        "category": "style"
     },
     {
         "label": "mask-circle",
-        "detail": "circle"
+        "detail": "circle",
+        "category": "style"
     },
     {
         "label": "mask-star",
-        "detail": "star"
+        "detail": "star",
+        "category": "style"
     },
     {
         "label": "mask-star-2",
-        "detail": "star (bold)"
+        "detail": "star (bold)",
+        "category": "style"
     },
     {
         "label": "mask-triangle",
-        "detail": "triangle pointing top"
+        "detail": "triangle pointing top",
+        "category": "style"
     },
     {
         "label": "mask-triangle-2",
-        "detail": "triangle pointing down"
+        "detail": "triangle pointing down",
+        "category": "style"
     },
     {
         "label": "mask-triangle-3",
-        "detail": "triangle pointing left"
+        "detail": "triangle pointing left",
+        "category": "style"
     },
     {
         "label": "mask-triangle-4",
-        "detail": "triangle pointing right"
+        "detail": "triangle pointing right",
+        "category": "style"
     },
     {
         "label": "mask-half-1",
-        "detail": "Crops only the first half of mask"
+        "detail": "Crops only the first half of mask",
+        "category": "modifier"
     },
     {
         "label": "mask-half-2",
-        "detail": "Crops only the second half of mask"
+        "detail": "Crops only the second half of mask",
+        "category": "modifier"
     },
     {
         "label": "dropdown",
-        "detail": "Dropdown container"
+        "detail": "Dropdown container",
+        "category": "component"
     },
     {
         "label": "dropdown-content",
-        "detail": "Content part"
+        "detail": "Content part",
+        "category": "part"
     },
     {
         "label": "dropdown-start",
-        "detail": "Align horizontally to start of button"
+        "detail": "Align horizontally to start of button",
+        "category": "placement"
     },
     {
         "label": "dropdown-center",
-        "detail": "Align horizontally to center of button"
+        "detail": "Align horizontally to center of button",
+        "category": "placement"
     },
     {
         "label": "dropdown-end",
-        "detail": "Align horizontally to end of button"
+        "detail": "Align horizontally to end of button",
+        "category": "placement"
     },
     {
         "label": "dropdown-top",
-        "detail": "Open from top"
+        "detail": "Open from top",
+        "category": "placement"
     },
     {
         "label": "dropdown-bottom",
-        "detail": "Open from bottom"
+        "detail": "Open from bottom",
+        "category": "placement"
     },
     {
         "label": "dropdown-left",
-        "detail": "Open from left"
+        "detail": "Open from left",
+        "category": "placement"
     },
     {
         "label": "dropdown-right",
-        "detail": "Open from right"
+        "detail": "Open from right",
+        "category": "placement"
     },
     {
         "label": "dropdown-hover",
-        "detail": "Opens on hover too"
+        "detail": "Opens on hover too",
+        "category": "modifier"
     },
     {
         "label": "dropdown-open",
-        "detail": "Force open"
+        "detail": "Force open",
+        "category": "modifier"
     },
     {
         "label": "indicator",
-        "detail": "Container element"
+        "detail": "Container element",
+        "category": "component"
     },
     {
         "label": "indicator-item",
-        "detail": "will be placed on the corner of sibling"
+        "detail": "will be placed on the corner of sibling",
+        "category": "part"
     },
     {
         "label": "indicator-start",
-        "detail": "align horizontally to the start"
+        "detail": "align horizontally to the start",
+        "category": "placement"
     },
     {
         "label": "indicator-center",
-        "detail": "align horizontally to the center"
+        "detail": "align horizontally to the center",
+        "category": "placement"
     },
     {
         "label": "indicator-end",
-        "detail": "align horizontally to the end"
+        "detail": "align horizontally to the end",
+        "category": "placement"
     },
     {
         "label": "indicator-top",
-        "detail": "align vertically to top"
+        "detail": "align vertically to top",
+        "category": "placement"
     },
     {
         "label": "indicator-middle",
-        "detail": "align vertically to middle"
+        "detail": "align vertically to middle",
+        "category": "placement"
     },
     {
         "label": "indicator-bottom",
-        "detail": "align vertically to bottom"
+        "detail": "align vertically to bottom",
+        "category": "placement"
     },
     {
         "label": "timeline",
-        "detail": "Timeline container"
+        "detail": "Timeline container",
+        "category": "component"
     },
     {
         "label": "timeline-start",
-        "detail": "The content inside <li> that will be at the start direction"
+        "detail": "The content inside <li> that will be at the start direction",
+        "category": "part"
     },
     {
         "label": "timeline-middle",
-        "detail": "The content inside <li> that will be at the middle"
+        "detail": "The content inside <li> that will be at the middle",
+        "category": "part"
     },
     {
         "label": "timeline-end",
-        "detail": "The content inside <li> that will be at the end direction"
+        "detail": "The content inside <li> that will be at the end direction",
+        "category": "part"
     },
     {
         "label": "timeline-snap-icon",
-        "detail": "snaps the icon to the start instead of middle"
+        "detail": "snaps the icon to the start instead of middle",
+        "category": "modifier"
     },
     {
         "label": "timeline-box",
-        "detail": "Applies a box style to timeline-start or timeline-end"
+        "detail": "Applies a box style to timeline-start or timeline-end",
+        "category": "modifier"
     },
     {
         "label": "timeline-compact",
-        "detail": "forces all items on one side"
+        "detail": "forces all items on one side",
+        "category": "modifier"
     },
     {
         "label": "timeline-horizontal",
-        "detail": "horizontal layout (default)"
+        "detail": "horizontal layout (default)",
+        "category": "direction"
     },
     {
         "label": "timeline-vertical",
-        "detail": "vertical layout"
+        "detail": "vertical layout",
+        "category": "direction"
     },
     {
         "label": "input",
-        "detail": "For <input type=\"text\"> tag or a wrapper of <input type=\"text\"> tag"
+        "detail": "For <input type=\"text\"> tag or a wrapper of <input type=\"text\"> tag",
+        "category": "component"
     },
     {
         "label": "input-ghost",
-        "detail": "ghost style"
+        "detail": "ghost style",
+        "category": "style"
     },
     {
         "label": "input-neutral",
-        "detail": "neutral color"
+        "detail": "neutral color",
+        "category": "color"
     },
     {
         "label": "input-primary",
-        "detail": "primary color"
+        "detail": "primary color",
+        "category": "color"
     },
     {
         "label": "input-secondary",
-        "detail": "secondary color"
+        "detail": "secondary color",
+        "category": "color"
     },
     {
         "label": "input-accent",
-        "detail": "accent color"
+        "detail": "accent color",
+        "category": "color"
     },
     {
         "label": "input-info",
-        "detail": "info color"
+        "detail": "info color",
+        "category": "color"
     },
     {
         "label": "input-success",
-        "detail": "success color"
+        "detail": "success color",
+        "category": "color"
     },
     {
         "label": "input-warning",
-        "detail": "warning color"
+        "detail": "warning color",
+        "category": "color"
     },
     {
         "label": "input-error",
-        "detail": "error color"
+        "detail": "error color",
+        "category": "color"
     },
     {
         "label": "input-xs",
-        "detail": "Extra small size"
+        "detail": "Extra small size",
+        "category": "size"
     },
     {
         "label": "input-sm",
-        "detail": "Small size"
+        "detail": "Small size",
+        "category": "size"
     },
     {
         "label": "input-md",
-        "detail": "Medium size"
+        "detail": "Medium size",
+        "category": "size"
     },
     {
         "label": "input-lg",
-        "detail": "Large size"
+        "detail": "Large size",
+        "category": "size"
     },
     {
         "label": "input-xl",
-        "detail": "Extra large size"
+        "detail": "Extra large size",
+        "category": "size"
     },
     {
         "label": "footer",
-        "detail": "Footer"
+        "detail": "Footer",
+        "category": "component"
     },
     {
         "label": "footer-title",
-        "detail": "Title of a footer column"
+        "detail": "Title of a footer column",
+        "category": "part"
     },
     {
         "label": "footer-center",
-        "detail": "Aligns footer content to center"
+        "detail": "Aligns footer content to center",
+        "category": "placement"
     },
     {
         "label": "footer-horizontal",
-        "detail": "Puts footer columns next to each other horizontally"
+        "detail": "Puts footer columns next to each other horizontally",
+        "category": "direction"
     },
     {
         "label": "footer-vertical",
-        "detail": "Puts footer columns under each other vertically"
+        "detail": "Puts footer columns under each other vertically",
+        "category": "direction"
     },
     {
         "label": "mockup-browser",
-        "detail": "Browser mockup"
+        "detail": "Browser mockup",
+        "category": "component"
     },
     {
         "label": "mockup-browser-toolbar",
-        "detail": "Toolbar part which can include addressbar, etc"
+        "detail": "Toolbar part which can include addressbar, etc",
+        "category": "part"
     },
     {
         "label": "status",
-        "detail": "Status icon"
+        "detail": "Status icon",
+        "category": "component"
     },
     {
         "label": "status-neutral",
-        "detail": "neutral color"
+        "detail": "neutral color",
+        "category": "color"
     },
     {
         "label": "status-primary",
-        "detail": "primary color"
+        "detail": "primary color",
+        "category": "color"
     },
     {
         "label": "status-secondary",
-        "detail": "secondary color"
+        "detail": "secondary color",
+        "category": "color"
     },
     {
         "label": "status-accent",
-        "detail": "accent color"
+        "detail": "accent color",
+        "category": "color"
     },
     {
         "label": "status-info",
-        "detail": "info color"
+        "detail": "info color",
+        "category": "color"
     },
     {
         "label": "status-success",
-        "detail": "success color"
+        "detail": "success color",
+        "category": "color"
     },
     {
         "label": "status-warning",
-        "detail": "warning color"
+        "detail": "warning color",
+        "category": "color"
     },
     {
         "label": "status-error",
-        "detail": "error color"
+        "detail": "error color",
+        "category": "color"
     },
     {
         "label": "status-xs",
-        "detail": "extra small size"
+        "detail": "extra small size",
+        "category": "size"
     },
     {
         "label": "status-sm",
-        "detail": "small size"
+        "detail": "small size",
+        "category": "size"
     },
     {
         "label": "status-md",
-        "detail": "medium size"
+        "detail": "medium size",
+        "category": "size"
     },
     {
         "label": "status-lg",
-        "detail": "large size"
+        "detail": "large size",
+        "category": "size"
     },
     {
         "label": "status-xl",
-        "detail": "extra large size"
+        "detail": "extra large size",
+        "category": "size"
     },
     {
         "label": "file-input",
-        "detail": "For <input type=\"file\"> element"
+        "detail": "For <input type=\"file\"> element",
+        "category": "component"
     },
     {
         "label": "file-input-ghost",
-        "detail": "ghost style"
+        "detail": "ghost style",
+        "category": "style"
     },
     {
         "label": "file-input-neutral",
-        "detail": "neutral color"
+        "detail": "neutral color",
+        "category": "color"
     },
     {
         "label": "file-input-primary",
-        "detail": "primary color"
+        "detail": "primary color",
+        "category": "color"
     },
     {
         "label": "file-input-secondary",
-        "detail": "secondary color"
+        "detail": "secondary color",
+        "category": "color"
     },
     {
         "label": "file-input-accent",
-        "detail": "accent color"
+        "detail": "accent color",
+        "category": "color"
     },
     {
         "label": "file-input-info",
-        "detail": "info color"
+        "detail": "info color",
+        "category": "color"
     },
     {
         "label": "file-input-success",
-        "detail": "success color"
+        "detail": "success color",
+        "category": "color"
     },
     {
         "label": "file-input-warning",
-        "detail": "warning color"
+        "detail": "warning color",
+        "category": "color"
     },
     {
         "label": "file-input-error",
-        "detail": "error color"
+        "detail": "error color",
+        "category": "color"
     },
     {
         "label": "file-input-xs",
-        "detail": "Extra small size"
+        "detail": "Extra small size",
+        "category": "size"
     },
     {
         "label": "file-input-sm",
-        "detail": "Small size"
+        "detail": "Small size",
+        "category": "size"
     },
     {
         "label": "file-input-md",
-        "detail": "Medium size"
+        "detail": "Medium size",
+        "category": "size"
     },
     {
         "label": "file-input-lg",
-        "detail": "Large size"
+        "detail": "Large size",
+        "category": "size"
     },
     {
         "label": "file-input-xl",
-        "detail": "Extra large size"
+        "detail": "Extra large size",
+        "category": "size"
     },
     {
         "label": "diff",
-        "detail": "Container element"
+        "detail": "Container element",
+        "category": "component"
     },
     {
         "label": "diff-item-1",
-        "detail": "First item"
+        "detail": "First item",
+        "category": "part"
     },
     {
         "label": "diff-item-2",
-        "detail": "Second item"
+        "detail": "Second item",
+        "category": "part"
     },
     {
         "label": "diff-resizer",
-        "detail": "The resizer control"
+        "detail": "The resizer control",
+        "category": "part"
     },
     {
         "label": "filter",
-        "detail": "For a HTML <form> or a <div> element that includes radio buttons for filtering items"
+        "detail": "For a HTML <form> or a <div> element that includes radio buttons for filtering items",
+        "category": "component"
     },
     {
         "label": "filter-reset",
-        "detail": "An alternative to the reset button if you can't use a HTML form"
+        "detail": "An alternative to the reset button if you can't use a HTML form",
+        "category": "part"
     },
     {
         "label": "theme-controller",
-        "detail": "For a checkbox or radio input that must change the page theme"
+        "detail": "For a checkbox or radio input that must change the page theme",
+        "category": "component"
     }
 ]

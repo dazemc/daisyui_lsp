@@ -19,11 +19,24 @@ for dir_path in component_dirs:
             component_contents.append(open(name_path, "r").readlines())
 
 components = []
-class_name_pattern = "- class:"
+class_categories = [
+    "component",
+    "color",
+    "style",
+    "behavior",
+    "size",
+    "modifier",
+    "placement",
+    "part",
+    "direction",
+]
+class_name_pattern = "class:"
 class_desc_pattern = "desc:"
 for component in component_contents:
     for i, line in enumerate(component):
         line = str(line)
+        if line.strip()[:-1] in class_categories:
+            category = line.strip()[:-1]
         if class_name_pattern in line:
             start = line.index(":") + 2
             name = line[start:]
@@ -34,7 +47,13 @@ for component in component_contents:
             if class_desc_pattern in desc_line:
                 start = desc_line.index(":") + 2
                 desc = desc_line[start:].strip()
-                components.append({"label": name, "detail": desc})
+                components.append(
+                    {
+                        "label": name,
+                        "detail": desc,
+                        "category": locals().get("category", None),
+                    }
+                )
 
 with open("components.json", "w") as file:
     json.dump(components, file, indent=4)

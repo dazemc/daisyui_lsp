@@ -14,7 +14,6 @@ void main(List<String> arguments) async {
   });
   final log = Logger('DaisyUILspServer');
   log.info('Initializing DaisyUI LSP server...');
-
   // Create LSP connection
   final connection = Connection(stdin, stdout);
   final List<String> triggers = ['"', "'", ' '];

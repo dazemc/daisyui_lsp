@@ -22,8 +22,8 @@ local configs = require 'lspconfig.configs'
         capabilities = capabilities, -- Assuming 'capabilities' is defined earlier
         on_attach = function(client, bufnr)
           local opts = { noremap = true, silent = true }
-          vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', opts)
-          vim.api.nvim_buf_set_keymap(bufnr, 'n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
+          -- vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', opts)
+          -- vim.api.nvim_buf_set_keymap(bufnr, 'n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
           -- Keep other on_attach logic from your global LspAttach if desired,
           -- or move specific mappings here. The global LspAttach often handles
           -- generic mappings like rename, code action etc.
