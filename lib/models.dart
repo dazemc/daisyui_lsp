@@ -1,12 +1,12 @@
 import 'package:lsp_server/lsp_server.dart';
 
-class DaisyuiComponents {
+class DaisyuiComponent {
   final String label;
   final String detail;
-  DaisyuiComponents({required this.label, required this.detail});
+  const DaisyuiComponent({required this.label, required this.detail});
 }
 
-CompletionItem toCompletionItem(DaisyuiComponents component) {
+CompletionItem toCompletionItem(DaisyuiComponent component) {
   return CompletionItem(
     label: component.label,
     kind: CompletionItemKind.Text,

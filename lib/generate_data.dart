@@ -2,18 +2,25 @@ import 'dart:convert';
 import 'dart:io';
 
 void main() async {
-  final jsonStr = await File('lib/components.json').readAsString();
-  final jsonData = jsonDecode(jsonStr) as List<dynamic>;
+  final file = File('lib/components.json');
+  final jsonString = await file.readAsString();
+  final List<dynamic> data = jsonDecode(jsonString) as List<dynamic>;
 
   final buffer = StringBuffer();
-  buffer.writeln('// GENERATED FILE, DO NOT EDIT');
-  buffer.writeln('const bakedComponents = [');
+  buffer.writeln('// GENERATED CODE — DO NOT EDIT');
+  buffer.writeln('import "models.dart";\n');
+  buffer.writeln('const components = <DaisyuiComponent>[');
 
-  for (final item in jsonData) {
+  for (final item in data) {
     final label = jsonEncode(item['label']);
     final detail = jsonEncode(item['detail']);
-    buffer.writeln(" { 'label': $label, 'detail': $detail},");
+    buffer.writeln('DaisyuiComponent(label: $label, detail: $detail),');
   }
+
   buffer.writeln('];');
-  await File('lib/baked_components.dart').writeAsString(buffer.toString());
+
+  final outputFile = File('lib/baked_components.dart');
+  await outputFile.writeAsString(buffer.toString());
+
+  print('✅ baked_components.dart generated successfully.');
 }

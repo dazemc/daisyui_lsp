@@ -2,6 +2,7 @@ import 'dart:io';
 import 'package:logging/logging.dart';
 import 'package:lsp_server/lsp_server.dart';
 
+
 void main(List<String> arguments) async {
   final logFile = File('/home/daze/daisyui_lsp.log');
   // Set up logging
