@@ -1,7 +1,7 @@
 import 'dart:io';
+import 'package:daisyui_lsp/baked_completion.dart';
 import 'package:logging/logging.dart';
 import 'package:lsp_server/lsp_server.dart';
-
 
 void main(List<String> arguments) async {
   final logFile = File('/home/daze/daisyui_lsp.log');
@@ -45,18 +45,18 @@ void main(List<String> arguments) async {
   });
 
   connection.onCompletion((params) async {
-    final List<CompletionItem> completionItems = <CompletionItem>[
-      CompletionItem(
-        label: 'btn',
-        kind: CompletionItemKind.Text,
-        detail: 'DaisyUI button class',
-        insertText: 'btn',
-        insertTextFormat: InsertTextFormat.PlainText,
-      ),
-    ];
+    // final List<CompletionItem> completionItems = <CompletionItem>[
+    //   CompletionItem(
+    //     label: 'btn',
+    //     kind: CompletionItemKind.Text,
+    //     detail: 'DaisyUI button class',
+    //     insertText: 'btn',
+    //     insertTextFormat: InsertTextFormat.PlainText,
+    //   ),
+    // ];
 
-    final completionList = CompletionList(isIncomplete: false, items: completionItems);
-    return completionList;
+    final completions = CompletionList(isIncomplete: false, items: completionList);
+    return completions;
   });
 
   // Start listening for LSP messages
