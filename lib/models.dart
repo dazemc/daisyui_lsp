@@ -5,12 +5,12 @@ class DaisyuiComponent {
   final String detail;
   const DaisyuiComponent({required this.label, required this.detail});
 
-  CompletionItem toCompletionItem(DaisyuiComponent component) {
+  CompletionItem toCompletionItem() {
     return CompletionItem(
-      label: component.label,
+      label: label,
       kind: CompletionItemKind.Text,
-      detail: component.detail,
-      insertText: component.label,
+      detail: detail,
+      insertText: label,
       insertTextFormat: InsertTextFormat.PlainText,
     );
   }
