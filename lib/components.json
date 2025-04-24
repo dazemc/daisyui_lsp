@@ -1,0 +1,2572 @@
+[
+    {
+        "stats": {
+            "desc": "Container of multiple stat items"
+        }
+    },
+    {
+        "stat": {
+            "desc": "A block to display stat data about a topic"
+        }
+    },
+    {
+        "stat-title": {
+            "desc": "Title part"
+        }
+    },
+    {
+        "stat-value": {
+            "desc": "Value part"
+        }
+    },
+    {
+        "stat-desc": {
+            "desc": "Description part"
+        }
+    },
+    {
+        "stat-figure": {
+            "desc": "Figure part for icon, etc"
+        }
+    },
+    {
+        "stat-actions": {
+            "desc": "Actions part for button, etc"
+        }
+    },
+    {
+        "stats-horizontal": {
+            "desc": "Makes stats horizontal (default)"
+        }
+    },
+    {
+        "stats-vertical": {
+            "desc": "Makes stats vertical"
+        }
+    },
+    {
+        "select": {
+            "desc": "For <select> element"
+        }
+    },
+    {
+        "select-ghost": {
+            "desc": "ghost style"
+        }
+    },
+    {
+        "select-neutral": {
+            "desc": "neutral color"
+        }
+    },
+    {
+        "select-primary": {
+            "desc": "primary color"
+        }
+    },
+    {
+        "select-secondary": {
+            "desc": "secondary color"
+        }
+    },
+    {
+        "select-accent": {
+            "desc": "accent color"
+        }
+    },
+    {
+        "select-info": {
+            "desc": "info color"
+        }
+    },
+    {
+        "select-success": {
+            "desc": "success color"
+        }
+    },
+    {
+        "select-warning": {
+            "desc": "warning color"
+        }
+    },
+    {
+        "select-error": {
+            "desc": "error color"
+        }
+    },
+    {
+        "select-xs": {
+            "desc": "Extra small size"
+        }
+    },
+    {
+        "select-sm": {
+            "desc": "Small size"
+        }
+    },
+    {
+        "select-md": {
+            "desc": "Medium size"
+        }
+    },
+    {
+        "select-lg": {
+            "desc": "Large size"
+        }
+    },
+    {
+        "select-xl": {
+            "desc": "Extra large size"
+        }
+    },
+    {
+        "drawer": {
+            "desc": "The wrapper for sidebar and content"
+        }
+    },
+    {
+        "drawer-toggle": {
+            "desc": "The hidden checkbox that controls the state of drawer"
+        }
+    },
+    {
+        "drawer-content": {
+            "desc": "Content part"
+        }
+    },
+    {
+        "drawer-side": {
+            "desc": "Sidebar part"
+        }
+    },
+    {
+        "drawer-overlay": {
+            "desc": "Label that covers the page when drawer is open"
+        }
+    },
+    {
+        "drawer-end": {
+            "desc": "puts drawer to the other side"
+        }
+    },
+    {
+        "drawer-open": {
+            "desc": "Forces the drawer to be open"
+        }
+    },
+    {
+        "progress": {
+            "desc": "For <progress> tag"
+        }
+    },
+    {
+        "progress-neutral": {
+            "desc": "neutral color"
+        }
+    },
+    {
+        "progress-primary": {
+            "desc": "primary color"
+        }
+    },
+    {
+        "progress-secondary": {
+            "desc": "secondary color"
+        }
+    },
+    {
+        "progress-accent": {
+            "desc": "accent color"
+        }
+    },
+    {
+        "progress-info": {
+            "desc": "info color"
+        }
+    },
+    {
+        "progress-success": {
+            "desc": "success color"
+        }
+    },
+    {
+        "progress-warning": {
+            "desc": "warning color"
+        }
+    },
+    {
+        "progress-error": {
+            "desc": "error color"
+        }
+    },
+    {
+        "fieldset": {
+            "desc": "for the fieldset container"
+        }
+    },
+    {
+        "label": {
+            "desc": "label for inputs"
+        }
+    },
+    {
+        "fieldset-legend": {
+            "desc": "for the title of the fieldset"
+        }
+    },
+    {
+        "alert": {
+            "desc": "Container element"
+        }
+    },
+    {
+        "alert-outline": {
+            "desc": "outline style"
+        }
+    },
+    {
+        "alert-dash": {
+            "desc": "dash outline style"
+        }
+    },
+    {
+        "alert-soft": {
+            "desc": "soft style"
+        }
+    },
+    {
+        "alert-info": {
+            "desc": "info color"
+        }
+    },
+    {
+        "alert-success": {
+            "desc": "success color"
+        }
+    },
+    {
+        "alert-warning": {
+            "desc": "warning color"
+        }
+    },
+    {
+        "alert-error": {
+            "desc": "error color"
+        }
+    },
+    {
+        "alert-vertical": {
+            "desc": "Vertical layout, good for mobile"
+        }
+    },
+    {
+        "alert-horizontal": {
+            "desc": "Horizontal layout, good for desktop"
+        }
+    },
+    {
+        "divider": {
+            "desc": "A divider line between two elements"
+        }
+    },
+    {
+        "divider-neutral": {
+            "desc": "neutral color"
+        }
+    },
+    {
+        "divider-primary": {
+            "desc": "primary color"
+        }
+    },
+    {
+        "divider-secondary": {
+            "desc": "secondary color"
+        }
+    },
+    {
+        "divider-accent": {
+            "desc": "accent color"
+        }
+    },
+    {
+        "divider-success": {
+            "desc": "success color"
+        }
+    },
+    {
+        "divider-warning": {
+            "desc": "warning color"
+        }
+    },
+    {
+        "divider-info": {
+            "desc": "info color"
+        }
+    },
+    {
+        "divider-error": {
+            "desc": "error color"
+        }
+    },
+    {
+        "divider-vertical": {
+            "desc": "Divide vertical elements (on top of each other)"
+        }
+    },
+    {
+        "divider-horizontal": {
+            "desc": "Divide horizontal elements (next to each other)"
+        }
+    },
+    {
+        "divider-start": {
+            "desc": "Pushes the divider text to the start"
+        }
+    },
+    {
+        "divider-end": {
+            "desc": "Pushes the divider text to the end"
+        }
+    },
+    {
+        "hero": {
+            "desc": "Hero container"
+        }
+    },
+    {
+        "hero-content": {
+            "desc": "content part"
+        }
+    },
+    {
+        "hero-overlay": {
+            "desc": "Overlay that covers the background image"
+        }
+    },
+    {
+        "link": {
+            "desc": "Adds underline"
+        }
+    },
+    {
+        "link-hover": {
+            "desc": "Only shows underline on hover"
+        }
+    },
+    {
+        "link-neutral": {
+            "desc": "neutral color"
+        }
+    },
+    {
+        "link-primary": {
+            "desc": "primary color"
+        }
+    },
+    {
+        "link-secondary": {
+            "desc": "secondary color"
+        }
+    },
+    {
+        "link-accent": {
+            "desc": "accent color"
+        }
+    },
+    {
+        "link-success": {
+            "desc": "success color"
+        }
+    },
+    {
+        "link-info": {
+            "desc": "info color"
+        }
+    },
+    {
+        "link-warning": {
+            "desc": "warning color"
+        }
+    },
+    {
+        "link-error": {
+            "desc": "error color"
+        }
+    },
+    {
+        "kbd": {
+            "desc": "Do show a keyboard key or a shortcut key"
+        }
+    },
+    {
+        "kbd-xs": {
+            "desc": "Extra small size"
+        }
+    },
+    {
+        "kbd-sm": {
+            "desc": "Small size"
+        }
+    },
+    {
+        "kbd-md": {
+            "desc": "Medium size"
+        }
+    },
+    {
+        "kbd-lg": {
+            "desc": "Large size"
+        }
+    },
+    {
+        "kbd-xl": {
+            "desc": "Extra large size"
+        }
+    },
+    {
+        "mockup-code": {
+            "desc": "Code terminal mockup"
+        }
+    },
+    {
+        "loading": {
+            "desc": "Loading element"
+        }
+    },
+    {
+        "loading-spinner": {
+            "desc": "spinner animation"
+        }
+    },
+    {
+        "loading-dots": {
+            "desc": "dots animation"
+        }
+    },
+    {
+        "loading-ring": {
+            "desc": "ring animation"
+        }
+    },
+    {
+        "loading-ball": {
+            "desc": "ball animation"
+        }
+    },
+    {
+        "loading-bars": {
+            "desc": "bars animation"
+        }
+    },
+    {
+        "loading-infinity": {
+            "desc": "infinity animation"
+        }
+    },
+    {
+        "loading-xs": {
+            "desc": "Extra small size"
+        }
+    },
+    {
+        "loading-sm": {
+            "desc": "Small size"
+        }
+    },
+    {
+        "loading-md": {
+            "desc": "Medium size"
+        }
+    },
+    {
+        "loading-lg": {
+            "desc": "Large size"
+        }
+    },
+    {
+        "loading-xl": {
+            "desc": "Extra large size"
+        }
+    },
+    {
+        "skeleton": {
+            "desc": "A placeholder div with loading animation"
+        }
+    },
+    {
+        "swap": {
+            "desc": "Swap container"
+        }
+    },
+    {
+        "swap-on": {
+            "desc": "The child element that should be visible when checkbox is checked or when swap is active"
+        }
+    },
+    {
+        "swap-off": {
+            "desc": "The child element that should be visible when checkbox is not checked or when swap is not active"
+        }
+    },
+    {
+        "swap-indeterminate": {
+            "desc": "The child element that should be visible when checkbox is indeterminate"
+        }
+    },
+    {
+        "swap-active": {
+            "desc": "Activates the swap (no need for checkbox)"
+        }
+    },
+    {
+        "swap-rotate": {
+            "desc": "Adds rotate effect to swap"
+        }
+    },
+    {
+        "swap-flip": {
+            "desc": "Adds flip effect to swap"
+        }
+    },
+    {
+        "badge": {
+            "desc": "Container element"
+        }
+    },
+    {
+        "badge-outline": {
+            "desc": "outline style"
+        }
+    },
+    {
+        "badge-dash": {
+            "desc": "dash outline style"
+        }
+    },
+    {
+        "badge-soft": {
+            "desc": "soft style"
+        }
+    },
+    {
+        "badge-ghost": {
+            "desc": "ghost style"
+        }
+    },
+    {
+        "badge-neutral": {
+            "desc": "neutral color"
+        }
+    },
+    {
+        "badge-primary": {
+            "desc": "primary color"
+        }
+    },
+    {
+        "badge-secondary": {
+            "desc": "secondary color"
+        }
+    },
+    {
+        "badge-accent": {
+            "desc": "accent color"
+        }
+    },
+    {
+        "badge-info": {
+            "desc": "info color"
+        }
+    },
+    {
+        "badge-success": {
+            "desc": "success color"
+        }
+    },
+    {
+        "badge-warning": {
+            "desc": "warning color"
+        }
+    },
+    {
+        "badge-error": {
+            "desc": "error color"
+        }
+    },
+    {
+        "badge-xs": {
+            "desc": "extra small size"
+        }
+    },
+    {
+        "badge-sm": {
+            "desc": "small size"
+        }
+    },
+    {
+        "badge-md": {
+            "desc": "medium size (default)"
+        }
+    },
+    {
+        "badge-lg": {
+            "desc": "large size"
+        }
+    },
+    {
+        "badge-xl": {
+            "desc": "extra large size"
+        }
+    },
+    {
+        "radio": {
+            "desc": "For radio input"
+        }
+    },
+    {
+        "radio-neutral": {
+            "desc": "neutral color"
+        }
+    },
+    {
+        "radio-primary": {
+            "desc": "primary color"
+        }
+    },
+    {
+        "radio-secondary": {
+            "desc": "secondary color"
+        }
+    },
+    {
+        "radio-accent": {
+            "desc": "accent color"
+        }
+    },
+    {
+        "radio-success": {
+            "desc": "success color"
+        }
+    },
+    {
+        "radio-warning": {
+            "desc": "warning color"
+        }
+    },
+    {
+        "radio-info": {
+            "desc": "info color"
+        }
+    },
+    {
+        "radio-error": {
+            "desc": "error color"
+        }
+    },
+    {
+        "radio-xs": {
+            "desc": "Extra small size"
+        }
+    },
+    {
+        "radio-sm": {
+            "desc": "Small size"
+        }
+    },
+    {
+        "radio-md": {
+            "desc": "Medium size"
+        }
+    },
+    {
+        "radio-lg": {
+            "desc": "Large size"
+        }
+    },
+    {
+        "radio-xl": {
+            "desc": "Extra large size"
+        }
+    },
+    {
+        "navbar": {
+            "desc": "Navigation bar"
+        }
+    },
+    {
+        "navbar-start": {
+            "desc": "For the div inside navbar, to fill 50% of width"
+        }
+    },
+    {
+        "navbar-center": {
+            "desc": "For the div inside navbar, to be at center horizontally"
+        }
+    },
+    {
+        "navbar-end": {
+            "desc": "For the div inside navbar, to fill second 50% of width"
+        }
+    },
+    {
+        "collapse": {
+            "desc": "Collapse"
+        }
+    },
+    {
+        "collapse-title": {
+            "desc": "Title part"
+        }
+    },
+    {
+        "collapse-content": {
+            "desc": "Content part"
+        }
+    },
+    {
+        "collapse-arrow": {
+            "desc": "Adds arrow icon"
+        }
+    },
+    {
+        "collapse-plus": {
+            "desc": "Adds plus/minus icon"
+        }
+    },
+    {
+        "collapse-open": {
+            "desc": "Force open"
+        }
+    },
+    {
+        "collapse-close": {
+            "desc": "Force close"
+        }
+    },
+    {
+        "textarea": {
+            "desc": "For <textarea> element"
+        }
+    },
+    {
+        "textarea-ghost": {
+            "desc": "ghost style"
+        }
+    },
+    {
+        "textarea-neutral": {
+            "desc": "neutral color"
+        }
+    },
+    {
+        "textarea-primary": {
+            "desc": "primary color"
+        }
+    },
+    {
+        "textarea-secondary": {
+            "desc": "secondary color"
+        }
+    },
+    {
+        "textarea-accent": {
+            "desc": "accent color"
+        }
+    },
+    {
+        "textarea-info": {
+            "desc": "info color"
+        }
+    },
+    {
+        "textarea-success": {
+            "desc": "success color"
+        }
+    },
+    {
+        "textarea-warning": {
+            "desc": "warning color"
+        }
+    },
+    {
+        "textarea-error": {
+            "desc": "error color"
+        }
+    },
+    {
+        "textarea-xs": {
+            "desc": "Extra small size"
+        }
+    },
+    {
+        "textarea-sm": {
+            "desc": "Small size"
+        }
+    },
+    {
+        "textarea-md": {
+            "desc": "Medium size"
+        }
+    },
+    {
+        "textarea-lg": {
+            "desc": "Large size"
+        }
+    },
+    {
+        "textarea-xl": {
+            "desc": "Extra large size"
+        }
+    },
+    {
+        "btn": {
+            "desc": "Button"
+        }
+    },
+    {
+        "btn-neutral": {
+            "desc": "neutral color"
+        }
+    },
+    {
+        "btn-primary": {
+            "desc": "primary color"
+        }
+    },
+    {
+        "btn-secondary": {
+            "desc": "secondary color"
+        }
+    },
+    {
+        "btn-accent": {
+            "desc": "accent color"
+        }
+    },
+    {
+        "btn-info": {
+            "desc": "info color"
+        }
+    },
+    {
+        "btn-success": {
+            "desc": "success color"
+        }
+    },
+    {
+        "btn-warning": {
+            "desc": "warning color"
+        }
+    },
+    {
+        "btn-error": {
+            "desc": "error color"
+        }
+    },
+    {
+        "btn-outline": {
+            "desc": "outline style"
+        }
+    },
+    {
+        "btn-dash": {
+            "desc": "dash style"
+        }
+    },
+    {
+        "btn-soft": {
+            "desc": "soft style"
+        }
+    },
+    {
+        "btn-ghost": {
+            "desc": "ghost style"
+        }
+    },
+    {
+        "btn-link": {
+            "desc": "looks like a link"
+        }
+    },
+    {
+        "btn-active": {
+            "desc": "looks active"
+        }
+    },
+    {
+        "btn-disabled": {
+            "desc": "looks disabled"
+        }
+    },
+    {
+        "btn-xs": {
+            "desc": "Extra small size"
+        }
+    },
+    {
+        "btn-sm": {
+            "desc": "Small size"
+        }
+    },
+    {
+        "btn-md": {
+            "desc": "Medium size (default)"
+        }
+    },
+    {
+        "btn-lg": {
+            "desc": "Large size"
+        }
+    },
+    {
+        "btn-xl": {
+            "desc": "Extra large size"
+        }
+    },
+    {
+        "btn-wide": {
+            "desc": "more horizontal padding"
+        }
+    },
+    {
+        "btn-block": {
+            "desc": "Full width"
+        }
+    },
+    {
+        "btn-square": {
+            "desc": "1:1 ratio"
+        }
+    },
+    {
+        "btn-circle": {
+            "desc": "1:1 ratio with rounded corners"
+        }
+    },
+    {
+        "chat": {
+            "desc": "Container for one line of conversation and its data"
+        }
+    },
+    {
+        "chat-image": {
+            "desc": "Author image"
+        }
+    },
+    {
+        "chat-header": {
+            "desc": "Text above the chat bubble"
+        }
+    },
+    {
+        "chat-footer": {
+            "desc": "Text below the chat bubble"
+        }
+    },
+    {
+        "chat-bubble": {
+            "desc": "Chat bubble"
+        }
+    },
+    {
+        "chat-start": {
+            "desc": "Aligns chat to start horizontally (required)"
+        }
+    },
+    {
+        "chat-end": {
+            "desc": "Aligns chat to end horizontally (required)"
+        }
+    },
+    {
+        "chat-bubble-neutral": {
+            "desc": "neutral color for chat-bubble"
+        }
+    },
+    {
+        "chat-bubble-primary": {
+            "desc": "primary color for chat-bubble"
+        }
+    },
+    {
+        "chat-bubble-secondary": {
+            "desc": "secondary color for chat-bubble"
+        }
+    },
+    {
+        "chat-bubble-accent": {
+            "desc": "accent color for chat-bubble"
+        }
+    },
+    {
+        "chat-bubble-info": {
+            "desc": "info color for chat-bubble"
+        }
+    },
+    {
+        "chat-bubble-success": {
+            "desc": "success color for chat-bubble"
+        }
+    },
+    {
+        "chat-bubble-warning": {
+            "desc": "warning color for chat-bubble"
+        }
+    },
+    {
+        "chat-bubble-error": {
+            "desc": "error color for chat-bubble"
+        }
+    },
+    {
+        "tabs": {
+            "desc": "Container of multiple tab items"
+        }
+    },
+    {
+        "tab": {
+            "desc": "A single tab button (can be button, link, div, radio input, etc)"
+        }
+    },
+    {
+        "tab-content": {
+            "desc": "Tab content that comes immediately after a tab"
+        }
+    },
+    {
+        "tabs-box": {
+            "desc": "box style"
+        }
+    },
+    {
+        "tabs-border": {
+            "desc": "bottom border style"
+        }
+    },
+    {
+        "tabs-lift": {
+            "desc": "lift style"
+        }
+    },
+    {
+        "tab-active": {
+            "desc": "Makes a single tab look active"
+        }
+    },
+    {
+        "tab-disabled": {
+            "desc": "Makes a single tab look disabled"
+        }
+    },
+    {
+        "tabs-top": {
+            "desc": "Puts tab buttons on top of the tab-content (default)"
+        }
+    },
+    {
+        "tabs-bottom": {
+            "desc": "Puts tabs on under the tab-content"
+        }
+    },
+    {
+        "tabs-xs": {
+            "desc": "Extra small size"
+        }
+    },
+    {
+        "tabs-sm": {
+            "desc": "Small size"
+        }
+    },
+    {
+        "tabs-md": {
+            "desc": "Medium size"
+        }
+    },
+    {
+        "tabs-lg": {
+            "desc": "Large size"
+        }
+    },
+    {
+        "tabs-xl": {
+            "desc": "Extra large size"
+        }
+    },
+    {
+        "stack": {
+            "desc": "Puts the children elements on top of each other"
+        }
+    },
+    {
+        "stack-top": {
+            "desc": "Aligns the children elements to the top"
+        }
+    },
+    {
+        "stack-bottom": {
+            "desc": "Aligns the children elements to the bottom"
+        }
+    },
+    {
+        "stack-start": {
+            "desc": "Aligns the children elements to the start (horizontally)"
+        }
+    },
+    {
+        "stack-end": {
+            "desc": "Aligns the children elements to the end (horizontally)"
+        }
+    },
+    {
+        "join": {
+            "desc": "For grouping multiple items"
+        }
+    },
+    {
+        "join-item": {
+            "desc": "Item inside join. Can be a button, input, etc."
+        }
+    },
+    {
+        "join-vertical": {
+            "desc": "Show items vertically"
+        }
+    },
+    {
+        "join-horizontal": {
+            "desc": "Show items horizontally"
+        }
+    },
+    {
+        "range": {
+            "desc": "For <input type=\"range\"> tag"
+        }
+    },
+    {
+        "range-neutral": {
+            "desc": "neutral color"
+        }
+    },
+    {
+        "range-primary": {
+            "desc": "primary color"
+        }
+    },
+    {
+        "range-secondary": {
+            "desc": "secondary color"
+        }
+    },
+    {
+        "range-accent": {
+            "desc": "accent color"
+        }
+    },
+    {
+        "range-success": {
+            "desc": "success color"
+        }
+    },
+    {
+        "range-warning": {
+            "desc": "warning color"
+        }
+    },
+    {
+        "range-info": {
+            "desc": "info color"
+        }
+    },
+    {
+        "range-error": {
+            "desc": "error color"
+        }
+    },
+    {
+        "range-xs": {
+            "desc": "Extra small size"
+        }
+    },
+    {
+        "range-sm": {
+            "desc": "Small size"
+        }
+    },
+    {
+        "range-md": {
+            "desc": "Medium size"
+        }
+    },
+    {
+        "range-lg": {
+            "desc": "Large size"
+        }
+    },
+    {
+        "range-xl": {
+            "desc": "Extra large size"
+        }
+    },
+    {
+        "checkbox": {
+            "desc": "Checkbox"
+        }
+    },
+    {
+        "checkbox-primary": {
+            "desc": "primary color"
+        }
+    },
+    {
+        "checkbox-secondary": {
+            "desc": "secondary color"
+        }
+    },
+    {
+        "checkbox-accent": {
+            "desc": "accent color"
+        }
+    },
+    {
+        "checkbox-neutral": {
+            "desc": "neutral color"
+        }
+    },
+    {
+        "checkbox-success": {
+            "desc": "success color"
+        }
+    },
+    {
+        "checkbox-warning": {
+            "desc": "warning color"
+        }
+    },
+    {
+        "checkbox-info": {
+            "desc": "info color"
+        }
+    },
+    {
+        "checkbox-error": {
+            "desc": "error color"
+        }
+    },
+    {
+        "checkbox-xs": {
+            "desc": "Extra small size"
+        }
+    },
+    {
+        "checkbox-sm": {
+            "desc": "Small size"
+        }
+    },
+    {
+        "checkbox-md": {
+            "desc": "Medium size"
+        }
+    },
+    {
+        "checkbox-lg": {
+            "desc": "Large size"
+        }
+    },
+    {
+        "checkbox-xl": {
+            "desc": "Extra large size"
+        }
+    },
+    {
+        "radial-progress": {
+            "desc": "Shows a radial progress"
+        }
+    },
+    {
+        "toast": {
+            "desc": "Container element that sticks to the corner of page"
+        }
+    },
+    {
+        "toast-start": {
+            "desc": "align horizontally to the left"
+        }
+    },
+    {
+        "toast-center": {
+            "desc": "align horizontally to the center"
+        }
+    },
+    {
+        "toast-end": {
+            "desc": "align horizontally to the right"
+        }
+    },
+    {
+        "toast-top": {
+            "desc": "align vertically to top"
+        }
+    },
+    {
+        "toast-middle": {
+            "desc": "align vertically to middle"
+        }
+    },
+    {
+        "toast-bottom": {
+            "desc": "align vertically to bottom"
+        }
+    },
+    {
+        "steps": {
+            "desc": "Container of multiple step nodes"
+        }
+    },
+    {
+        "step": {
+            "desc": "A single step node"
+        }
+    },
+    {
+        "step-icon": {
+            "desc": "For custom icon inside step"
+        }
+    },
+    {
+        "step-neutral": {
+            "desc": "neutral color"
+        }
+    },
+    {
+        "step-primary": {
+            "desc": "primary color"
+        }
+    },
+    {
+        "step-secondary": {
+            "desc": "secondary color"
+        }
+    },
+    {
+        "step-accent": {
+            "desc": "accent color"
+        }
+    },
+    {
+        "step-info": {
+            "desc": "info color"
+        }
+    },
+    {
+        "step-success": {
+            "desc": "success color"
+        }
+    },
+    {
+        "step-warning": {
+            "desc": "warning color"
+        }
+    },
+    {
+        "step-error": {
+            "desc": "error color"
+        }
+    },
+    {
+        "steps-vertical": {
+            "desc": "Makes steps vertical (default)"
+        }
+    },
+    {
+        "steps-horizontal": {
+            "desc": "Makes steps horizontal"
+        }
+    },
+    {
+        "cally": {
+            "desc": "for Cally web component"
+        }
+    },
+    {
+        "pika-single": {
+            "desc": "for the input field that opens Pikaday calendar"
+        }
+    },
+    {
+        "react-day-picker": {
+            "desc": "for the DayPicker component"
+        }
+    },
+    {
+        "toggle": {
+            "desc": "For <input type=\"checkbox\">"
+        }
+    },
+    {
+        "toggle-primary": {
+            "desc": "primary color"
+        }
+    },
+    {
+        "toggle-secondary": {
+            "desc": "secondary color"
+        }
+    },
+    {
+        "toggle-accent": {
+            "desc": "accent color"
+        }
+    },
+    {
+        "toggle-neutral": {
+            "desc": "neutral color"
+        }
+    },
+    {
+        "toggle-success": {
+            "desc": "success color"
+        }
+    },
+    {
+        "toggle-warning": {
+            "desc": "warning color"
+        }
+    },
+    {
+        "toggle-info": {
+            "desc": "info color"
+        }
+    },
+    {
+        "toggle-error": {
+            "desc": "error color"
+        }
+    },
+    {
+        "toggle-xs": {
+            "desc": "Extra small size"
+        }
+    },
+    {
+        "toggle-sm": {
+            "desc": "Small size"
+        }
+    },
+    {
+        "toggle-md": {
+            "desc": "Medium size"
+        }
+    },
+    {
+        "toggle-lg": {
+            "desc": "Large size"
+        }
+    },
+    {
+        "toggle-xl": {
+            "desc": "Extra large size"
+        }
+    },
+    {
+        "join": {
+            "desc": "For grouping multiple items"
+        }
+    },
+    {
+        "join-item": {
+            "desc": "Item inside join. Can be a button, input, etc."
+        }
+    },
+    {
+        "join-vertical": {
+            "desc": "Show items vertically"
+        }
+    },
+    {
+        "join-horizontal": {
+            "desc": "Show items horizontally"
+        }
+    },
+    {
+        "mockup-phone": {
+            "desc": "Phone mockup"
+        }
+    },
+    {
+        "mockup-phone-camera": {
+            "desc": "Camera part"
+        }
+    },
+    {
+        "mockup-phone-display": {
+            "desc": "Display part"
+        }
+    },
+    {
+        "mockup-window": {
+            "desc": "OS window mockup"
+        }
+    },
+    {
+        "carousel": {
+            "desc": "Carousel container"
+        }
+    },
+    {
+        "carousel-item": {
+            "desc": "Carousel item"
+        }
+    },
+    {
+        "carousel-start": {
+            "desc": "Snap elements to start"
+        }
+    },
+    {
+        "carousel-center": {
+            "desc": "Snap elements to center"
+        }
+    },
+    {
+        "carousel-end": {
+            "desc": "Snap elements to end"
+        }
+    },
+    {
+        "carousel-horizontal": {
+            "desc": "Horizontal layout (default)"
+        }
+    },
+    {
+        "carousel-vertical": {
+            "desc": "Vertical layout"
+        }
+    },
+    {
+        "list": {
+            "desc": "A vertical flex layout to include list rows"
+        }
+    },
+    {
+        "list-row": {
+            "desc": "The item inside list. A horizontal grid layout to include data"
+        }
+    },
+    {
+        "list-col-wrap": {
+            "desc": "For one of direct children of list-row to push it to the next line"
+        }
+    },
+    {
+        "list-col-grow": {
+            "desc": "For one of direct children of list-row to make it fill the remaining space"
+        }
+    },
+    {
+        "tooltip": {
+            "desc": "Container element"
+        }
+    },
+    {
+        "tooltip-content": {
+            "desc": "Optional. Setting a div as the content of the tooltip instead of the `data-tip` text"
+        }
+    },
+    {
+        "tooltip-top": {
+            "desc": "Put tooltip on top"
+        }
+    },
+    {
+        "tooltip-bottom": {
+            "desc": "Put tooltip on bottom"
+        }
+    },
+    {
+        "tooltip-left": {
+            "desc": "Put tooltip on left"
+        }
+    },
+    {
+        "tooltip-right": {
+            "desc": "Put tooltip on right"
+        }
+    },
+    {
+        "tooltip-open": {
+            "desc": "Force open tooltip"
+        }
+    },
+    {
+        "tooltip-neutral": {
+            "desc": "neutral color"
+        }
+    },
+    {
+        "tooltip-primary": {
+            "desc": "primary color"
+        }
+    },
+    {
+        "tooltip-secondary": {
+            "desc": "secondary color"
+        }
+    },
+    {
+        "tooltip-accent": {
+            "desc": "accent color"
+        }
+    },
+    {
+        "tooltip-info": {
+            "desc": "info color"
+        }
+    },
+    {
+        "tooltip-success": {
+            "desc": "success color"
+        }
+    },
+    {
+        "tooltip-warning": {
+            "desc": "warning color"
+        }
+    },
+    {
+        "tooltip-error": {
+            "desc": "error color"
+        }
+    },
+    {
+        "dock": {
+            "desc": "Dock"
+        }
+    },
+    {
+        "dock-label": {
+            "desc": "Text label for Dock Item"
+        }
+    },
+    {
+        "dock-active": {
+            "desc": "Makes the Dock Item look active"
+        }
+    },
+    {
+        "dock-xs": {
+            "desc": "Extra Small Dock"
+        }
+    },
+    {
+        "dock-sm": {
+            "desc": "Small Dock"
+        }
+    },
+    {
+        "dock-md": {
+            "desc": "Medium Dock"
+        }
+    },
+    {
+        "dock-lg": {
+            "desc": "Large Dock"
+        }
+    },
+    {
+        "dock-xl": {
+            "desc": "Extra Large Dock"
+        }
+    },
+    {
+        "modal": {
+            "desc": "Modal"
+        }
+    },
+    {
+        "modal-box": {
+            "desc": "The content part"
+        }
+    },
+    {
+        "modal-action": {
+            "desc": "Actions part (buttons, etc.)"
+        }
+    },
+    {
+        "modal-backdrop": {
+            "desc": "Label that covers the page when modal is open so we can close the modal by clicking outside"
+        }
+    },
+    {
+        "modal-toggle": {
+            "desc": "Hidden checkbox that controls the state of modal"
+        }
+    },
+    {
+        "modal-open": {
+            "desc": "Keeps the modal open (you can add this class using JS)"
+        }
+    },
+    {
+        "modal-top": {
+            "desc": "Moves the modal to top"
+        }
+    },
+    {
+        "modal-middle": {
+            "desc": "Moves the modal to middle"
+        }
+    },
+    {
+        "modal-bottom": {
+            "desc": "Moves the modal to bottom"
+        }
+    },
+    {
+        "modal-start": {
+            "desc": "Moves the modal to start horizontally"
+        }
+    },
+    {
+        "modal-end": {
+            "desc": "Moves the modal to end horizontally"
+        }
+    },
+    {
+        "menu": {
+            "desc": "For <ul> tag"
+        }
+    },
+    {
+        "menu-title": {
+            "desc": "styles a <li> as title"
+        }
+    },
+    {
+        "menu-dropdown": {
+            "desc": "For the collapsible <ul> if you want to show it using JS"
+        }
+    },
+    {
+        "menu-dropdown-toggle": {
+            "desc": "For the toggle to show/hide the menu-dropdown using JS"
+        }
+    },
+    {
+        "menu-disabled": {
+            "desc": "For disabling a <li>"
+        }
+    },
+    {
+        "menu-active": {
+            "desc": "For the element inside <li> to look active"
+        }
+    },
+    {
+        "menu-focus": {
+            "desc": "For the element inside <li> to look focused"
+        }
+    },
+    {
+        "menu-dropdown-show": {
+            "desc": "Shows the menu-dropdown-toggle and menu-dropdown collapsible submenu using JS"
+        }
+    },
+    {
+        "menu-xs": {
+            "desc": "Extra small size"
+        }
+    },
+    {
+        "menu-sm": {
+            "desc": "Small size"
+        }
+    },
+    {
+        "menu-md": {
+            "desc": "Medium size"
+        }
+    },
+    {
+        "menu-lg": {
+            "desc": "Large size"
+        }
+    },
+    {
+        "menu-xl": {
+            "desc": "Extra large size"
+        }
+    },
+    {
+        "menu-vertical": {
+            "desc": "Vertical menu (default)"
+        }
+    },
+    {
+        "menu-horizontal": {
+            "desc": "Horizontal menu"
+        }
+    },
+    {
+        "table": {
+            "desc": "For <table> tag"
+        }
+    },
+    {
+        "table-zebra": {
+            "desc": "For <table> to show zebra stripe rows"
+        }
+    },
+    {
+        "table-pin-rows": {
+            "desc": "For <table> to make all the rows inside <thead> and <tfoot> sticky"
+        }
+    },
+    {
+        "table-pin-cols": {
+            "desc": "For <table> to make all the <th> columns sticky"
+        }
+    },
+    {
+        "table-xs": {
+            "desc": "Extra small size"
+        }
+    },
+    {
+        "table-sm": {
+            "desc": "Small size"
+        }
+    },
+    {
+        "table-md": {
+            "desc": "Medium size"
+        }
+    },
+    {
+        "table-lg": {
+            "desc": "Large size"
+        }
+    },
+    {
+        "table-xl": {
+            "desc": "Extra large size"
+        }
+    },
+    {
+        "validator": {
+            "desc": "For input, select, textarea"
+        }
+    },
+    {
+        "validator-hint": {
+            "desc": "for the hint text that appears after the input if it's invalid"
+        }
+    },
+    {
+        "card": {
+            "desc": "Card"
+        }
+    },
+    {
+        "card-title": {
+            "desc": "Title part"
+        }
+    },
+    {
+        "card-body": {
+            "desc": "Body part (content)"
+        }
+    },
+    {
+        "card-actions": {
+            "desc": "Actions part (buttons, etc.)"
+        }
+    },
+    {
+        "card-border": {
+            "desc": "Adds border to <card>"
+        }
+    },
+    {
+        "card-dash": {
+            "desc": "dash style"
+        }
+    },
+    {
+        "card-side": {
+            "desc": "The image in <figure> will be on to the side"
+        }
+    },
+    {
+        "image-full": {
+            "desc": "The image in <figure> element will be the background"
+        }
+    },
+    {
+        "card-xs": {
+            "desc": "Extra small size"
+        }
+    },
+    {
+        "card-sm": {
+            "desc": "Small size"
+        }
+    },
+    {
+        "card-md": {
+            "desc": "Medium size (default)"
+        }
+    },
+    {
+        "card-lg": {
+            "desc": "Large size"
+        }
+    },
+    {
+        "card-xl": {
+            "desc": "Extra large size"
+        }
+    },
+    {
+        "breadcrumbs": {
+            "desc": "Wrapper around a <ul>"
+        }
+    },
+    {
+        "countdown": {
+            "desc": "Countdown wrapper"
+        }
+    },
+    {
+        "label": {
+            "desc": "For styling the text next to an input field (or select)"
+        }
+    },
+    {
+        "floating-label": {
+            "desc": "For the parent of an input field (or select) and a span that floats above the input field when the field is focused"
+        }
+    },
+    {
+        "rating": {
+            "desc": "For a div containing radio inputs"
+        }
+    },
+    {
+        "rating-half": {
+            "desc": "To shows half of the shapes. Useful for half star ratings"
+        }
+    },
+    {
+        "rating-hidden": {
+            "desc": "For the first radio to make it hidden so user can clear the rating"
+        }
+    },
+    {
+        "rating-xs": {
+            "desc": "Extra small size"
+        }
+    },
+    {
+        "rating-sm": {
+            "desc": "Small size"
+        }
+    },
+    {
+        "rating-md": {
+            "desc": "Medium size"
+        }
+    },
+    {
+        "rating-lg": {
+            "desc": "Large size"
+        }
+    },
+    {
+        "rating-xl": {
+            "desc": "Extra large size"
+        }
+    },
+    {
+        "collapse": {
+            "desc": "Collapse"
+        }
+    },
+    {
+        "collapse-title": {
+            "desc": "Title part"
+        }
+    },
+    {
+        "collapse-content": {
+            "desc": "Content part"
+        }
+    },
+    {
+        "collapse-arrow": {
+            "desc": "Adds arrow icon"
+        }
+    },
+    {
+        "collapse-plus": {
+            "desc": "Adds plus/minus icon"
+        }
+    },
+    {
+        "collapse-open": {
+            "desc": "Force open"
+        }
+    },
+    {
+        "collapse-close": {
+            "desc": "Force close"
+        }
+    },
+    {
+        "avatar": {
+            "desc": "Avatar"
+        }
+    },
+    {
+        "avatar-group": {
+            "desc": "Container for multiple avatars"
+        }
+    },
+    {
+        "avatar-online": {
+            "desc": "shows a green dot as online indicator"
+        }
+    },
+    {
+        "avatar-offline": {
+            "desc": "shows a gray dot as offline indicator"
+        }
+    },
+    {
+        "avatar-placeholder": {
+            "desc": "To show letters as avatar placeholder"
+        }
+    },
+    {
+        "mask": {
+            "desc": "Masks the content with shape"
+        }
+    },
+    {
+        "mask-squircle": {
+            "desc": "squircle"
+        }
+    },
+    {
+        "mask-heart": {
+            "desc": "heart"
+        }
+    },
+    {
+        "mask-hexagon": {
+            "desc": "hexagon vertical"
+        }
+    },
+    {
+        "mask-hexagon-2": {
+            "desc": "hexagon horizontal"
+        }
+    },
+    {
+        "mask-decagon": {
+            "desc": "decagon"
+        }
+    },
+    {
+        "mask-pentagon": {
+            "desc": "pentagon"
+        }
+    },
+    {
+        "mask-diamond": {
+            "desc": "diamond"
+        }
+    },
+    {
+        "mask-square": {
+            "desc": "square"
+        }
+    },
+    {
+        "mask-circle": {
+            "desc": "circle"
+        }
+    },
+    {
+        "mask-star": {
+            "desc": "star"
+        }
+    },
+    {
+        "mask-star-2": {
+            "desc": "star (bold)"
+        }
+    },
+    {
+        "mask-triangle": {
+            "desc": "triangle pointing top"
+        }
+    },
+    {
+        "mask-triangle-2": {
+            "desc": "triangle pointing down"
+        }
+    },
+    {
+        "mask-triangle-3": {
+            "desc": "triangle pointing left"
+        }
+    },
+    {
+        "mask-triangle-4": {
+            "desc": "triangle pointing right"
+        }
+    },
+    {
+        "mask-half-1": {
+            "desc": "Crops only the first half of mask"
+        }
+    },
+    {
+        "mask-half-2": {
+            "desc": "Crops only the second half of mask"
+        }
+    },
+    {
+        "dropdown": {
+            "desc": "Dropdown container"
+        }
+    },
+    {
+        "dropdown-content": {
+            "desc": "Content part"
+        }
+    },
+    {
+        "dropdown-start": {
+            "desc": "Align horizontally to start of button"
+        }
+    },
+    {
+        "dropdown-center": {
+            "desc": "Align horizontally to center of button"
+        }
+    },
+    {
+        "dropdown-end": {
+            "desc": "Align horizontally to end of button"
+        }
+    },
+    {
+        "dropdown-top": {
+            "desc": "Open from top"
+        }
+    },
+    {
+        "dropdown-bottom": {
+            "desc": "Open from bottom"
+        }
+    },
+    {
+        "dropdown-left": {
+            "desc": "Open from left"
+        }
+    },
+    {
+        "dropdown-right": {
+            "desc": "Open from right"
+        }
+    },
+    {
+        "dropdown-hover": {
+            "desc": "Opens on hover too"
+        }
+    },
+    {
+        "dropdown-open": {
+            "desc": "Force open"
+        }
+    },
+    {
+        "indicator": {
+            "desc": "Container element"
+        }
+    },
+    {
+        "indicator-item": {
+            "desc": "will be placed on the corner of sibling"
+        }
+    },
+    {
+        "indicator-start": {
+            "desc": "align horizontally to the start"
+        }
+    },
+    {
+        "indicator-center": {
+            "desc": "align horizontally to the center"
+        }
+    },
+    {
+        "indicator-end": {
+            "desc": "align horizontally to the end"
+        }
+    },
+    {
+        "indicator-top": {
+            "desc": "align vertically to top"
+        }
+    },
+    {
+        "indicator-middle": {
+            "desc": "align vertically to middle"
+        }
+    },
+    {
+        "indicator-bottom": {
+            "desc": "align vertically to bottom"
+        }
+    },
+    {
+        "timeline": {
+            "desc": "Timeline container"
+        }
+    },
+    {
+        "timeline-start": {
+            "desc": "The content inside <li> that will be at the start direction"
+        }
+    },
+    {
+        "timeline-middle": {
+            "desc": "The content inside <li> that will be at the middle"
+        }
+    },
+    {
+        "timeline-end": {
+            "desc": "The content inside <li> that will be at the end direction"
+        }
+    },
+    {
+        "timeline-snap-icon": {
+            "desc": "snaps the icon to the start instead of middle"
+        }
+    },
+    {
+        "timeline-box": {
+            "desc": "Applies a box style to timeline-start or timeline-end"
+        }
+    },
+    {
+        "timeline-compact": {
+            "desc": "forces all items on one side"
+        }
+    },
+    {
+        "timeline-horizontal": {
+            "desc": "horizontal layout (default)"
+        }
+    },
+    {
+        "timeline-vertical": {
+            "desc": "vertical layout"
+        }
+    },
+    {
+        "input": {
+            "desc": "For <input type=\"text\"> tag or a wrapper of <input type=\"text\"> tag"
+        }
+    },
+    {
+        "input-ghost": {
+            "desc": "ghost style"
+        }
+    },
+    {
+        "input-neutral": {
+            "desc": "neutral color"
+        }
+    },
+    {
+        "input-primary": {
+            "desc": "primary color"
+        }
+    },
+    {
+        "input-secondary": {
+            "desc": "secondary color"
+        }
+    },
+    {
+        "input-accent": {
+            "desc": "accent color"
+        }
+    },
+    {
+        "input-info": {
+            "desc": "info color"
+        }
+    },
+    {
+        "input-success": {
+            "desc": "success color"
+        }
+    },
+    {
+        "input-warning": {
+            "desc": "warning color"
+        }
+    },
+    {
+        "input-error": {
+            "desc": "error color"
+        }
+    },
+    {
+        "input-xs": {
+            "desc": "Extra small size"
+        }
+    },
+    {
+        "input-sm": {
+            "desc": "Small size"
+        }
+    },
+    {
+        "input-md": {
+            "desc": "Medium size"
+        }
+    },
+    {
+        "input-lg": {
+            "desc": "Large size"
+        }
+    },
+    {
+        "input-xl": {
+            "desc": "Extra large size"
+        }
+    },
+    {
+        "footer": {
+            "desc": "Footer"
+        }
+    },
+    {
+        "footer-title": {
+            "desc": "Title of a footer column"
+        }
+    },
+    {
+        "footer-center": {
+            "desc": "Aligns footer content to center"
+        }
+    },
+    {
+        "footer-horizontal": {
+            "desc": "Puts footer columns next to each other horizontally"
+        }
+    },
+    {
+        "footer-vertical": {
+            "desc": "Puts footer columns under each other vertically"
+        }
+    },
+    {
+        "mockup-browser": {
+            "desc": "Browser mockup"
+        }
+    },
+    {
+        "mockup-browser-toolbar": {
+            "desc": "Toolbar part which can include addressbar, etc"
+        }
+    },
+    {
+        "status": {
+            "desc": "Status icon"
+        }
+    },
+    {
+        "status-neutral": {
+            "desc": "neutral color"
+        }
+    },
+    {
+        "status-primary": {
+            "desc": "primary color"
+        }
+    },
+    {
+        "status-secondary": {
+            "desc": "secondary color"
+        }
+    },
+    {
+        "status-accent": {
+            "desc": "accent color"
+        }
+    },
+    {
+        "status-info": {
+            "desc": "info color"
+        }
+    },
+    {
+        "status-success": {
+            "desc": "success color"
+        }
+    },
+    {
+        "status-warning": {
+            "desc": "warning color"
+        }
+    },
+    {
+        "status-error": {
+            "desc": "error color"
+        }
+    },
+    {
+        "status-xs": {
+            "desc": "extra small size"
+        }
+    },
+    {
+        "status-sm": {
+            "desc": "small size"
+        }
+    },
+    {
+        "status-md": {
+            "desc": "medium size"
+        }
+    },
+    {
+        "status-lg": {
+            "desc": "large size"
+        }
+    },
+    {
+        "status-xl": {
+            "desc": "extra large size"
+        }
+    },
+    {
+        "file-input": {
+            "desc": "For <input type=\"file\"> element"
+        }
+    },
+    {
+        "file-input-ghost": {
+            "desc": "ghost style"
+        }
+    },
+    {
+        "file-input-neutral": {
+            "desc": "neutral color"
+        }
+    },
+    {
+        "file-input-primary": {
+            "desc": "primary color"
+        }
+    },
+    {
+        "file-input-secondary": {
+            "desc": "secondary color"
+        }
+    },
+    {
+        "file-input-accent": {
+            "desc": "accent color"
+        }
+    },
+    {
+        "file-input-info": {
+            "desc": "info color"
+        }
+    },
+    {
+        "file-input-success": {
+            "desc": "success color"
+        }
+    },
+    {
+        "file-input-warning": {
+            "desc": "warning color"
+        }
+    },
+    {
+        "file-input-error": {
+            "desc": "error color"
+        }
+    },
+    {
+        "file-input-xs": {
+            "desc": "Extra small size"
+        }
+    },
+    {
+        "file-input-sm": {
+            "desc": "Small size"
+        }
+    },
+    {
+        "file-input-md": {
+            "desc": "Medium size"
+        }
+    },
+    {
+        "file-input-lg": {
+            "desc": "Large size"
+        }
+    },
+    {
+        "file-input-xl": {
+            "desc": "Extra large size"
+        }
+    },
+    {
+        "diff": {
+            "desc": "Container element"
+        }
+    },
+    {
+        "diff-item-1": {
+            "desc": "First item"
+        }
+    },
+    {
+        "diff-item-2": {
+            "desc": "Second item"
+        }
+    },
+    {
+        "diff-resizer": {
+            "desc": "The resizer control"
+        }
+    },
+    {
+        "filter": {
+            "desc": "For a HTML <form> or a <div> element that includes radio buttons for filtering items"
+        }
+    },
+    {
+        "filter-reset": {
+            "desc": "An alternative to the reset button if you can't use a HTML form"
+        }
+    },
+    {
+        "theme-controller": {
+            "desc": "For a checkbox or radio input that must change the page theme"
+        }
+    }
+]
