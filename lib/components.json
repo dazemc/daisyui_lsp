@@ -1,2572 +1,2058 @@
 [
     {
-        "stats": {
-            "desc": "Container of multiple stat items"
-        }
+        "label": "stats",
+        "detail": "Container of multiple stat items"
     },
     {
-        "stat": {
-            "desc": "A block to display stat data about a topic"
-        }
+        "label": "stat",
+        "detail": "A block to display stat data about a topic"
     },
     {
-        "stat-title": {
-            "desc": "Title part"
-        }
+        "label": "stat-title",
+        "detail": "Title part"
     },
     {
-        "stat-value": {
-            "desc": "Value part"
-        }
+        "label": "stat-value",
+        "detail": "Value part"
     },
     {
-        "stat-desc": {
-            "desc": "Description part"
-        }
+        "label": "stat-desc",
+        "detail": "Description part"
     },
     {
-        "stat-figure": {
-            "desc": "Figure part for icon, etc"
-        }
+        "label": "stat-figure",
+        "detail": "Figure part for icon, etc"
     },
     {
-        "stat-actions": {
-            "desc": "Actions part for button, etc"
-        }
+        "label": "stat-actions",
+        "detail": "Actions part for button, etc"
     },
     {
-        "stats-horizontal": {
-            "desc": "Makes stats horizontal (default)"
-        }
+        "label": "stats-horizontal",
+        "detail": "Makes stats horizontal (default)"
     },
     {
-        "stats-vertical": {
-            "desc": "Makes stats vertical"
-        }
+        "label": "stats-vertical",
+        "detail": "Makes stats vertical"
     },
     {
-        "select": {
-            "desc": "For <select> element"
-        }
+        "label": "select",
+        "detail": "For <select> element"
     },
     {
-        "select-ghost": {
-            "desc": "ghost style"
-        }
+        "label": "select-ghost",
+        "detail": "ghost style"
     },
     {
-        "select-neutral": {
-            "desc": "neutral color"
-        }
+        "label": "select-neutral",
+        "detail": "neutral color"
     },
     {
-        "select-primary": {
-            "desc": "primary color"
-        }
+        "label": "select-primary",
+        "detail": "primary color"
     },
     {
-        "select-secondary": {
-            "desc": "secondary color"
-        }
+        "label": "select-secondary",
+        "detail": "secondary color"
     },
     {
-        "select-accent": {
-            "desc": "accent color"
-        }
+        "label": "select-accent",
+        "detail": "accent color"
     },
     {
-        "select-info": {
-            "desc": "info color"
-        }
+        "label": "select-info",
+        "detail": "info color"
     },
     {
-        "select-success": {
-            "desc": "success color"
-        }
+        "label": "select-success",
+        "detail": "success color"
     },
     {
-        "select-warning": {
-            "desc": "warning color"
-        }
+        "label": "select-warning",
+        "detail": "warning color"
     },
     {
-        "select-error": {
-            "desc": "error color"
-        }
+        "label": "select-error",
+        "detail": "error color"
     },
     {
-        "select-xs": {
-            "desc": "Extra small size"
-        }
+        "label": "select-xs",
+        "detail": "Extra small size"
     },
     {
-        "select-sm": {
-            "desc": "Small size"
-        }
+        "label": "select-sm",
+        "detail": "Small size"
     },
     {
-        "select-md": {
-            "desc": "Medium size"
-        }
+        "label": "select-md",
+        "detail": "Medium size"
     },
     {
-        "select-lg": {
-            "desc": "Large size"
-        }
+        "label": "select-lg",
+        "detail": "Large size"
     },
     {
-        "select-xl": {
-            "desc": "Extra large size"
-        }
+        "label": "select-xl",
+        "detail": "Extra large size"
     },
     {
-        "drawer": {
-            "desc": "The wrapper for sidebar and content"
-        }
+        "label": "drawer",
+        "detail": "The wrapper for sidebar and content"
     },
     {
-        "drawer-toggle": {
-            "desc": "The hidden checkbox that controls the state of drawer"
-        }
+        "label": "drawer-toggle",
+        "detail": "The hidden checkbox that controls the state of drawer"
     },
     {
-        "drawer-content": {
-            "desc": "Content part"
-        }
+        "label": "drawer-content",
+        "detail": "Content part"
     },
     {
-        "drawer-side": {
-            "desc": "Sidebar part"
-        }
+        "label": "drawer-side",
+        "detail": "Sidebar part"
     },
     {
-        "drawer-overlay": {
-            "desc": "Label that covers the page when drawer is open"
-        }
+        "label": "drawer-overlay",
+        "detail": "Label that covers the page when drawer is open"
     },
     {
-        "drawer-end": {
-            "desc": "puts drawer to the other side"
-        }
+        "label": "drawer-end",
+        "detail": "puts drawer to the other side"
     },
     {
-        "drawer-open": {
-            "desc": "Forces the drawer to be open"
-        }
+        "label": "drawer-open",
+        "detail": "Forces the drawer to be open"
     },
     {
-        "progress": {
-            "desc": "For <progress> tag"
-        }
+        "label": "progress",
+        "detail": "For <progress> tag"
     },
     {
-        "progress-neutral": {
-            "desc": "neutral color"
-        }
+        "label": "progress-neutral",
+        "detail": "neutral color"
     },
     {
-        "progress-primary": {
-            "desc": "primary color"
-        }
+        "label": "progress-primary",
+        "detail": "primary color"
     },
     {
-        "progress-secondary": {
-            "desc": "secondary color"
-        }
+        "label": "progress-secondary",
+        "detail": "secondary color"
     },
     {
-        "progress-accent": {
-            "desc": "accent color"
-        }
+        "label": "progress-accent",
+        "detail": "accent color"
     },
     {
-        "progress-info": {
-            "desc": "info color"
-        }
+        "label": "progress-info",
+        "detail": "info color"
     },
     {
-        "progress-success": {
-            "desc": "success color"
-        }
+        "label": "progress-success",
+        "detail": "success color"
     },
     {
-        "progress-warning": {
-            "desc": "warning color"
-        }
+        "label": "progress-warning",
+        "detail": "warning color"
     },
     {
-        "progress-error": {
-            "desc": "error color"
-        }
+        "label": "progress-error",
+        "detail": "error color"
     },
     {
-        "fieldset": {
-            "desc": "for the fieldset container"
-        }
+        "label": "fieldset",
+        "detail": "for the fieldset container"
     },
     {
-        "label": {
-            "desc": "label for inputs"
-        }
+        "label": "label",
+        "detail": "label for inputs"
     },
     {
-        "fieldset-legend": {
-            "desc": "for the title of the fieldset"
-        }
+        "label": "fieldset-legend",
+        "detail": "for the title of the fieldset"
     },
     {
-        "alert": {
-            "desc": "Container element"
-        }
+        "label": "alert",
+        "detail": "Container element"
     },
     {
-        "alert-outline": {
-            "desc": "outline style"
-        }
+        "label": "alert-outline",
+        "detail": "outline style"
     },
     {
-        "alert-dash": {
-            "desc": "dash outline style"
-        }
+        "label": "alert-dash",
+        "detail": "dash outline style"
     },
     {
-        "alert-soft": {
-            "desc": "soft style"
-        }
+        "label": "alert-soft",
+        "detail": "soft style"
     },
     {
-        "alert-info": {
-            "desc": "info color"
-        }
+        "label": "alert-info",
+        "detail": "info color"
     },
     {
-        "alert-success": {
-            "desc": "success color"
-        }
+        "label": "alert-success",
+        "detail": "success color"
     },
     {
-        "alert-warning": {
-            "desc": "warning color"
-        }
+        "label": "alert-warning",
+        "detail": "warning color"
     },
     {
-        "alert-error": {
-            "desc": "error color"
-        }
+        "label": "alert-error",
+        "detail": "error color"
     },
     {
-        "alert-vertical": {
-            "desc": "Vertical layout, good for mobile"
-        }
+        "label": "alert-vertical",
+        "detail": "Vertical layout, good for mobile"
     },
     {
-        "alert-horizontal": {
-            "desc": "Horizontal layout, good for desktop"
-        }
+        "label": "alert-horizontal",
+        "detail": "Horizontal layout, good for desktop"
     },
     {
-        "divider": {
-            "desc": "A divider line between two elements"
-        }
+        "label": "divider",
+        "detail": "A divider line between two elements"
     },
     {
-        "divider-neutral": {
-            "desc": "neutral color"
-        }
+        "label": "divider-neutral",
+        "detail": "neutral color"
     },
     {
-        "divider-primary": {
-            "desc": "primary color"
-        }
+        "label": "divider-primary",
+        "detail": "primary color"
     },
     {
-        "divider-secondary": {
-            "desc": "secondary color"
-        }
+        "label": "divider-secondary",
+        "detail": "secondary color"
     },
     {
-        "divider-accent": {
-            "desc": "accent color"
-        }
+        "label": "divider-accent",
+        "detail": "accent color"
     },
     {
-        "divider-success": {
-            "desc": "success color"
-        }
+        "label": "divider-success",
+        "detail": "success color"
     },
     {
-        "divider-warning": {
-            "desc": "warning color"
-        }
+        "label": "divider-warning",
+        "detail": "warning color"
     },
     {
-        "divider-info": {
-            "desc": "info color"
-        }
+        "label": "divider-info",
+        "detail": "info color"
     },
     {
-        "divider-error": {
-            "desc": "error color"
-        }
+        "label": "divider-error",
+        "detail": "error color"
     },
     {
-        "divider-vertical": {
-            "desc": "Divide vertical elements (on top of each other)"
-        }
+        "label": "divider-vertical",
+        "detail": "Divide vertical elements (on top of each other)"
     },
     {
-        "divider-horizontal": {
-            "desc": "Divide horizontal elements (next to each other)"
-        }
+        "label": "divider-horizontal",
+        "detail": "Divide horizontal elements (next to each other)"
     },
     {
-        "divider-start": {
-            "desc": "Pushes the divider text to the start"
-        }
+        "label": "divider-start",
+        "detail": "Pushes the divider text to the start"
     },
     {
-        "divider-end": {
-            "desc": "Pushes the divider text to the end"
-        }
+        "label": "divider-end",
+        "detail": "Pushes the divider text to the end"
     },
     {
-        "hero": {
-            "desc": "Hero container"
-        }
+        "label": "hero",
+        "detail": "Hero container"
     },
     {
-        "hero-content": {
-            "desc": "content part"
-        }
+        "label": "hero-content",
+        "detail": "content part"
     },
     {
-        "hero-overlay": {
-            "desc": "Overlay that covers the background image"
-        }
+        "label": "hero-overlay",
+        "detail": "Overlay that covers the background image"
     },
     {
-        "link": {
-            "desc": "Adds underline"
-        }
+        "label": "link",
+        "detail": "Adds underline"
     },
     {
-        "link-hover": {
-            "desc": "Only shows underline on hover"
-        }
+        "label": "link-hover",
+        "detail": "Only shows underline on hover"
     },
     {
-        "link-neutral": {
-            "desc": "neutral color"
-        }
+        "label": "link-neutral",
+        "detail": "neutral color"
     },
     {
-        "link-primary": {
-            "desc": "primary color"
-        }
+        "label": "link-primary",
+        "detail": "primary color"
     },
     {
-        "link-secondary": {
-            "desc": "secondary color"
-        }
+        "label": "link-secondary",
+        "detail": "secondary color"
     },
     {
-        "link-accent": {
-            "desc": "accent color"
-        }
+        "label": "link-accent",
+        "detail": "accent color"
     },
     {
-        "link-success": {
-            "desc": "success color"
-        }
+        "label": "link-success",
+        "detail": "success color"
     },
     {
-        "link-info": {
-            "desc": "info color"
-        }
+        "label": "link-info",
+        "detail": "info color"
     },
     {
-        "link-warning": {
-            "desc": "warning color"
-        }
+        "label": "link-warning",
+        "detail": "warning color"
     },
     {
-        "link-error": {
-            "desc": "error color"
-        }
+        "label": "link-error",
+        "detail": "error color"
     },
     {
-        "kbd": {
-            "desc": "Do show a keyboard key or a shortcut key"
-        }
+        "label": "kbd",
+        "detail": "Do show a keyboard key or a shortcut key"
     },
     {
-        "kbd-xs": {
-            "desc": "Extra small size"
-        }
+        "label": "kbd-xs",
+        "detail": "Extra small size"
     },
     {
-        "kbd-sm": {
-            "desc": "Small size"
-        }
+        "label": "kbd-sm",
+        "detail": "Small size"
     },
     {
-        "kbd-md": {
-            "desc": "Medium size"
-        }
+        "label": "kbd-md",
+        "detail": "Medium size"
     },
     {
-        "kbd-lg": {
-            "desc": "Large size"
-        }
+        "label": "kbd-lg",
+        "detail": "Large size"
     },
     {
-        "kbd-xl": {
-            "desc": "Extra large size"
-        }
+        "label": "kbd-xl",
+        "detail": "Extra large size"
     },
     {
-        "mockup-code": {
-            "desc": "Code terminal mockup"
-        }
+        "label": "mockup-code",
+        "detail": "Code terminal mockup"
     },
     {
-        "loading": {
-            "desc": "Loading element"
-        }
+        "label": "loading",
+        "detail": "Loading element"
     },
     {
-        "loading-spinner": {
-            "desc": "spinner animation"
-        }
+        "label": "loading-spinner",
+        "detail": "spinner animation"
     },
     {
-        "loading-dots": {
-            "desc": "dots animation"
-        }
+        "label": "loading-dots",
+        "detail": "dots animation"
     },
     {
-        "loading-ring": {
-            "desc": "ring animation"
-        }
+        "label": "loading-ring",
+        "detail": "ring animation"
     },
     {
-        "loading-ball": {
-            "desc": "ball animation"
-        }
+        "label": "loading-ball",
+        "detail": "ball animation"
     },
     {
-        "loading-bars": {
-            "desc": "bars animation"
-        }
+        "label": "loading-bars",
+        "detail": "bars animation"
     },
     {
-        "loading-infinity": {
-            "desc": "infinity animation"
-        }
+        "label": "loading-infinity",
+        "detail": "infinity animation"
     },
     {
-        "loading-xs": {
-            "desc": "Extra small size"
-        }
+        "label": "loading-xs",
+        "detail": "Extra small size"
     },
     {
-        "loading-sm": {
-            "desc": "Small size"
-        }
+        "label": "loading-sm",
+        "detail": "Small size"
     },
     {
-        "loading-md": {
-            "desc": "Medium size"
-        }
+        "label": "loading-md",
+        "detail": "Medium size"
     },
     {
-        "loading-lg": {
-            "desc": "Large size"
-        }
+        "label": "loading-lg",
+        "detail": "Large size"
     },
     {
-        "loading-xl": {
-            "desc": "Extra large size"
-        }
+        "label": "loading-xl",
+        "detail": "Extra large size"
     },
     {
-        "skeleton": {
-            "desc": "A placeholder div with loading animation"
-        }
+        "label": "skeleton",
+        "detail": "A placeholder div with loading animation"
     },
     {
-        "swap": {
-            "desc": "Swap container"
-        }
+        "label": "swap",
+        "detail": "Swap container"
     },
     {
-        "swap-on": {
-            "desc": "The child element that should be visible when checkbox is checked or when swap is active"
-        }
+        "label": "swap-on",
+        "detail": "The child element that should be visible when checkbox is checked or when swap is active"
     },
     {
-        "swap-off": {
-            "desc": "The child element that should be visible when checkbox is not checked or when swap is not active"
-        }
+        "label": "swap-off",
+        "detail": "The child element that should be visible when checkbox is not checked or when swap is not active"
     },
     {
-        "swap-indeterminate": {
-            "desc": "The child element that should be visible when checkbox is indeterminate"
-        }
+        "label": "swap-indeterminate",
+        "detail": "The child element that should be visible when checkbox is indeterminate"
     },
     {
-        "swap-active": {
-            "desc": "Activates the swap (no need for checkbox)"
-        }
+        "label": "swap-active",
+        "detail": "Activates the swap (no need for checkbox)"
     },
     {
-        "swap-rotate": {
-            "desc": "Adds rotate effect to swap"
-        }
+        "label": "swap-rotate",
+        "detail": "Adds rotate effect to swap"
     },
     {
-        "swap-flip": {
-            "desc": "Adds flip effect to swap"
-        }
+        "label": "swap-flip",
+        "detail": "Adds flip effect to swap"
     },
     {
-        "badge": {
-            "desc": "Container element"
-        }
+        "label": "badge",
+        "detail": "Container element"
     },
     {
-        "badge-outline": {
-            "desc": "outline style"
-        }
+        "label": "badge-outline",
+        "detail": "outline style"
     },
     {
-        "badge-dash": {
-            "desc": "dash outline style"
-        }
+        "label": "badge-dash",
+        "detail": "dash outline style"
     },
     {
-        "badge-soft": {
-            "desc": "soft style"
-        }
+        "label": "badge-soft",
+        "detail": "soft style"
     },
     {
-        "badge-ghost": {
-            "desc": "ghost style"
-        }
+        "label": "badge-ghost",
+        "detail": "ghost style"
     },
     {
-        "badge-neutral": {
-            "desc": "neutral color"
-        }
+        "label": "badge-neutral",
+        "detail": "neutral color"
     },
     {
-        "badge-primary": {
-            "desc": "primary color"
-        }
+        "label": "badge-primary",
+        "detail": "primary color"
     },
     {
-        "badge-secondary": {
-            "desc": "secondary color"
-        }
+        "label": "badge-secondary",
+        "detail": "secondary color"
     },
     {
-        "badge-accent": {
-            "desc": "accent color"
-        }
+        "label": "badge-accent",
+        "detail": "accent color"
     },
     {
-        "badge-info": {
-            "desc": "info color"
-        }
+        "label": "badge-info",
+        "detail": "info color"
     },
     {
-        "badge-success": {
-            "desc": "success color"
-        }
+        "label": "badge-success",
+        "detail": "success color"
     },
     {
-        "badge-warning": {
-            "desc": "warning color"
-        }
+        "label": "badge-warning",
+        "detail": "warning color"
     },
     {
-        "badge-error": {
-            "desc": "error color"
-        }
+        "label": "badge-error",
+        "detail": "error color"
     },
     {
-        "badge-xs": {
-            "desc": "extra small size"
-        }
+        "label": "badge-xs",
+        "detail": "extra small size"
     },
     {
-        "badge-sm": {
-            "desc": "small size"
-        }
+        "label": "badge-sm",
+        "detail": "small size"
     },
     {
-        "badge-md": {
-            "desc": "medium size (default)"
-        }
+        "label": "badge-md",
+        "detail": "medium size (default)"
     },
     {
-        "badge-lg": {
-            "desc": "large size"
-        }
+        "label": "badge-lg",
+        "detail": "large size"
     },
     {
-        "badge-xl": {
-            "desc": "extra large size"
-        }
+        "label": "badge-xl",
+        "detail": "extra large size"
     },
     {
-        "radio": {
-            "desc": "For radio input"
-        }
+        "label": "radio",
+        "detail": "For radio input"
     },
     {
-        "radio-neutral": {
-            "desc": "neutral color"
-        }
+        "label": "radio-neutral",
+        "detail": "neutral color"
     },
     {
-        "radio-primary": {
-            "desc": "primary color"
-        }
+        "label": "radio-primary",
+        "detail": "primary color"
     },
     {
-        "radio-secondary": {
-            "desc": "secondary color"
-        }
+        "label": "radio-secondary",
+        "detail": "secondary color"
     },
     {
-        "radio-accent": {
-            "desc": "accent color"
-        }
+        "label": "radio-accent",
+        "detail": "accent color"
     },
     {
-        "radio-success": {
-            "desc": "success color"
-        }
+        "label": "radio-success",
+        "detail": "success color"
     },
     {
-        "radio-warning": {
-            "desc": "warning color"
-        }
+        "label": "radio-warning",
+        "detail": "warning color"
     },
     {
-        "radio-info": {
-            "desc": "info color"
-        }
+        "label": "radio-info",
+        "detail": "info color"
     },
     {
-        "radio-error": {
-            "desc": "error color"
-        }
+        "label": "radio-error",
+        "detail": "error color"
     },
     {
-        "radio-xs": {
-            "desc": "Extra small size"
-        }
+        "label": "radio-xs",
+        "detail": "Extra small size"
     },
     {
-        "radio-sm": {
-            "desc": "Small size"
-        }
+        "label": "radio-sm",
+        "detail": "Small size"
     },
     {
-        "radio-md": {
-            "desc": "Medium size"
-        }
+        "label": "radio-md",
+        "detail": "Medium size"
     },
     {
-        "radio-lg": {
-            "desc": "Large size"
-        }
+        "label": "radio-lg",
+        "detail": "Large size"
     },
     {
-        "radio-xl": {
-            "desc": "Extra large size"
-        }
+        "label": "radio-xl",
+        "detail": "Extra large size"
     },
     {
-        "navbar": {
-            "desc": "Navigation bar"
-        }
+        "label": "navbar",
+        "detail": "Navigation bar"
     },
     {
-        "navbar-start": {
-            "desc": "For the div inside navbar, to fill 50% of width"
-        }
+        "label": "navbar-start",
+        "detail": "For the div inside navbar, to fill 50% of width"
     },
     {
-        "navbar-center": {
-            "desc": "For the div inside navbar, to be at center horizontally"
-        }
+        "label": "navbar-center",
+        "detail": "For the div inside navbar, to be at center horizontally"
     },
     {
-        "navbar-end": {
-            "desc": "For the div inside navbar, to fill second 50% of width"
-        }
+        "label": "navbar-end",
+        "detail": "For the div inside navbar, to fill second 50% of width"
     },
     {
-        "collapse": {
-            "desc": "Collapse"
-        }
+        "label": "collapse",
+        "detail": "Collapse"
     },
     {
-        "collapse-title": {
-            "desc": "Title part"
-        }
+        "label": "collapse-title",
+        "detail": "Title part"
     },
     {
-        "collapse-content": {
-            "desc": "Content part"
-        }
+        "label": "collapse-content",
+        "detail": "Content part"
     },
     {
-        "collapse-arrow": {
-            "desc": "Adds arrow icon"
-        }
+        "label": "collapse-arrow",
+        "detail": "Adds arrow icon"
     },
     {
-        "collapse-plus": {
-            "desc": "Adds plus/minus icon"
-        }
+        "label": "collapse-plus",
+        "detail": "Adds plus/minus icon"
     },
     {
-        "collapse-open": {
-            "desc": "Force open"
-        }
+        "label": "collapse-open",
+        "detail": "Force open"
     },
     {
-        "collapse-close": {
-            "desc": "Force close"
-        }
+        "label": "collapse-close",
+        "detail": "Force close"
     },
     {
-        "textarea": {
-            "desc": "For <textarea> element"
-        }
+        "label": "textarea",
+        "detail": "For <textarea> element"
     },
     {
-        "textarea-ghost": {
-            "desc": "ghost style"
-        }
+        "label": "textarea-ghost",
+        "detail": "ghost style"
     },
     {
-        "textarea-neutral": {
-            "desc": "neutral color"
-        }
+        "label": "textarea-neutral",
+        "detail": "neutral color"
     },
     {
-        "textarea-primary": {
-            "desc": "primary color"
-        }
+        "label": "textarea-primary",
+        "detail": "primary color"
     },
     {
-        "textarea-secondary": {
-            "desc": "secondary color"
-        }
+        "label": "textarea-secondary",
+        "detail": "secondary color"
     },
     {
-        "textarea-accent": {
-            "desc": "accent color"
-        }
+        "label": "textarea-accent",
+        "detail": "accent color"
     },
     {
-        "textarea-info": {
-            "desc": "info color"
-        }
+        "label": "textarea-info",
+        "detail": "info color"
     },
     {
-        "textarea-success": {
-            "desc": "success color"
-        }
+        "label": "textarea-success",
+        "detail": "success color"
     },
     {
-        "textarea-warning": {
-            "desc": "warning color"
-        }
+        "label": "textarea-warning",
+        "detail": "warning color"
     },
     {
-        "textarea-error": {
-            "desc": "error color"
-        }
+        "label": "textarea-error",
+        "detail": "error color"
     },
     {
-        "textarea-xs": {
-            "desc": "Extra small size"
-        }
+        "label": "textarea-xs",
+        "detail": "Extra small size"
     },
     {
-        "textarea-sm": {
-            "desc": "Small size"
-        }
+        "label": "textarea-sm",
+        "detail": "Small size"
     },
     {
-        "textarea-md": {
-            "desc": "Medium size"
-        }
+        "label": "textarea-md",
+        "detail": "Medium size"
     },
     {
-        "textarea-lg": {
-            "desc": "Large size"
-        }
+        "label": "textarea-lg",
+        "detail": "Large size"
     },
     {
-        "textarea-xl": {
-            "desc": "Extra large size"
-        }
+        "label": "textarea-xl",
+        "detail": "Extra large size"
     },
     {
-        "btn": {
-            "desc": "Button"
-        }
+        "label": "btn",
+        "detail": "Button"
     },
     {
-        "btn-neutral": {
-            "desc": "neutral color"
-        }
+        "label": "btn-neutral",
+        "detail": "neutral color"
     },
     {
-        "btn-primary": {
-            "desc": "primary color"
-        }
+        "label": "btn-primary",
+        "detail": "primary color"
     },
     {
-        "btn-secondary": {
-            "desc": "secondary color"
-        }
+        "label": "btn-secondary",
+        "detail": "secondary color"
     },
     {
-        "btn-accent": {
-            "desc": "accent color"
-        }
+        "label": "btn-accent",
+        "detail": "accent color"
     },
     {
-        "btn-info": {
-            "desc": "info color"
-        }
+        "label": "btn-info",
+        "detail": "info color"
     },
     {
-        "btn-success": {
-            "desc": "success color"
-        }
+        "label": "btn-success",
+        "detail": "success color"
     },
     {
-        "btn-warning": {
-            "desc": "warning color"
-        }
+        "label": "btn-warning",
+        "detail": "warning color"
     },
     {
-        "btn-error": {
-            "desc": "error color"
-        }
+        "label": "btn-error",
+        "detail": "error color"
     },
     {
-        "btn-outline": {
-            "desc": "outline style"
-        }
+        "label": "btn-outline",
+        "detail": "outline style"
     },
     {
-        "btn-dash": {
-            "desc": "dash style"
-        }
+        "label": "btn-dash",
+        "detail": "dash style"
     },
     {
-        "btn-soft": {
-            "desc": "soft style"
-        }
+        "label": "btn-soft",
+        "detail": "soft style"
     },
     {
-        "btn-ghost": {
-            "desc": "ghost style"
-        }
+        "label": "btn-ghost",
+        "detail": "ghost style"
     },
     {
-        "btn-link": {
-            "desc": "looks like a link"
-        }
+        "label": "btn-link",
+        "detail": "looks like a link"
     },
     {
-        "btn-active": {
-            "desc": "looks active"
-        }
+        "label": "btn-active",
+        "detail": "looks active"
     },
     {
-        "btn-disabled": {
-            "desc": "looks disabled"
-        }
+        "label": "btn-disabled",
+        "detail": "looks disabled"
     },
     {
-        "btn-xs": {
-            "desc": "Extra small size"
-        }
+        "label": "btn-xs",
+        "detail": "Extra small size"
     },
     {
-        "btn-sm": {
-            "desc": "Small size"
-        }
+        "label": "btn-sm",
+        "detail": "Small size"
     },
     {
-        "btn-md": {
-            "desc": "Medium size (default)"
-        }
+        "label": "btn-md",
+        "detail": "Medium size (default)"
     },
     {
-        "btn-lg": {
-            "desc": "Large size"
-        }
+        "label": "btn-lg",
+        "detail": "Large size"
     },
     {
-        "btn-xl": {
-            "desc": "Extra large size"
-        }
+        "label": "btn-xl",
+        "detail": "Extra large size"
     },
     {
-        "btn-wide": {
-            "desc": "more horizontal padding"
-        }
+        "label": "btn-wide",
+        "detail": "more horizontal padding"
     },
     {
-        "btn-block": {
-            "desc": "Full width"
-        }
+        "label": "btn-block",
+        "detail": "Full width"
     },
     {
-        "btn-square": {
-            "desc": "1:1 ratio"
-        }
+        "label": "btn-square",
+        "detail": "1:1 ratio"
     },
     {
-        "btn-circle": {
-            "desc": "1:1 ratio with rounded corners"
-        }
+        "label": "btn-circle",
+        "detail": "1:1 ratio with rounded corners"
     },
     {
-        "chat": {
-            "desc": "Container for one line of conversation and its data"
-        }
+        "label": "chat",
+        "detail": "Container for one line of conversation and its data"
     },
     {
-        "chat-image": {
-            "desc": "Author image"
-        }
+        "label": "chat-image",
+        "detail": "Author image"
     },
     {
-        "chat-header": {
-            "desc": "Text above the chat bubble"
-        }
+        "label": "chat-header",
+        "detail": "Text above the chat bubble"
     },
     {
-        "chat-footer": {
-            "desc": "Text below the chat bubble"
-        }
+        "label": "chat-footer",
+        "detail": "Text below the chat bubble"
     },
     {
-        "chat-bubble": {
-            "desc": "Chat bubble"
-        }
+        "label": "chat-bubble",
+        "detail": "Chat bubble"
     },
     {
-        "chat-start": {
-            "desc": "Aligns chat to start horizontally (required)"
-        }
+        "label": "chat-start",
+        "detail": "Aligns chat to start horizontally (required)"
     },
     {
-        "chat-end": {
-            "desc": "Aligns chat to end horizontally (required)"
-        }
+        "label": "chat-end",
+        "detail": "Aligns chat to end horizontally (required)"
     },
     {
-        "chat-bubble-neutral": {
-            "desc": "neutral color for chat-bubble"
-        }
+        "label": "chat-bubble-neutral",
+        "detail": "neutral color for chat-bubble"
     },
     {
-        "chat-bubble-primary": {
-            "desc": "primary color for chat-bubble"
-        }
+        "label": "chat-bubble-primary",
+        "detail": "primary color for chat-bubble"
     },
     {
-        "chat-bubble-secondary": {
-            "desc": "secondary color for chat-bubble"
-        }
+        "label": "chat-bubble-secondary",
+        "detail": "secondary color for chat-bubble"
     },
     {
-        "chat-bubble-accent": {
-            "desc": "accent color for chat-bubble"
-        }
+        "label": "chat-bubble-accent",
+        "detail": "accent color for chat-bubble"
     },
     {
-        "chat-bubble-info": {
-            "desc": "info color for chat-bubble"
-        }
+        "label": "chat-bubble-info",
+        "detail": "info color for chat-bubble"
     },
     {
-        "chat-bubble-success": {
-            "desc": "success color for chat-bubble"
-        }
+        "label": "chat-bubble-success",
+        "detail": "success color for chat-bubble"
     },
     {
-        "chat-bubble-warning": {
-            "desc": "warning color for chat-bubble"
-        }
+        "label": "chat-bubble-warning",
+        "detail": "warning color for chat-bubble"
     },
     {
-        "chat-bubble-error": {
-            "desc": "error color for chat-bubble"
-        }
+        "label": "chat-bubble-error",
+        "detail": "error color for chat-bubble"
     },
     {
-        "tabs": {
-            "desc": "Container of multiple tab items"
-        }
+        "label": "tabs",
+        "detail": "Container of multiple tab items"
     },
     {
-        "tab": {
-            "desc": "A single tab button (can be button, link, div, radio input, etc)"
-        }
+        "label": "tab",
+        "detail": "A single tab button (can be button, link, div, radio input, etc)"
     },
     {
-        "tab-content": {
-            "desc": "Tab content that comes immediately after a tab"
-        }
+        "label": "tab-content",
+        "detail": "Tab content that comes immediately after a tab"
     },
     {
-        "tabs-box": {
-            "desc": "box style"
-        }
+        "label": "tabs-box",
+        "detail": "box style"
     },
     {
-        "tabs-border": {
-            "desc": "bottom border style"
-        }
+        "label": "tabs-border",
+        "detail": "bottom border style"
     },
     {
-        "tabs-lift": {
-            "desc": "lift style"
-        }
+        "label": "tabs-lift",
+        "detail": "lift style"
     },
     {
-        "tab-active": {
-            "desc": "Makes a single tab look active"
-        }
+        "label": "tab-active",
+        "detail": "Makes a single tab look active"
     },
     {
-        "tab-disabled": {
-            "desc": "Makes a single tab look disabled"
-        }
+        "label": "tab-disabled",
+        "detail": "Makes a single tab look disabled"
     },
     {
-        "tabs-top": {
-            "desc": "Puts tab buttons on top of the tab-content (default)"
-        }
+        "label": "tabs-top",
+        "detail": "Puts tab buttons on top of the tab-content (default)"
     },
     {
-        "tabs-bottom": {
-            "desc": "Puts tabs on under the tab-content"
-        }
+        "label": "tabs-bottom",
+        "detail": "Puts tabs on under the tab-content"
     },
     {
-        "tabs-xs": {
-            "desc": "Extra small size"
-        }
+        "label": "tabs-xs",
+        "detail": "Extra small size"
     },
     {
-        "tabs-sm": {
-            "desc": "Small size"
-        }
+        "label": "tabs-sm",
+        "detail": "Small size"
     },
     {
-        "tabs-md": {
-            "desc": "Medium size"
-        }
+        "label": "tabs-md",
+        "detail": "Medium size"
     },
     {
-        "tabs-lg": {
-            "desc": "Large size"
-        }
+        "label": "tabs-lg",
+        "detail": "Large size"
     },
     {
-        "tabs-xl": {
-            "desc": "Extra large size"
-        }
+        "label": "tabs-xl",
+        "detail": "Extra large size"
     },
     {
-        "stack": {
-            "desc": "Puts the children elements on top of each other"
-        }
+        "label": "stack",
+        "detail": "Puts the children elements on top of each other"
     },
     {
-        "stack-top": {
-            "desc": "Aligns the children elements to the top"
-        }
+        "label": "stack-top",
+        "detail": "Aligns the children elements to the top"
     },
     {
-        "stack-bottom": {
-            "desc": "Aligns the children elements to the bottom"
-        }
+        "label": "stack-bottom",
+        "detail": "Aligns the children elements to the bottom"
     },
     {
-        "stack-start": {
-            "desc": "Aligns the children elements to the start (horizontally)"
-        }
+        "label": "stack-start",
+        "detail": "Aligns the children elements to the start (horizontally)"
     },
     {
-        "stack-end": {
-            "desc": "Aligns the children elements to the end (horizontally)"
-        }
+        "label": "stack-end",
+        "detail": "Aligns the children elements to the end (horizontally)"
     },
     {
-        "join": {
-            "desc": "For grouping multiple items"
-        }
+        "label": "join",
+        "detail": "For grouping multiple items"
     },
     {
-        "join-item": {
-            "desc": "Item inside join. Can be a button, input, etc."
-        }
+        "label": "join-item",
+        "detail": "Item inside join. Can be a button, input, etc."
     },
     {
-        "join-vertical": {
-            "desc": "Show items vertically"
-        }
+        "label": "join-vertical",
+        "detail": "Show items vertically"
     },
     {
-        "join-horizontal": {
-            "desc": "Show items horizontally"
-        }
+        "label": "join-horizontal",
+        "detail": "Show items horizontally"
     },
     {
-        "range": {
-            "desc": "For <input type=\"range\"> tag"
-        }
+        "label": "range",
+        "detail": "For <input type=\"range\"> tag"
     },
     {
-        "range-neutral": {
-            "desc": "neutral color"
-        }
+        "label": "range-neutral",
+        "detail": "neutral color"
     },
     {
-        "range-primary": {
-            "desc": "primary color"
-        }
+        "label": "range-primary",
+        "detail": "primary color"
     },
     {
-        "range-secondary": {
-            "desc": "secondary color"
-        }
+        "label": "range-secondary",
+        "detail": "secondary color"
     },
     {
-        "range-accent": {
-            "desc": "accent color"
-        }
+        "label": "range-accent",
+        "detail": "accent color"
     },
     {
-        "range-success": {
-            "desc": "success color"
-        }
+        "label": "range-success",
+        "detail": "success color"
     },
     {
-        "range-warning": {
-            "desc": "warning color"
-        }
+        "label": "range-warning",
+        "detail": "warning color"
     },
     {
-        "range-info": {
-            "desc": "info color"
-        }
+        "label": "range-info",
+        "detail": "info color"
     },
     {
-        "range-error": {
-            "desc": "error color"
-        }
+        "label": "range-error",
+        "detail": "error color"
     },
     {
-        "range-xs": {
-            "desc": "Extra small size"
-        }
+        "label": "range-xs",
+        "detail": "Extra small size"
     },
     {
-        "range-sm": {
-            "desc": "Small size"
-        }
+        "label": "range-sm",
+        "detail": "Small size"
     },
     {
-        "range-md": {
-            "desc": "Medium size"
-        }
+        "label": "range-md",
+        "detail": "Medium size"
     },
     {
-        "range-lg": {
-            "desc": "Large size"
-        }
+        "label": "range-lg",
+        "detail": "Large size"
     },
     {
-        "range-xl": {
-            "desc": "Extra large size"
-        }
+        "label": "range-xl",
+        "detail": "Extra large size"
     },
     {
-        "checkbox": {
-            "desc": "Checkbox"
-        }
+        "label": "checkbox",
+        "detail": "Checkbox"
     },
     {
-        "checkbox-primary": {
-            "desc": "primary color"
-        }
+        "label": "checkbox-primary",
+        "detail": "primary color"
     },
     {
-        "checkbox-secondary": {
-            "desc": "secondary color"
-        }
+        "label": "checkbox-secondary",
+        "detail": "secondary color"
     },
     {
-        "checkbox-accent": {
-            "desc": "accent color"
-        }
+        "label": "checkbox-accent",
+        "detail": "accent color"
     },
     {
-        "checkbox-neutral": {
-            "desc": "neutral color"
-        }
+        "label": "checkbox-neutral",
+        "detail": "neutral color"
     },
     {
-        "checkbox-success": {
-            "desc": "success color"
-        }
+        "label": "checkbox-success",
+        "detail": "success color"
     },
     {
-        "checkbox-warning": {
-            "desc": "warning color"
-        }
+        "label": "checkbox-warning",
+        "detail": "warning color"
     },
     {
-        "checkbox-info": {
-            "desc": "info color"
-        }
+        "label": "checkbox-info",
+        "detail": "info color"
     },
     {
-        "checkbox-error": {
-            "desc": "error color"
-        }
+        "label": "checkbox-error",
+        "detail": "error color"
     },
     {
-        "checkbox-xs": {
-            "desc": "Extra small size"
-        }
+        "label": "checkbox-xs",
+        "detail": "Extra small size"
     },
     {
-        "checkbox-sm": {
-            "desc": "Small size"
-        }
+        "label": "checkbox-sm",
+        "detail": "Small size"
     },
     {
-        "checkbox-md": {
-            "desc": "Medium size"
-        }
+        "label": "checkbox-md",
+        "detail": "Medium size"
     },
     {
-        "checkbox-lg": {
-            "desc": "Large size"
-        }
+        "label": "checkbox-lg",
+        "detail": "Large size"
     },
     {
-        "checkbox-xl": {
-            "desc": "Extra large size"
-        }
+        "label": "checkbox-xl",
+        "detail": "Extra large size"
     },
     {
-        "radial-progress": {
-            "desc": "Shows a radial progress"
-        }
+        "label": "radial-progress",
+        "detail": "Shows a radial progress"
     },
     {
-        "toast": {
-            "desc": "Container element that sticks to the corner of page"
-        }
+        "label": "toast",
+        "detail": "Container element that sticks to the corner of page"
     },
     {
-        "toast-start": {
-            "desc": "align horizontally to the left"
-        }
+        "label": "toast-start",
+        "detail": "align horizontally to the left"
     },
     {
-        "toast-center": {
-            "desc": "align horizontally to the center"
-        }
+        "label": "toast-center",
+        "detail": "align horizontally to the center"
     },
     {
-        "toast-end": {
-            "desc": "align horizontally to the right"
-        }
+        "label": "toast-end",
+        "detail": "align horizontally to the right"
     },
     {
-        "toast-top": {
-            "desc": "align vertically to top"
-        }
+        "label": "toast-top",
+        "detail": "align vertically to top"
     },
     {
-        "toast-middle": {
-            "desc": "align vertically to middle"
-        }
+        "label": "toast-middle",
+        "detail": "align vertically to middle"
     },
     {
-        "toast-bottom": {
-            "desc": "align vertically to bottom"
-        }
+        "label": "toast-bottom",
+        "detail": "align vertically to bottom"
     },
     {
-        "steps": {
-            "desc": "Container of multiple step nodes"
-        }
+        "label": "steps",
+        "detail": "Container of multiple step nodes"
     },
     {
-        "step": {
-            "desc": "A single step node"
-        }
+        "label": "step",
+        "detail": "A single step node"
     },
     {
-        "step-icon": {
-            "desc": "For custom icon inside step"
-        }
+        "label": "step-icon",
+        "detail": "For custom icon inside step"
     },
     {
-        "step-neutral": {
-            "desc": "neutral color"
-        }
+        "label": "step-neutral",
+        "detail": "neutral color"
     },
     {
-        "step-primary": {
-            "desc": "primary color"
-        }
+        "label": "step-primary",
+        "detail": "primary color"
     },
     {
-        "step-secondary": {
-            "desc": "secondary color"
-        }
+        "label": "step-secondary",
+        "detail": "secondary color"
     },
     {
-        "step-accent": {
-            "desc": "accent color"
-        }
+        "label": "step-accent",
+        "detail": "accent color"
     },
     {
-        "step-info": {
-            "desc": "info color"
-        }
+        "label": "step-info",
+        "detail": "info color"
     },
     {
-        "step-success": {
-            "desc": "success color"
-        }
+        "label": "step-success",
+        "detail": "success color"
     },
     {
-        "step-warning": {
-            "desc": "warning color"
-        }
+        "label": "step-warning",
+        "detail": "warning color"
     },
     {
-        "step-error": {
-            "desc": "error color"
-        }
+        "label": "step-error",
+        "detail": "error color"
     },
     {
-        "steps-vertical": {
-            "desc": "Makes steps vertical (default)"
-        }
+        "label": "steps-vertical",
+        "detail": "Makes steps vertical (default)"
     },
     {
-        "steps-horizontal": {
-            "desc": "Makes steps horizontal"
-        }
+        "label": "steps-horizontal",
+        "detail": "Makes steps horizontal"
     },
     {
-        "cally": {
-            "desc": "for Cally web component"
-        }
+        "label": "cally",
+        "detail": "for Cally web component"
     },
     {
-        "pika-single": {
-            "desc": "for the input field that opens Pikaday calendar"
-        }
+        "label": "pika-single",
+        "detail": "for the input field that opens Pikaday calendar"
     },
     {
-        "react-day-picker": {
-            "desc": "for the DayPicker component"
-        }
+        "label": "react-day-picker",
+        "detail": "for the DayPicker component"
     },
     {
-        "toggle": {
-            "desc": "For <input type=\"checkbox\">"
-        }
+        "label": "toggle",
+        "detail": "For <input type=\"checkbox\">"
     },
     {
-        "toggle-primary": {
-            "desc": "primary color"
-        }
+        "label": "toggle-primary",
+        "detail": "primary color"
     },
     {
-        "toggle-secondary": {
-            "desc": "secondary color"
-        }
+        "label": "toggle-secondary",
+        "detail": "secondary color"
     },
     {
-        "toggle-accent": {
-            "desc": "accent color"
-        }
+        "label": "toggle-accent",
+        "detail": "accent color"
     },
     {
-        "toggle-neutral": {
-            "desc": "neutral color"
-        }
+        "label": "toggle-neutral",
+        "detail": "neutral color"
     },
     {
-        "toggle-success": {
-            "desc": "success color"
-        }
+        "label": "toggle-success",
+        "detail": "success color"
     },
     {
-        "toggle-warning": {
-            "desc": "warning color"
-        }
+        "label": "toggle-warning",
+        "detail": "warning color"
     },
     {
-        "toggle-info": {
-            "desc": "info color"
-        }
+        "label": "toggle-info",
+        "detail": "info color"
     },
     {
-        "toggle-error": {
-            "desc": "error color"
-        }
+        "label": "toggle-error",
+        "detail": "error color"
     },
     {
-        "toggle-xs": {
-            "desc": "Extra small size"
-        }
+        "label": "toggle-xs",
+        "detail": "Extra small size"
     },
     {
-        "toggle-sm": {
-            "desc": "Small size"
-        }
+        "label": "toggle-sm",
+        "detail": "Small size"
     },
     {
-        "toggle-md": {
-            "desc": "Medium size"
-        }
+        "label": "toggle-md",
+        "detail": "Medium size"
     },
     {
-        "toggle-lg": {
-            "desc": "Large size"
-        }
+        "label": "toggle-lg",
+        "detail": "Large size"
     },
     {
-        "toggle-xl": {
-            "desc": "Extra large size"
-        }
+        "label": "toggle-xl",
+        "detail": "Extra large size"
     },
     {
-        "join": {
-            "desc": "For grouping multiple items"
-        }
+        "label": "join",
+        "detail": "For grouping multiple items"
     },
     {
-        "join-item": {
-            "desc": "Item inside join. Can be a button, input, etc."
-        }
+        "label": "join-item",
+        "detail": "Item inside join. Can be a button, input, etc."
     },
     {
-        "join-vertical": {
-            "desc": "Show items vertically"
-        }
+        "label": "join-vertical",
+        "detail": "Show items vertically"
     },
     {
-        "join-horizontal": {
-            "desc": "Show items horizontally"
-        }
+        "label": "join-horizontal",
+        "detail": "Show items horizontally"
     },
     {
-        "mockup-phone": {
-            "desc": "Phone mockup"
-        }
+        "label": "mockup-phone",
+        "detail": "Phone mockup"
     },
     {
-        "mockup-phone-camera": {
-            "desc": "Camera part"
-        }
+        "label": "mockup-phone-camera",
+        "detail": "Camera part"
     },
     {
-        "mockup-phone-display": {
-            "desc": "Display part"
-        }
+        "label": "mockup-phone-display",
+        "detail": "Display part"
     },
     {
-        "mockup-window": {
-            "desc": "OS window mockup"
-        }
+        "label": "mockup-window",
+        "detail": "OS window mockup"
     },
     {
-        "carousel": {
-            "desc": "Carousel container"
-        }
+        "label": "carousel",
+        "detail": "Carousel container"
     },
     {
-        "carousel-item": {
-            "desc": "Carousel item"
-        }
+        "label": "carousel-item",
+        "detail": "Carousel item"
     },
     {
-        "carousel-start": {
-            "desc": "Snap elements to start"
-        }
+        "label": "carousel-start",
+        "detail": "Snap elements to start"
     },
     {
-        "carousel-center": {
-            "desc": "Snap elements to center"
-        }
+        "label": "carousel-center",
+        "detail": "Snap elements to center"
     },
     {
-        "carousel-end": {
-            "desc": "Snap elements to end"
-        }
+        "label": "carousel-end",
+        "detail": "Snap elements to end"
     },
     {
-        "carousel-horizontal": {
-            "desc": "Horizontal layout (default)"
-        }
+        "label": "carousel-horizontal",
+        "detail": "Horizontal layout (default)"
     },
     {
-        "carousel-vertical": {
-            "desc": "Vertical layout"
-        }
+        "label": "carousel-vertical",
+        "detail": "Vertical layout"
     },
     {
-        "list": {
-            "desc": "A vertical flex layout to include list rows"
-        }
+        "label": "list",
+        "detail": "A vertical flex layout to include list rows"
     },
     {
-        "list-row": {
-            "desc": "The item inside list. A horizontal grid layout to include data"
-        }
+        "label": "list-row",
+        "detail": "The item inside list. A horizontal grid layout to include data"
     },
     {
-        "list-col-wrap": {
-            "desc": "For one of direct children of list-row to push it to the next line"
-        }
+        "label": "list-col-wrap",
+        "detail": "For one of direct children of list-row to push it to the next line"
     },
     {
-        "list-col-grow": {
-            "desc": "For one of direct children of list-row to make it fill the remaining space"
-        }
+        "label": "list-col-grow",
+        "detail": "For one of direct children of list-row to make it fill the remaining space"
     },
     {
-        "tooltip": {
-            "desc": "Container element"
-        }
+        "label": "tooltip",
+        "detail": "Container element"
     },
     {
-        "tooltip-content": {
-            "desc": "Optional. Setting a div as the content of the tooltip instead of the `data-tip` text"
-        }
+        "label": "tooltip-content",
+        "detail": "Optional. Setting a div as the content of the tooltip instead of the `data-tip` text"
     },
     {
-        "tooltip-top": {
-            "desc": "Put tooltip on top"
-        }
+        "label": "tooltip-top",
+        "detail": "Put tooltip on top"
     },
     {
-        "tooltip-bottom": {
-            "desc": "Put tooltip on bottom"
-        }
+        "label": "tooltip-bottom",
+        "detail": "Put tooltip on bottom"
     },
     {
-        "tooltip-left": {
-            "desc": "Put tooltip on left"
-        }
+        "label": "tooltip-left",
+        "detail": "Put tooltip on left"
     },
     {
-        "tooltip-right": {
-            "desc": "Put tooltip on right"
-        }
+        "label": "tooltip-right",
+        "detail": "Put tooltip on right"
     },
     {
-        "tooltip-open": {
-            "desc": "Force open tooltip"
-        }
+        "label": "tooltip-open",
+        "detail": "Force open tooltip"
     },
     {
-        "tooltip-neutral": {
-            "desc": "neutral color"
-        }
+        "label": "tooltip-neutral",
+        "detail": "neutral color"
     },
     {
-        "tooltip-primary": {
-            "desc": "primary color"
-        }
+        "label": "tooltip-primary",
+        "detail": "primary color"
     },
     {
-        "tooltip-secondary": {
-            "desc": "secondary color"
-        }
+        "label": "tooltip-secondary",
+        "detail": "secondary color"
     },
     {
-        "tooltip-accent": {
-            "desc": "accent color"
-        }
+        "label": "tooltip-accent",
+        "detail": "accent color"
     },
     {
-        "tooltip-info": {
-            "desc": "info color"
-        }
+        "label": "tooltip-info",
+        "detail": "info color"
     },
     {
-        "tooltip-success": {
-            "desc": "success color"
-        }
+        "label": "tooltip-success",
+        "detail": "success color"
     },
     {
-        "tooltip-warning": {
-            "desc": "warning color"
-        }
+        "label": "tooltip-warning",
+        "detail": "warning color"
     },
     {
-        "tooltip-error": {
-            "desc": "error color"
-        }
+        "label": "tooltip-error",
+        "detail": "error color"
     },
     {
-        "dock": {
-            "desc": "Dock"
-        }
+        "label": "dock",
+        "detail": "Dock"
     },
     {
-        "dock-label": {
-            "desc": "Text label for Dock Item"
-        }
+        "label": "dock-label",
+        "detail": "Text label for Dock Item"
     },
     {
-        "dock-active": {
-            "desc": "Makes the Dock Item look active"
-        }
+        "label": "dock-active",
+        "detail": "Makes the Dock Item look active"
     },
     {
-        "dock-xs": {
-            "desc": "Extra Small Dock"
-        }
+        "label": "dock-xs",
+        "detail": "Extra Small Dock"
     },
     {
-        "dock-sm": {
-            "desc": "Small Dock"
-        }
+        "label": "dock-sm",
+        "detail": "Small Dock"
     },
     {
-        "dock-md": {
-            "desc": "Medium Dock"
-        }
+        "label": "dock-md",
+        "detail": "Medium Dock"
     },
     {
-        "dock-lg": {
-            "desc": "Large Dock"
-        }
+        "label": "dock-lg",
+        "detail": "Large Dock"
     },
     {
-        "dock-xl": {
-            "desc": "Extra Large Dock"
-        }
+        "label": "dock-xl",
+        "detail": "Extra Large Dock"
     },
     {
-        "modal": {
-            "desc": "Modal"
-        }
+        "label": "modal",
+        "detail": "Modal"
     },
     {
-        "modal-box": {
-            "desc": "The content part"
-        }
+        "label": "modal-box",
+        "detail": "The content part"
     },
     {
-        "modal-action": {
-            "desc": "Actions part (buttons, etc.)"
-        }
+        "label": "modal-action",
+        "detail": "Actions part (buttons, etc.)"
     },
     {
-        "modal-backdrop": {
-            "desc": "Label that covers the page when modal is open so we can close the modal by clicking outside"
-        }
+        "label": "modal-backdrop",
+        "detail": "Label that covers the page when modal is open so we can close the modal by clicking outside"
     },
     {
-        "modal-toggle": {
-            "desc": "Hidden checkbox that controls the state of modal"
-        }
+        "label": "modal-toggle",
+        "detail": "Hidden checkbox that controls the state of modal"
     },
     {
-        "modal-open": {
-            "desc": "Keeps the modal open (you can add this class using JS)"
-        }
+        "label": "modal-open",
+        "detail": "Keeps the modal open (you can add this class using JS)"
     },
     {
-        "modal-top": {
-            "desc": "Moves the modal to top"
-        }
+        "label": "modal-top",
+        "detail": "Moves the modal to top"
     },
     {
-        "modal-middle": {
-            "desc": "Moves the modal to middle"
-        }
+        "label": "modal-middle",
+        "detail": "Moves the modal to middle"
     },
     {
-        "modal-bottom": {
-            "desc": "Moves the modal to bottom"
-        }
+        "label": "modal-bottom",
+        "detail": "Moves the modal to bottom"
     },
     {
-        "modal-start": {
-            "desc": "Moves the modal to start horizontally"
-        }
+        "label": "modal-start",
+        "detail": "Moves the modal to start horizontally"
     },
     {
-        "modal-end": {
-            "desc": "Moves the modal to end horizontally"
-        }
+        "label": "modal-end",
+        "detail": "Moves the modal to end horizontally"
     },
     {
-        "menu": {
-            "desc": "For <ul> tag"
-        }
+        "label": "menu",
+        "detail": "For <ul> tag"
     },
     {
-        "menu-title": {
-            "desc": "styles a <li> as title"
-        }
+        "label": "menu-title",
+        "detail": "styles a <li> as title"
     },
     {
-        "menu-dropdown": {
-            "desc": "For the collapsible <ul> if you want to show it using JS"
-        }
+        "label": "menu-dropdown",
+        "detail": "For the collapsible <ul> if you want to show it using JS"
     },
     {
-        "menu-dropdown-toggle": {
-            "desc": "For the toggle to show/hide the menu-dropdown using JS"
-        }
+        "label": "menu-dropdown-toggle",
+        "detail": "For the toggle to show/hide the menu-dropdown using JS"
     },
     {
-        "menu-disabled": {
-            "desc": "For disabling a <li>"
-        }
+        "label": "menu-disabled",
+        "detail": "For disabling a <li>"
     },
     {
-        "menu-active": {
-            "desc": "For the element inside <li> to look active"
-        }
+        "label": "menu-active",
+        "detail": "For the element inside <li> to look active"
     },
     {
-        "menu-focus": {
-            "desc": "For the element inside <li> to look focused"
-        }
+        "label": "menu-focus",
+        "detail": "For the element inside <li> to look focused"
     },
     {
-        "menu-dropdown-show": {
-            "desc": "Shows the menu-dropdown-toggle and menu-dropdown collapsible submenu using JS"
-        }
+        "label": "menu-dropdown-show",
+        "detail": "Shows the menu-dropdown-toggle and menu-dropdown collapsible submenu using JS"
     },
     {
-        "menu-xs": {
-            "desc": "Extra small size"
-        }
+        "label": "menu-xs",
+        "detail": "Extra small size"
     },
     {
-        "menu-sm": {
-            "desc": "Small size"
-        }
+        "label": "menu-sm",
+        "detail": "Small size"
     },
     {
-        "menu-md": {
-            "desc": "Medium size"
-        }
+        "label": "menu-md",
+        "detail": "Medium size"
     },
     {
-        "menu-lg": {
-            "desc": "Large size"
-        }
+        "label": "menu-lg",
+        "detail": "Large size"
     },
     {
-        "menu-xl": {
-            "desc": "Extra large size"
-        }
+        "label": "menu-xl",
+        "detail": "Extra large size"
     },
     {
-        "menu-vertical": {
-            "desc": "Vertical menu (default)"
-        }
+        "label": "menu-vertical",
+        "detail": "Vertical menu (default)"
     },
     {
-        "menu-horizontal": {
-            "desc": "Horizontal menu"
-        }
+        "label": "menu-horizontal",
+        "detail": "Horizontal menu"
     },
     {
-        "table": {
-            "desc": "For <table> tag"
-        }
+        "label": "table",
+        "detail": "For <table> tag"
     },
     {
-        "table-zebra": {
-            "desc": "For <table> to show zebra stripe rows"
-        }
+        "label": "table-zebra",
+        "detail": "For <table> to show zebra stripe rows"
     },
     {
-        "table-pin-rows": {
-            "desc": "For <table> to make all the rows inside <thead> and <tfoot> sticky"
-        }
+        "label": "table-pin-rows",
+        "detail": "For <table> to make all the rows inside <thead> and <tfoot> sticky"
     },
     {
-        "table-pin-cols": {
-            "desc": "For <table> to make all the <th> columns sticky"
-        }
+        "label": "table-pin-cols",
+        "detail": "For <table> to make all the <th> columns sticky"
     },
     {
-        "table-xs": {
-            "desc": "Extra small size"
-        }
+        "label": "table-xs",
+        "detail": "Extra small size"
     },
     {
-        "table-sm": {
-            "desc": "Small size"
-        }
+        "label": "table-sm",
+        "detail": "Small size"
     },
     {
-        "table-md": {
-            "desc": "Medium size"
-        }
+        "label": "table-md",
+        "detail": "Medium size"
     },
     {
-        "table-lg": {
-            "desc": "Large size"
-        }
+        "label": "table-lg",
+        "detail": "Large size"
     },
     {
-        "table-xl": {
-            "desc": "Extra large size"
-        }
+        "label": "table-xl",
+        "detail": "Extra large size"
     },
     {
-        "validator": {
-            "desc": "For input, select, textarea"
-        }
+        "label": "validator",
+        "detail": "For input, select, textarea"
     },
     {
-        "validator-hint": {
-            "desc": "for the hint text that appears after the input if it's invalid"
-        }
+        "label": "validator-hint",
+        "detail": "for the hint text that appears after the input if it's invalid"
     },
     {
-        "card": {
-            "desc": "Card"
-        }
+        "label": "card",
+        "detail": "Card"
     },
     {
-        "card-title": {
-            "desc": "Title part"
-        }
+        "label": "card-title",
+        "detail": "Title part"
     },
     {
-        "card-body": {
-            "desc": "Body part (content)"
-        }
+        "label": "card-body",
+        "detail": "Body part (content)"
     },
     {
-        "card-actions": {
-            "desc": "Actions part (buttons, etc.)"
-        }
+        "label": "card-actions",
+        "detail": "Actions part (buttons, etc.)"
     },
     {
-        "card-border": {
-            "desc": "Adds border to <card>"
-        }
+        "label": "card-border",
+        "detail": "Adds border to <card>"
     },
     {
-        "card-dash": {
-            "desc": "dash style"
-        }
+        "label": "card-dash",
+        "detail": "dash style"
     },
     {
-        "card-side": {
-            "desc": "The image in <figure> will be on to the side"
-        }
+        "label": "card-side",
+        "detail": "The image in <figure> will be on to the side"
     },
     {
-        "image-full": {
-            "desc": "The image in <figure> element will be the background"
-        }
+        "label": "image-full",
+        "detail": "The image in <figure> element will be the background"
     },
     {
-        "card-xs": {
-            "desc": "Extra small size"
-        }
+        "label": "card-xs",
+        "detail": "Extra small size"
     },
     {
-        "card-sm": {
-            "desc": "Small size"
-        }
+        "label": "card-sm",
+        "detail": "Small size"
     },
     {
-        "card-md": {
-            "desc": "Medium size (default)"
-        }
+        "label": "card-md",
+        "detail": "Medium size (default)"
     },
     {
-        "card-lg": {
-            "desc": "Large size"
-        }
+        "label": "card-lg",
+        "detail": "Large size"
     },
     {
-        "card-xl": {
-            "desc": "Extra large size"
-        }
+        "label": "card-xl",
+        "detail": "Extra large size"
     },
     {
-        "breadcrumbs": {
-            "desc": "Wrapper around a <ul>"
-        }
+        "label": "breadcrumbs",
+        "detail": "Wrapper around a <ul>"
     },
     {
-        "countdown": {
-            "desc": "Countdown wrapper"
-        }
+        "label": "countdown",
+        "detail": "Countdown wrapper"
     },
     {
-        "label": {
-            "desc": "For styling the text next to an input field (or select)"
-        }
+        "label": "label",
+        "detail": "For styling the text next to an input field (or select)"
     },
     {
-        "floating-label": {
-            "desc": "For the parent of an input field (or select) and a span that floats above the input field when the field is focused"
-        }
+        "label": "floating-label",
+        "detail": "For the parent of an input field (or select) and a span that floats above the input field when the field is focused"
     },
     {
-        "rating": {
-            "desc": "For a div containing radio inputs"
-        }
+        "label": "rating",
+        "detail": "For a div containing radio inputs"
     },
     {
-        "rating-half": {
-            "desc": "To shows half of the shapes. Useful for half star ratings"
-        }
+        "label": "rating-half",
+        "detail": "To shows half of the shapes. Useful for half star ratings"
     },
     {
-        "rating-hidden": {
-            "desc": "For the first radio to make it hidden so user can clear the rating"
-        }
+        "label": "rating-hidden",
+        "detail": "For the first radio to make it hidden so user can clear the rating"
     },
     {
-        "rating-xs": {
-            "desc": "Extra small size"
-        }
+        "label": "rating-xs",
+        "detail": "Extra small size"
     },
     {
-        "rating-sm": {
-            "desc": "Small size"
-        }
+        "label": "rating-sm",
+        "detail": "Small size"
     },
     {
-        "rating-md": {
-            "desc": "Medium size"
-        }
+        "label": "rating-md",
+        "detail": "Medium size"
     },
     {
-        "rating-lg": {
-            "desc": "Large size"
-        }
+        "label": "rating-lg",
+        "detail": "Large size"
     },
     {
-        "rating-xl": {
-            "desc": "Extra large size"
-        }
+        "label": "rating-xl",
+        "detail": "Extra large size"
     },
     {
-        "collapse": {
-            "desc": "Collapse"
-        }
+        "label": "collapse",
+        "detail": "Collapse"
     },
     {
-        "collapse-title": {
-            "desc": "Title part"
-        }
+        "label": "collapse-title",
+        "detail": "Title part"
     },
     {
-        "collapse-content": {
-            "desc": "Content part"
-        }
+        "label": "collapse-content",
+        "detail": "Content part"
     },
     {
-        "collapse-arrow": {
-            "desc": "Adds arrow icon"
-        }
+        "label": "collapse-arrow",
+        "detail": "Adds arrow icon"
     },
     {
-        "collapse-plus": {
-            "desc": "Adds plus/minus icon"
-        }
+        "label": "collapse-plus",
+        "detail": "Adds plus/minus icon"
     },
     {
-        "collapse-open": {
-            "desc": "Force open"
-        }
+        "label": "collapse-open",
+        "detail": "Force open"
     },
     {
-        "collapse-close": {
-            "desc": "Force close"
-        }
+        "label": "collapse-close",
+        "detail": "Force close"
     },
     {
-        "avatar": {
-            "desc": "Avatar"
-        }
+        "label": "avatar",
+        "detail": "Avatar"
     },
     {
-        "avatar-group": {
-            "desc": "Container for multiple avatars"
-        }
+        "label": "avatar-group",
+        "detail": "Container for multiple avatars"
     },
     {
-        "avatar-online": {
-            "desc": "shows a green dot as online indicator"
-        }
+        "label": "avatar-online",
+        "detail": "shows a green dot as online indicator"
     },
     {
-        "avatar-offline": {
-            "desc": "shows a gray dot as offline indicator"
-        }
+        "label": "avatar-offline",
+        "detail": "shows a gray dot as offline indicator"
     },
     {
-        "avatar-placeholder": {
-            "desc": "To show letters as avatar placeholder"
-        }
+        "label": "avatar-placeholder",
+        "detail": "To show letters as avatar placeholder"
     },
     {
-        "mask": {
-            "desc": "Masks the content with shape"
-        }
+        "label": "mask",
+        "detail": "Masks the content with shape"
     },
     {
-        "mask-squircle": {
-            "desc": "squircle"
-        }
+        "label": "mask-squircle",
+        "detail": "squircle"
     },
     {
-        "mask-heart": {
-            "desc": "heart"
-        }
+        "label": "mask-heart",
+        "detail": "heart"
     },
     {
-        "mask-hexagon": {
-            "desc": "hexagon vertical"
-        }
+        "label": "mask-hexagon",
+        "detail": "hexagon vertical"
     },
     {
-        "mask-hexagon-2": {
-            "desc": "hexagon horizontal"
-        }
+        "label": "mask-hexagon-2",
+        "detail": "hexagon horizontal"
     },
     {
-        "mask-decagon": {
-            "desc": "decagon"
-        }
+        "label": "mask-decagon",
+        "detail": "decagon"
     },
     {
-        "mask-pentagon": {
-            "desc": "pentagon"
-        }
+        "label": "mask-pentagon",
+        "detail": "pentagon"
     },
     {
-        "mask-diamond": {
-            "desc": "diamond"
-        }
+        "label": "mask-diamond",
+        "detail": "diamond"
     },
     {
-        "mask-square": {
-            "desc": "square"
-        }
+        "label": "mask-square",
+        "detail": "square"
     },
     {
-        "mask-circle": {
-            "desc": "circle"
-        }
+        "label": "mask-circle",
+        "detail": "circle"
     },
     {
-        "mask-star": {
-            "desc": "star"
-        }
+        "label": "mask-star",
+        "detail": "star"
     },
     {
-        "mask-star-2": {
-            "desc": "star (bold)"
-        }
+        "label": "mask-star-2",
+        "detail": "star (bold)"
     },
     {
-        "mask-triangle": {
-            "desc": "triangle pointing top"
-        }
+        "label": "mask-triangle",
+        "detail": "triangle pointing top"
     },
     {
-        "mask-triangle-2": {
-            "desc": "triangle pointing down"
-        }
+        "label": "mask-triangle-2",
+        "detail": "triangle pointing down"
     },
     {
-        "mask-triangle-3": {
-            "desc": "triangle pointing left"
-        }
+        "label": "mask-triangle-3",
+        "detail": "triangle pointing left"
     },
     {
-        "mask-triangle-4": {
-            "desc": "triangle pointing right"
-        }
+        "label": "mask-triangle-4",
+        "detail": "triangle pointing right"
     },
     {
-        "mask-half-1": {
-            "desc": "Crops only the first half of mask"
-        }
+        "label": "mask-half-1",
+        "detail": "Crops only the first half of mask"
     },
     {
-        "mask-half-2": {
-            "desc": "Crops only the second half of mask"
-        }
+        "label": "mask-half-2",
+        "detail": "Crops only the second half of mask"
     },
     {
-        "dropdown": {
-            "desc": "Dropdown container"
-        }
+        "label": "dropdown",
+        "detail": "Dropdown container"
     },
     {
-        "dropdown-content": {
-            "desc": "Content part"
-        }
+        "label": "dropdown-content",
+        "detail": "Content part"
     },
     {
-        "dropdown-start": {
-            "desc": "Align horizontally to start of button"
-        }
+        "label": "dropdown-start",
+        "detail": "Align horizontally to start of button"
     },
     {
-        "dropdown-center": {
-            "desc": "Align horizontally to center of button"
-        }
+        "label": "dropdown-center",
+        "detail": "Align horizontally to center of button"
     },
     {
-        "dropdown-end": {
-            "desc": "Align horizontally to end of button"
-        }
+        "label": "dropdown-end",
+        "detail": "Align horizontally to end of button"
     },
     {
-        "dropdown-top": {
-            "desc": "Open from top"
-        }
+        "label": "dropdown-top",
+        "detail": "Open from top"
     },
     {
-        "dropdown-bottom": {
-            "desc": "Open from bottom"
-        }
+        "label": "dropdown-bottom",
+        "detail": "Open from bottom"
     },
     {
-        "dropdown-left": {
-            "desc": "Open from left"
-        }
+        "label": "dropdown-left",
+        "detail": "Open from left"
     },
     {
-        "dropdown-right": {
-            "desc": "Open from right"
-        }
+        "label": "dropdown-right",
+        "detail": "Open from right"
     },
     {
-        "dropdown-hover": {
-            "desc": "Opens on hover too"
-        }
+        "label": "dropdown-hover",
+        "detail": "Opens on hover too"
     },
     {
-        "dropdown-open": {
-            "desc": "Force open"
-        }
+        "label": "dropdown-open",
+        "detail": "Force open"
     },
     {
-        "indicator": {
-            "desc": "Container element"
-        }
+        "label": "indicator",
+        "detail": "Container element"
     },
     {
-        "indicator-item": {
-            "desc": "will be placed on the corner of sibling"
-        }
+        "label": "indicator-item",
+        "detail": "will be placed on the corner of sibling"
     },
     {
-        "indicator-start": {
-            "desc": "align horizontally to the start"
-        }
+        "label": "indicator-start",
+        "detail": "align horizontally to the start"
     },
     {
-        "indicator-center": {
-            "desc": "align horizontally to the center"
-        }
+        "label": "indicator-center",
+        "detail": "align horizontally to the center"
     },
     {
-        "indicator-end": {
-            "desc": "align horizontally to the end"
-        }
+        "label": "indicator-end",
+        "detail": "align horizontally to the end"
     },
     {
-        "indicator-top": {
-            "desc": "align vertically to top"
-        }
+        "label": "indicator-top",
+        "detail": "align vertically to top"
     },
     {
-        "indicator-middle": {
-            "desc": "align vertically to middle"
-        }
+        "label": "indicator-middle",
+        "detail": "align vertically to middle"
     },
     {
-        "indicator-bottom": {
-            "desc": "align vertically to bottom"
-        }
+        "label": "indicator-bottom",
+        "detail": "align vertically to bottom"
     },
     {
-        "timeline": {
-            "desc": "Timeline container"
-        }
+        "label": "timeline",
+        "detail": "Timeline container"
     },
     {
-        "timeline-start": {
-            "desc": "The content inside <li> that will be at the start direction"
-        }
+        "label": "timeline-start",
+        "detail": "The content inside <li> that will be at the start direction"
     },
     {
-        "timeline-middle": {
-            "desc": "The content inside <li> that will be at the middle"
-        }
+        "label": "timeline-middle",
+        "detail": "The content inside <li> that will be at the middle"
     },
     {
-        "timeline-end": {
-            "desc": "The content inside <li> that will be at the end direction"
-        }
+        "label": "timeline-end",
+        "detail": "The content inside <li> that will be at the end direction"
     },
     {
-        "timeline-snap-icon": {
-            "desc": "snaps the icon to the start instead of middle"
-        }
+        "label": "timeline-snap-icon",
+        "detail": "snaps the icon to the start instead of middle"
     },
     {
-        "timeline-box": {
-            "desc": "Applies a box style to timeline-start or timeline-end"
-        }
+        "label": "timeline-box",
+        "detail": "Applies a box style to timeline-start or timeline-end"
     },
     {
-        "timeline-compact": {
-            "desc": "forces all items on one side"
-        }
+        "label": "timeline-compact",
+        "detail": "forces all items on one side"
     },
     {
-        "timeline-horizontal": {
-            "desc": "horizontal layout (default)"
-        }
+        "label": "timeline-horizontal",
+        "detail": "horizontal layout (default)"
     },
     {
-        "timeline-vertical": {
-            "desc": "vertical layout"
-        }
+        "label": "timeline-vertical",
+        "detail": "vertical layout"
     },
     {
-        "input": {
-            "desc": "For <input type=\"text\"> tag or a wrapper of <input type=\"text\"> tag"
-        }
+        "label": "input",
+        "detail": "For <input type=\"text\"> tag or a wrapper of <input type=\"text\"> tag"
     },
     {
-        "input-ghost": {
-            "desc": "ghost style"
-        }
+        "label": "input-ghost",
+        "detail": "ghost style"
     },
     {
-        "input-neutral": {
-            "desc": "neutral color"
-        }
+        "label": "input-neutral",
+        "detail": "neutral color"
     },
     {
-        "input-primary": {
-            "desc": "primary color"
-        }
+        "label": "input-primary",
+        "detail": "primary color"
     },
     {
-        "input-secondary": {
-            "desc": "secondary color"
-        }
+        "label": "input-secondary",
+        "detail": "secondary color"
     },
     {
-        "input-accent": {
-            "desc": "accent color"
-        }
+        "label": "input-accent",
+        "detail": "accent color"
     },
     {
-        "input-info": {
-            "desc": "info color"
-        }
+        "label": "input-info",
+        "detail": "info color"
     },
     {
-        "input-success": {
-            "desc": "success color"
-        }
+        "label": "input-success",
+        "detail": "success color"
     },
     {
-        "input-warning": {
-            "desc": "warning color"
-        }
+        "label": "input-warning",
+        "detail": "warning color"
     },
     {
-        "input-error": {
-            "desc": "error color"
-        }
+        "label": "input-error",
+        "detail": "error color"
     },
     {
-        "input-xs": {
-            "desc": "Extra small size"
-        }
+        "label": "input-xs",
+        "detail": "Extra small size"
     },
     {
-        "input-sm": {
-            "desc": "Small size"
-        }
+        "label": "input-sm",
+        "detail": "Small size"
     },
     {
-        "input-md": {
-            "desc": "Medium size"
-        }
+        "label": "input-md",
+        "detail": "Medium size"
     },
     {
-        "input-lg": {
-            "desc": "Large size"
-        }
+        "label": "input-lg",
+        "detail": "Large size"
     },
     {
-        "input-xl": {
-            "desc": "Extra large size"
-        }
+        "label": "input-xl",
+        "detail": "Extra large size"
     },
     {
-        "footer": {
-            "desc": "Footer"
-        }
+        "label": "footer",
+        "detail": "Footer"
     },
     {
-        "footer-title": {
-            "desc": "Title of a footer column"
-        }
+        "label": "footer-title",
+        "detail": "Title of a footer column"
     },
     {
-        "footer-center": {
-            "desc": "Aligns footer content to center"
-        }
+        "label": "footer-center",
+        "detail": "Aligns footer content to center"
     },
     {
-        "footer-horizontal": {
-            "desc": "Puts footer columns next to each other horizontally"
-        }
+        "label": "footer-horizontal",
+        "detail": "Puts footer columns next to each other horizontally"
     },
     {
-        "footer-vertical": {
-            "desc": "Puts footer columns under each other vertically"
-        }
+        "label": "footer-vertical",
+        "detail": "Puts footer columns under each other vertically"
     },
     {
-        "mockup-browser": {
-            "desc": "Browser mockup"
-        }
+        "label": "mockup-browser",
+        "detail": "Browser mockup"
     },
     {
-        "mockup-browser-toolbar": {
-            "desc": "Toolbar part which can include addressbar, etc"
-        }
+        "label": "mockup-browser-toolbar",
+        "detail": "Toolbar part which can include addressbar, etc"
     },
     {
-        "status": {
-            "desc": "Status icon"
-        }
+        "label": "status",
+        "detail": "Status icon"
     },
     {
-        "status-neutral": {
-            "desc": "neutral color"
-        }
+        "label": "status-neutral",
+        "detail": "neutral color"
     },
     {
-        "status-primary": {
-            "desc": "primary color"
-        }
+        "label": "status-primary",
+        "detail": "primary color"
     },
     {
-        "status-secondary": {
-            "desc": "secondary color"
-        }
+        "label": "status-secondary",
+        "detail": "secondary color"
     },
     {
-        "status-accent": {
-            "desc": "accent color"
-        }
+        "label": "status-accent",
+        "detail": "accent color"
     },
     {
-        "status-info": {
-            "desc": "info color"
-        }
+        "label": "status-info",
+        "detail": "info color"
     },
     {
-        "status-success": {
-            "desc": "success color"
-        }
+        "label": "status-success",
+        "detail": "success color"
     },
     {
-        "status-warning": {
-            "desc": "warning color"
-        }
+        "label": "status-warning",
+        "detail": "warning color"
     },
     {
-        "status-error": {
-            "desc": "error color"
-        }
+        "label": "status-error",
+        "detail": "error color"
     },
     {
-        "status-xs": {
-            "desc": "extra small size"
-        }
+        "label": "status-xs",
+        "detail": "extra small size"
     },
     {
-        "status-sm": {
-            "desc": "small size"
-        }
+        "label": "status-sm",
+        "detail": "small size"
     },
     {
-        "status-md": {
-            "desc": "medium size"
-        }
+        "label": "status-md",
+        "detail": "medium size"
     },
     {
-        "status-lg": {
-            "desc": "large size"
-        }
+        "label": "status-lg",
+        "detail": "large size"
     },
     {
-        "status-xl": {
-            "desc": "extra large size"
-        }
+        "label": "status-xl",
+        "detail": "extra large size"
     },
     {
-        "file-input": {
-            "desc": "For <input type=\"file\"> element"
-        }
+        "label": "file-input",
+        "detail": "For <input type=\"file\"> element"
     },
     {
-        "file-input-ghost": {
-            "desc": "ghost style"
-        }
+        "label": "file-input-ghost",
+        "detail": "ghost style"
     },
     {
-        "file-input-neutral": {
-            "desc": "neutral color"
-        }
+        "label": "file-input-neutral",
+        "detail": "neutral color"
     },
     {
-        "file-input-primary": {
-            "desc": "primary color"
-        }
+        "label": "file-input-primary",
+        "detail": "primary color"
     },
     {
-        "file-input-secondary": {
-            "desc": "secondary color"
-        }
+        "label": "file-input-secondary",
+        "detail": "secondary color"
     },
     {
-        "file-input-accent": {
-            "desc": "accent color"
-        }
+        "label": "file-input-accent",
+        "detail": "accent color"
     },
     {
-        "file-input-info": {
-            "desc": "info color"
-        }
+        "label": "file-input-info",
+        "detail": "info color"
     },
     {
-        "file-input-success": {
-            "desc": "success color"
-        }
+        "label": "file-input-success",
+        "detail": "success color"
     },
     {
-        "file-input-warning": {
-            "desc": "warning color"
-        }
+        "label": "file-input-warning",
+        "detail": "warning color"
     },
     {
-        "file-input-error": {
-            "desc": "error color"
-        }
+        "label": "file-input-error",
+        "detail": "error color"
     },
     {
-        "file-input-xs": {
-            "desc": "Extra small size"
-        }
+        "label": "file-input-xs",
+        "detail": "Extra small size"
     },
     {
-        "file-input-sm": {
-            "desc": "Small size"
-        }
+        "label": "file-input-sm",
+        "detail": "Small size"
     },
     {
-        "file-input-md": {
-            "desc": "Medium size"
-        }
+        "label": "file-input-md",
+        "detail": "Medium size"
     },
     {
-        "file-input-lg": {
-            "desc": "Large size"
-        }
+        "label": "file-input-lg",
+        "detail": "Large size"
     },
     {
-        "file-input-xl": {
-            "desc": "Extra large size"
-        }
+        "label": "file-input-xl",
+        "detail": "Extra large size"
     },
     {
-        "diff": {
-            "desc": "Container element"
-        }
+        "label": "diff",
+        "detail": "Container element"
     },
     {
-        "diff-item-1": {
-            "desc": "First item"
-        }
+        "label": "diff-item-1",
+        "detail": "First item"
     },
     {
-        "diff-item-2": {
-            "desc": "Second item"
-        }
+        "label": "diff-item-2",
+        "detail": "Second item"
     },
     {
-        "diff-resizer": {
-            "desc": "The resizer control"
-        }
+        "label": "diff-resizer",
+        "detail": "The resizer control"
     },
     {
-        "filter": {
-            "desc": "For a HTML <form> or a <div> element that includes radio buttons for filtering items"
-        }
+        "label": "filter",
+        "detail": "For a HTML <form> or a <div> element that includes radio buttons for filtering items"
     },
     {
-        "filter-reset": {
-            "desc": "An alternative to the reset button if you can't use a HTML form"
-        }
+        "label": "filter-reset",
+        "detail": "An alternative to the reset button if you can't use a HTML form"
     },
     {
-        "theme-controller": {
-            "desc": "For a checkbox or radio input that must change the page theme"
-        }
+        "label": "theme-controller",
+        "detail": "For a checkbox or radio input that must change the page theme"
     }
 ]

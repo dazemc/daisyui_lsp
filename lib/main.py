@@ -34,7 +34,7 @@ for component in component_contents:
             if class_desc_pattern in desc_line:
                 start = desc_line.index(":") + 2
                 desc = desc_line[start:].strip()
-                components.append({name: {"desc": desc}})
+                components.append({"label": name, "detail": desc})
 
 with open("components.json", "w") as file:
     json.dump(components, file, indent=4)
