@@ -4,7 +4,7 @@ import 'package:lsp_server/lsp_server.dart';
 final completionList = [
 CompletionItem(
     label: "stats",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Container of multiple stat items",
     insertText: "stats",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -67,7 +67,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "select",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For <select> element",
     insertText: "select",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -172,7 +172,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "drawer",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "The wrapper for sidebar and content",
     insertText: "drawer",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -221,7 +221,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "progress",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For <progress> tag",
     insertText: "progress",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -284,14 +284,14 @@ CompletionItem(
 ),
 CompletionItem(
     label: "fieldset",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "for the fieldset container",
     insertText: "fieldset",
     insertTextFormat: InsertTextFormat.PlainText,
 ),
 CompletionItem(
     label: "label",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "label for inputs",
     insertText: "label",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -305,7 +305,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "alert",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Container element",
     insertText: "alert",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -375,7 +375,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "divider",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "A divider line between two elements",
     insertText: "divider",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -466,7 +466,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "hero",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Hero container",
     insertText: "hero",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -487,7 +487,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "link",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Adds underline",
     insertText: "link",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -557,7 +557,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "kbd",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Do show a keyboard key or a shortcut key",
     insertText: "kbd",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -599,14 +599,14 @@ CompletionItem(
 ),
 CompletionItem(
     label: "mockup-code",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Code terminal mockup",
     insertText: "mockup-code",
     insertTextFormat: InsertTextFormat.PlainText,
 ),
 CompletionItem(
     label: "loading",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Loading element",
     insertText: "loading",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -690,14 +690,14 @@ CompletionItem(
 ),
 CompletionItem(
     label: "skeleton",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "A placeholder div with loading animation",
     insertText: "skeleton",
     insertTextFormat: InsertTextFormat.PlainText,
 ),
 CompletionItem(
     label: "swap",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Swap container",
     insertText: "swap",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -746,7 +746,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "badge",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Container element",
     insertText: "badge",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -872,7 +872,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "radio",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For radio input",
     insertText: "radio",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -970,7 +970,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "navbar",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Navigation bar",
     insertText: "navbar",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -998,7 +998,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "collapse",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Collapse",
     insertText: "collapse",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -1047,7 +1047,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "textarea",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For <textarea> element",
     insertText: "textarea",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -1152,7 +1152,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "btn",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Button",
     insertText: "btn",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -1327,7 +1327,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "chat",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Container for one line of conversation and its data",
     insertText: "chat",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -1432,7 +1432,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "tabs",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Container of multiple tab items",
     insertText: "tabs",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -1537,7 +1537,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "stack",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Puts the children elements on top of each other",
     insertText: "stack",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -1572,14 +1572,14 @@ CompletionItem(
 ),
 CompletionItem(
     label: "join",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For grouping multiple items",
     insertText: "join",
     insertTextFormat: InsertTextFormat.PlainText,
 ),
 CompletionItem(
     label: "join-item",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Item inside join. Can be a button, input, etc.",
     insertText: "join-item",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -1600,7 +1600,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "range",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For <input type='range'> tag",
     insertText: "range",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -1698,7 +1698,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "checkbox",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Checkbox",
     insertText: "checkbox",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -1796,14 +1796,14 @@ CompletionItem(
 ),
 CompletionItem(
     label: "radial-progress",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Shows a radial progress",
     insertText: "radial-progress",
     insertTextFormat: InsertTextFormat.PlainText,
 ),
 CompletionItem(
     label: "toast",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Container element that sticks to the corner of page",
     insertText: "toast",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -1852,7 +1852,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "steps",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Container of multiple step nodes",
     insertText: "steps",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -1943,28 +1943,28 @@ CompletionItem(
 ),
 CompletionItem(
     label: "cally",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "for Cally web component",
     insertText: "cally",
     insertTextFormat: InsertTextFormat.PlainText,
 ),
 CompletionItem(
     label: "pika-single",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "for the input field that opens Pikaday calendar",
     insertText: "pika-single",
     insertTextFormat: InsertTextFormat.PlainText,
 ),
 CompletionItem(
     label: "react-day-picker",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "for the DayPicker component",
     insertText: "react-day-picker",
     insertTextFormat: InsertTextFormat.PlainText,
 ),
 CompletionItem(
     label: "toggle",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For <input type='checkbox'>",
     insertText: "toggle",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -2062,7 +2062,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "join",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For grouping multiple items",
     insertText: "join",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -2090,7 +2090,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "mockup-phone",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Phone mockup",
     insertText: "mockup-phone",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -2111,14 +2111,14 @@ CompletionItem(
 ),
 CompletionItem(
     label: "mockup-window",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "OS window mockup",
     insertText: "mockup-window",
     insertTextFormat: InsertTextFormat.PlainText,
 ),
 CompletionItem(
     label: "carousel",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Carousel container",
     insertText: "carousel",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -2167,14 +2167,14 @@ CompletionItem(
 ),
 CompletionItem(
     label: "list",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "A vertical flex layout to include list rows",
     insertText: "list",
     insertTextFormat: InsertTextFormat.PlainText,
 ),
 CompletionItem(
     label: "list-row",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "The item inside list. A horizontal grid layout to include data",
     insertText: "list-row",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -2195,7 +2195,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "tooltip",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Container element",
     insertText: "tooltip",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -2300,7 +2300,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "dock",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Dock",
     insertText: "dock",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -2356,7 +2356,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "modal",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Modal",
     insertText: "modal",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -2433,7 +2433,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "menu",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For <ul> tag",
     insertText: "menu",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -2538,7 +2538,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "table",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For <table> tag",
     insertText: "table",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -2601,7 +2601,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "validator",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For input, select, textarea",
     insertText: "validator",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -2615,7 +2615,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "card",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Card",
     insertText: "card",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -2706,35 +2706,35 @@ CompletionItem(
 ),
 CompletionItem(
     label: "breadcrumbs",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Wrapper around a <ul>",
     insertText: "breadcrumbs",
     insertTextFormat: InsertTextFormat.PlainText,
 ),
 CompletionItem(
     label: "countdown",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Countdown wrapper",
     insertText: "countdown",
     insertTextFormat: InsertTextFormat.PlainText,
 ),
 CompletionItem(
     label: "label",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For styling the text next to an input field (or select)",
     insertText: "label",
     insertTextFormat: InsertTextFormat.PlainText,
 ),
 CompletionItem(
     label: "floating-label",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For the parent of an input field (or select) and a span that floats above the input field when the field is focused",
     insertText: "floating-label",
     insertTextFormat: InsertTextFormat.PlainText,
 ),
 CompletionItem(
     label: "rating",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For a div containing radio inputs",
     insertText: "rating",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -2790,7 +2790,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "collapse",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Collapse",
     insertText: "collapse",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -2839,14 +2839,14 @@ CompletionItem(
 ),
 CompletionItem(
     label: "avatar",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Avatar",
     insertText: "avatar",
     insertTextFormat: InsertTextFormat.PlainText,
 ),
 CompletionItem(
     label: "avatar-group",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Container for multiple avatars",
     insertText: "avatar-group",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -2874,7 +2874,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "mask",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Masks the content with shape",
     insertText: "mask",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -3000,7 +3000,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "dropdown",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Dropdown container",
     insertText: "dropdown",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -3077,7 +3077,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "indicator",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Container element",
     insertText: "indicator",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -3133,7 +3133,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "timeline",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Timeline container",
     insertText: "timeline",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -3196,7 +3196,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "input",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For <input type='text'> tag or a wrapper of <input type='text'> tag",
     insertText: "input",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -3301,7 +3301,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "footer",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Footer",
     insertText: "footer",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -3336,7 +3336,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "mockup-browser",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Browser mockup",
     insertText: "mockup-browser",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -3350,7 +3350,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "status",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Status icon",
     insertText: "status",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -3448,7 +3448,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "file-input",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For <input type='file'> element",
     insertText: "file-input",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -3553,7 +3553,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "diff",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "Container element",
     insertText: "diff",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -3581,7 +3581,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "filter",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For a HTML <form> or a <div> element that includes radio buttons for filtering items",
     insertText: "filter",
     insertTextFormat: InsertTextFormat.PlainText,
@@ -3595,7 +3595,7 @@ CompletionItem(
 ),
 CompletionItem(
     label: "theme-controller",
-    kind: CompletionItemKind(15),
+    kind: CompletionItemKind(21),
     detail: "For a checkbox or radio input that must change the page theme",
     insertText: "theme-controller",
     insertTextFormat: InsertTextFormat.PlainText,

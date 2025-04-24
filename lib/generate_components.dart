@@ -6,7 +6,7 @@ void main() async {
   final jsonString = await file.readAsString();
   final List<dynamic> data = jsonDecode(jsonString) as List<dynamic>;
   final Map<String, String> classCategories = {
-    '"component"': 'CompletionItemKind.Snippet',
+    '"component"': 'CompletionItemKind.Constant',
     '"color"': 'CompletionItemKind.Color',
     '"style"': 'CompletionItemKind.Property',
     '"behavior"': 'CompletionItemKind.Value',
