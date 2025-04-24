@@ -1,0 +1,55 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+  errors:
+    deprecated_member_use: ignore
+    no_leading_underscores_for_local_identifiers: ignore
+  strong-mode:
+    implicit-casts: true
+    implicit-dynamic: true
+  exclude:
+  - '**/*.g.dart' # Ignore generated files
+  - '**/*.freezed.dart'
+  plugins:
+  - dart_code_metrics
+
+linter:
+  rules:
+  # Readability and Clarity
+  - always_declare_return_types
+  - avoid_print
+  - camel_case_types
+  - prefer_const_constructors
+  - prefer_const_declarations
+  - prefer_final_locals
+  - unnecessary_new
+  - prefer_single_quotes
+  - lines_longer_than_80_chars: false
+  # Basic Safety
+  - avoid_void_async
+  - await_only_futures
+  - unnecessary_null_checks
+  - use_key_in_widget_constructors
+
+  # Flutter-Specific
+  - prefer_const_literals_to_create_immutables
+  - sort_child_properties_last
+
+dart_code_metrics:
+  metrics:
+    cyclomatic-complexity: 20
+    lines-of-code: 120
+    maximum-nesting: 5
+  metrics-exclude:
+    - test/**
+  rules:
+    - prefer-const-border-radius
+    - prefer-correct-identifier-length
+
+formatter:
+  line-length: 120
+  page_width: 120
