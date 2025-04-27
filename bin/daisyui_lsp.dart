@@ -27,6 +27,7 @@ void main(List<String> arguments) async {
       capabilities: ServerCapabilities(
         textDocumentSync: const Either2.t1(TextDocumentSyncKind.Full),
         completionProvider: completionOptions,
+        hoverProvider: const Either2.t1(true),
         // Add more capabilities as needed (e.g., completion, hover)
       ),
     );
@@ -56,6 +57,14 @@ void main(List<String> arguments) async {
 
     final completions = CompletionList(isIncomplete: false, items: completionList);
     return completions;
+  });
+
+  connection.onHover((params) async {
+    final Uri uri = params.textDocument.uri;
+    final Position pos = params.position;
+    // final String text =
+    final Hover hover = Hover(contents: Either2.t1(MarkupContent(kind: MarkupKind.Markdown, value: 'hello')));
+    return hover;
   });
 
   // Start listening for LSP messages

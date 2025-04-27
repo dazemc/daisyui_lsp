@@ -9,20 +9,20 @@ void main() async {
   buffer.writeln('import \'package:lsp_server/lsp_server.dart\';\n');
   buffer.writeln('final completionList = [');
   // final List<CompletionItem> completionList = <CompletionItem>[];
-  for (DaisyuiComponent component in components) {
+  for (DaisyuiComponent component in components.values) {
     final item = component.toCompletionItem();
     buffer.writeln('CompletionItem(');
     buffer.writeln('    label: "${_string(item.label)}",');
-    buffer.writeln('    kind: CompletionItemKind(${item.kind}),');
+    buffer.writeln('    kind: const CompletionItemKind(${item.kind}),');
     buffer.writeln('    detail: "${_string(item.detail)}",');
     buffer.writeln('    insertText: "${_string(item.insertText)}",');
     buffer.writeln('    insertTextFormat: InsertTextFormat.PlainText,');
     buffer.writeln('),');
   }
   buffer.writeln('];');
-  print(buffer);
-  final outFile = File('lib/baked_completion.dart');
+  final outFile = File('baked_completion.dart');
   outFile.writeAsString(buffer.toString());
+  print('✅ baked_completion.dart generated successfully.');
 }
 
 String _string(String? input) => input == null ? 'null' : input.replaceAll('\"', "'");

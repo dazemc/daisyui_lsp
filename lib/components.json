@@ -1470,26 +1470,6 @@
         "category": "size"
     },
     {
-        "label": "join",
-        "detail": "For grouping multiple items",
-        "category": "component"
-    },
-    {
-        "label": "join-item",
-        "detail": "Item inside join. Can be a button, input, etc.",
-        "category": "part"
-    },
-    {
-        "label": "join-vertical",
-        "detail": "Show items vertically",
-        "category": "direction"
-    },
-    {
-        "label": "join-horizontal",
-        "detail": "Show items horizontally",
-        "category": "direction"
-    },
-    {
         "label": "mockup-phone",
         "detail": "Phone mockup",
         "category": "component"
@@ -1940,11 +1920,6 @@
         "category": "component"
     },
     {
-        "label": "label",
-        "detail": "For styling the text next to an input field (or select)",
-        "category": "component"
-    },
-    {
         "label": "floating-label",
         "detail": "For the parent of an input field (or select) and a span that floats above the input field when the field is focused",
         "category": "component"
@@ -1988,41 +1963,6 @@
         "label": "rating-xl",
         "detail": "Extra large size",
         "category": "size"
-    },
-    {
-        "label": "collapse",
-        "detail": "Collapse",
-        "category": "component"
-    },
-    {
-        "label": "collapse-title",
-        "detail": "Title part",
-        "category": "part"
-    },
-    {
-        "label": "collapse-content",
-        "detail": "Content part",
-        "category": "part"
-    },
-    {
-        "label": "collapse-arrow",
-        "detail": "Adds arrow icon",
-        "category": "modifier"
-    },
-    {
-        "label": "collapse-plus",
-        "detail": "Adds plus/minus icon",
-        "category": "modifier"
-    },
-    {
-        "label": "collapse-open",
-        "detail": "Force open",
-        "category": "modifier"
-    },
-    {
-        "label": "collapse-close",
-        "detail": "Force close",
-        "category": "modifier"
     },
     {
         "label": "avatar",

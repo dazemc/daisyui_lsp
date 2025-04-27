@@ -43,6 +43,9 @@ for component in component_contents:
             if name[0] == "'":
                 name = name[1:-2]
             name = name.strip()
+            if name in [component["label"] for component in components]:
+                print(f"Skipping {name} already added...")
+                continue
             desc_line = component[i + 1]
             if class_desc_pattern in desc_line:
                 start = desc_line.index(":") + 2
@@ -57,3 +60,4 @@ for component in component_contents:
 
 with open("components.json", "w") as file:
     json.dump(components, file, indent=4)
+print("✅ components.json generated successfully.")
