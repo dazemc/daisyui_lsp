@@ -4,6 +4,8 @@ import 'package:logging/logging.dart';
 import 'package:lsp_server/lsp_server.dart';
 
 void main(List<String> arguments) async {
+  final Map<Uri, String> openDocuments = {};
+
   final logFile = File('/home/daze/daisyui_lsp.log');
   // Set up logging
   Logger.root.level = Level.ALL;
@@ -36,11 +38,29 @@ void main(List<String> arguments) async {
   // Handle textDocument/didOpen
   connection.onDidOpenTextDocument((params) async {
     try {
+      final text = params.textDocument.text.toString();
+      openDocuments[params.textDocument.uri] = text;
       log.info('Opened document: ${params.textDocument.uri}');
+      log.info(text);
       // Example: Send empty diagnostics (modify as needed)
       connection.sendDiagnostics(PublishDiagnosticsParams(diagnostics: [], uri: params.textDocument.uri));
     } catch (e, stackTrace) {
       log.severe('Error in onDidOpenTextDocument for ${params.textDocument.uri}: $e', e, stackTrace);
+    }
+  });
+
+  connection.onDidChangeTextDocument((params) async {
+    try {
+      final Uri uri = params.textDocument.uri;
+      log.info('Document at $uri changed: ${params.contentChanges}');
+      final Map<String, dynamic> firstChangeMap =
+          params.contentChanges.isNotEmpty
+              ? params.contentChanges.first.toJson() as Map<String, dynamic>
+              : {'text': ''};
+      final String firstChange = firstChangeMap['text'].toString();
+      openDocuments[uri] = firstChange;
+    } catch (e, stackTrace) {
+      log.severe('Error in onDidChangeTextDocument for ${params.textDocument.uri}: $e', e, stackTrace);
     }
   });
 
@@ -62,9 +82,14 @@ void main(List<String> arguments) async {
   connection.onHover((params) async {
     final Uri uri = params.textDocument.uri;
     final Position pos = params.position;
-    // final String text =
-    final Hover hover = Hover(contents: Either2.t1(MarkupContent(kind: MarkupKind.Markdown, value: 'hello')));
-    return hover;
+    final String? text = openDocuments[uri];
+    log.info(text);
+    if (text != null) {
+      final Hover hover = Hover(contents: Either2.t1(MarkupContent(kind: MarkupKind.Markdown, value: text)));
+      return hover;
+    } else {
+      return Hover(contents: Either2.t1(MarkupContent(kind: MarkupKind.PlainText, value: '')));
+    }
   });
 
   // Start listening for LSP messages
