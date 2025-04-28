@@ -27,7 +27,10 @@ void main() async {
     final label = jsonEncode(item['label']);
     final detail = jsonEncode(item['detail']);
     final kind = jsonEncode(item['category']);
-    buffer.writeln('$label: DaisyuiComponent(label: $label, detail: $detail, kind: ${classCategories[kind]}),');
+    final docs = jsonEncode(item['documentation']);
+    buffer.writeln(
+      "$label: DaisyuiComponent(label: $label, detail: $detail, kind: ${classCategories[kind]}, documentation: $docs),",
+    );
   }
 
   buffer.writeln('};');

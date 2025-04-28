@@ -11,12 +11,16 @@ component_dirs = [
 ]
 
 component_contents = []
+component_file = []
 for dir_path in component_dirs:
     dir_content = os.listdir(dir_path)
     for name in dir_content:
         name_path = join(dir_path, name)
         if isfile(name_path):
             component_contents.append(open(name_path, "r").readlines())
+            component_file.append(
+                open(name_path, "r").read().replace("$", "").replace('"', "'")
+            )
 
 components = []
 class_categories = [
@@ -32,7 +36,7 @@ class_categories = [
 ]
 class_name_pattern = "class:"
 class_desc_pattern = "desc:"
-for component in component_contents:
+for k, component in enumerate(component_contents):
     for i, line in enumerate(component):
         line = str(line)
         if line.strip()[:-1] in class_categories:
@@ -43,6 +47,7 @@ for component in component_contents:
             if name[0] == "'":
                 name = name[1:-2]
             name = name.strip()
+            current_component = name
             if name in [component["label"] for component in components]:
                 print(f"Skipping {name} already added...")
                 continue
@@ -55,6 +60,9 @@ for component in component_contents:
                         "label": name,
                         "detail": desc,
                         "category": locals().get("category", None),
+                        "documentation": component_file[k][
+                            component_file[k].find("#") :
+                        ],
                     }
                 )
 

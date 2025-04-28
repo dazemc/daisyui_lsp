@@ -1,5 +1,6 @@
 import 'dart:io';
 import 'package:daisyui_lsp/baked_completion.dart';
+import 'package:daisyui_lsp/baked_components.dart';
 import 'package:logging/logging.dart';
 import 'package:lsp_server/lsp_server.dart';
 
@@ -82,10 +83,11 @@ void main(List<String> arguments) async {
   connection.onHover((params) async {
     final Uri uri = params.textDocument.uri;
     final Position pos = params.position;
-    final String? text = openDocuments[uri];
-    log.info(text);
+    final String? textRaw = openDocuments[uri];
+    final String? text = textRaw?.trim() ?? '';
     if (text != null) {
-      final Hover hover = Hover(contents: Either2.t1(MarkupContent(kind: MarkupKind.Markdown, value: text)));
+      final String documentation = components[text]?.documentation ?? 'Documentation for $text not found';
+      final Hover hover = Hover(contents: Either2.t1(MarkupContent(kind: MarkupKind.Markdown, value: documentation)));
       return hover;
     } else {
       return Hover(contents: Either2.t1(MarkupContent(kind: MarkupKind.PlainText, value: '')));
