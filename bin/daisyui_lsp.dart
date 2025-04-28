@@ -83,14 +83,43 @@ void main(List<String> arguments) async {
   connection.onHover((params) async {
     final Uri uri = params.textDocument.uri;
     final Position pos = params.position;
-    final String? textRaw = openDocuments[uri];
-    final String? text = textRaw?.trim() ?? '';
-    if (text != null) {
-      final String documentation = components[text]?.documentation ?? 'Documentation for $text not found';
+    final String? documentText = openDocuments[uri];
+    int offset = 0;
+    if (documentText != null) {
+      final lines = documentText.split('\n');
+      for (int i = 0; i < pos.line; i++) {
+        if (i < lines.length) {
+          offset += lines[i].length + 1; // +1 for the newline character
+        } else {
+          return Hover(contents: Either2.t1(MarkupContent(kind: MarkupKind.PlainText, value: '')));
+        }
+      }
+      offset += pos.character;
+      if (offset < 0 || offset >= documentText.length) {
+        log.warning('Calculated offset $offset out of bounds');
+        return Hover(contents: Either2.t1(MarkupContent(kind: MarkupKind.PlainText, value: '')));
+      }
+      final RegExp wordCharacter = RegExp(r'[a-zA-Z0-9-]');
+      int wordStart = offset;
+      while (wordStart > 0 && wordCharacter.hasMatch(documentText[wordStart - 1])) {
+        wordStart--;
+      }
+      int wordEnd = offset;
+      while (wordEnd < documentText.length && wordCharacter.hasMatch(documentText[wordEnd])) {
+        wordEnd++;
+      }
+      if (wordStart >= wordEnd) {
+        log.info('No word found at offset $offset');
+        return Hover(contents: Either2.t1(MarkupContent(kind: MarkupKind.PlainText, value: '')));
+      }
+      final String hoveredWord = documentText.substring(wordStart, wordEnd);
+      log.info('Hovered over word: "$hoveredWord"');
+      final String documentation =
+          components[hoveredWord]?.documentation ?? 'Documentation for `$hoveredWord` not found';
       final Hover hover = Hover(contents: Either2.t1(MarkupContent(kind: MarkupKind.Markdown, value: documentation)));
       return hover;
     } else {
-      return Hover(contents: Either2.t1(MarkupContent(kind: MarkupKind.PlainText, value: '')));
+      return Hover(contents: Either2.t1(MarkupContent(kind: MarkupKind.Markdown, value: '')));
     }
   });
 
