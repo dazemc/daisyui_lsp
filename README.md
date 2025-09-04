@@ -1,38 +1,39 @@
-WIP (Code Completion ✅)
+-- Lazy
 ```lua
-local configs = require 'lspconfig.configs'
+return {
+  'dazemc/daisyui_lsp',
+  ft = { 'dart' }, -- Lazy load only for Dart files
+  config = function()
+    local lspconfig = require('lspconfig')
+    local configs = require('lspconfig.configs')
+    local lsp_exe = vim.fn.stdpath("data") .. "/lazy/daisyui_lsp/bin/daisyui_lsp.exe"
 
-      if not configs.daisyui_lsp then
-        configs.daisyui_lsp = {
-          default_config = {
-            name = 'daisyui_lsp',
-            cmd = { '/home/daze/Git/daisyui_lsp/bin/daisyui_lsp.exe' },
-            filetypes = { 'dart' }, -- Your existing filetypes
-            root_dir = require('lspconfig').util.root_pattern('pubspec.yaml', '.git'),
-            settings = {
-              daisyui_lsp = {
-                -- Any default server settings
-              },
-            },
-          },
-        }
-      end
 
-      require('lspconfig').daisyui_lsp.setup {
-        capabilities = capabilities, -- Assuming 'capabilities' is defined earlier
-        on_attach = function(client, bufnr)
-          local opts = { noremap = true, silent = true }
-          -- vim.api.nvim_buf_set_keymap(bufnr, 'n', 'gd', '<cmd>lua vim.lsp.buf.definition()<CR>', opts)
-          -- vim.api.nvim_buf_set_keymap(bufnr, 'n', 'K', '<cmd>lua vim.lsp.buf.hover()<CR>', opts)
-          -- Keep other on_attach logic from your global LspAttach if desired,
-          -- or move specific mappings here. The global LspAttach often handles
-          -- generic mappings like rename, code action etc.
-          print 'DaisyUI LSP attached' -- This print will now appear if it attaches
-        end,
-        settings = {
-          daisyui_lsp = {
-            -- Specific settings for this setup call
+    -- Define the server if not already defined
+    if not configs.daisyui_lsp then
+      configs.daisyui_lsp = {
+        default_config = {
+          name = 'daisyui_lsp',
+          cmd = { lsp_exe },
+          filetypes = { 'dart' },
+          root_dir = lspconfig.util.root_pattern('pubspec.yaml', '.git', 'tailwind.config.js'),
+          settings = {
+            daisyui_lsp = {},
           },
         },
       }
+    end
+
+    -- Setup the LSP server
+    lspconfig.daisyui_lsp.setup {
+      capabilities = capabilities, -- Ensure 'capabilities' is defined elsewhere
+      on_attach = function(client, bufnr)
+        -- Optional keymaps can go here
+      end,
+      settings = {
+        daisyui_lsp = {},
+      },
+    }
+  end,
+}
 ```
