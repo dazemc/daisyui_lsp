@@ -1,8 +1,10 @@
--- Lazy
 ```lua
 return {
   'dazemc/daisyui_lsp',
-  ft = { 'dart' }, -- Lazy load only for Dart files
+  ft = { 'dart', 'html', 'css', 'js' },                               -- Lazy load
+  dependencies = {
+    { 'MeanderingProgrammer/render-markdown.nvim', optional = true }, -- for hover docs rendering
+  },
   config = function()
     local lspconfig = require('lspconfig')
     local configs = require('lspconfig.configs')
@@ -15,7 +17,7 @@ return {
         default_config = {
           name = 'daisyui_lsp',
           cmd = { lsp_exe },
-          filetypes = { 'dart' },
+          filetypes = { 'dart', 'html', 'css', 'js' }, -- Choose your attached filetypes here
           root_dir = lspconfig.util.root_pattern('pubspec.yaml', '.git', 'tailwind.config.js'),
           settings = {
             daisyui_lsp = {},
